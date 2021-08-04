@@ -4,6 +4,7 @@ function TodoItem(props){
         <input type="checkbox" 
         checked={props.todo.completed}
         onChange={()=>props.handleChangeProps(props.todo.id)}/>
+        <button>delete</button>
         {props.todo.title}
         </li>
 }
