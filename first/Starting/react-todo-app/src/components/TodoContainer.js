@@ -1,5 +1,16 @@
 import React from "react";
 class TodoContainer extends React.Component{
+    
+    state={
+        todos:[
+            {
+                id:1,
+                title:"setup development environment",
+                completed:true
+            },
+        ]
+    };
+
     render(){
         return(
             
