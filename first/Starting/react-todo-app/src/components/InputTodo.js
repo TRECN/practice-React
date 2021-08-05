@@ -1,11 +1,27 @@
 import React from "react";
 
 class InputTodo extends React.Component{
+
+    state={
+        title:""
+    };
+
+    onChange=(e)=>{
+        console.log("hello");
+    };
+
     render(){
         return(
             <form>
-                <input type="text" placeholder="add Todo..."/>
-                <button>Submit</button>
+                <input 
+                type="text"
+                placeholder="add Todo..." 
+                value={this.state.title}
+                onChange={this.onChange}/>
+                
+                <button>
+                    Submit
+                </button>
             </form>
         )
     }
