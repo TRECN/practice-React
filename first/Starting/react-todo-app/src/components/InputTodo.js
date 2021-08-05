@@ -7,17 +7,22 @@ class InputTodo extends React.Component{
     };
 
     onChange=(e)=>{
-        console.log("hello");
+        this.setState({
+            [e.target.name]:e.target.value,
+        });
     };
+
+
 
     render(){
         return(
-            <form>
+            <form onSubmit={this.handleSubmit}>
                 <input 
                 type="text"
                 placeholder="add Todo..." 
                 value={this.state.title}
-                onChange={this.onChange}/>
+                onChange={this.onChange}
+                name='title'/>
                 
                 <button>
                     Submit
