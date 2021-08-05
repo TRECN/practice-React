@@ -15,6 +15,9 @@ class InputTodo extends React.Component{
     handleSubmit=e=>{
         e.preventDefault();
         this.props.addTodoProps(this.state.title);
+        this.setState({
+            title:""
+        });
     };
 
     render(){
