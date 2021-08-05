@@ -14,10 +14,14 @@ class InputTodo extends React.Component{
 
     handleSubmit=e=>{
         e.preventDefault();
-        this.props.addTodoProps(this.state.title);
+        if(this.state.title.trim()){
+            this.props.addTodoProps(this.state.title);
         this.setState({
             title:""
         });
+        }else{
+            alert("Please write Item");
+        }
     };
 
     render(){
