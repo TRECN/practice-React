@@ -2,12 +2,15 @@ import React from "react"
 import styles from "./TodoItem.module.css"
 
 
-
-class TodoItem extends React.Component{
-    handleEditing = () =>{
-        console.log("edit mode activated");
-    }
-    render(){
+const state={
+    editing:false,
+}
+const handleEditing=()=>{
+    this.setState({
+        editing:true,
+    })
+}
+function TodoItem(props){
     const completedStyle={
         fontStyle:"italic",
         color:"#595959",
@@ -15,24 +18,24 @@ class TodoItem extends React.Component{
         textDecoration:"line-through",
 
     }
-    const {completed, id, title} = this.props.todo;
-    
+    const {completed, id, title} = props.todo;
     return (
         <li className={styles.item}>
-            <div onDoubleClick={this.handleEditing}>
+            <div onDoubleClick={handleEditing}>
                 <input type="checkbox" 
                 className={styles.checkbox}
                 checked={completed}
-                onChange={()=>this.props.handleChangeProps(id)}
+                onChange={()=>props.handleChangeProps(id)}
                 />
-                <button onClick={()=>this.props.deleteTodoProps(id)}>
+                <button onClick={()=>props.deleteTodoProps(id)}>
                     delete
                 </button>
                 <span style={completed ? completedStyle:null}>
                     {title}<br/>
                 </span>
             </div>
+            <input type="text" className={styles.textInput}/>
         </li>
-    )}
+    )
 }
 export default TodoItem
