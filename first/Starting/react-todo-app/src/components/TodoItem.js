@@ -9,6 +9,11 @@ function TodoItem(props){
 
     }
     const {completed, id, title} = props.todo;
+
+    handleEditing = id =>{
+        
+    }
+
     return (
         <li className={styles.item}>
             <div onDoubleClick={handleEditing}>
