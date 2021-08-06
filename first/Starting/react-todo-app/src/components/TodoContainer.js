@@ -13,8 +13,7 @@ import {v4 as uuidv4} from "uuid";
 class TodoContainer extends React.Component{
     
     state={
-        todos:[
-        ],
+        todos:[],
     };
     handleChange=(id)=>{
         this.setState(prevState => ({
@@ -58,6 +57,12 @@ class TodoContainer extends React.Component{
             })
         })
 
+    }
+
+    componentDidMount(){
+        fetch("https://jsonplaceholder.typicode.com/todos")
+        .then(response => response.json())
+        .then(data=>console.log(data));
     }
 
     render(){
