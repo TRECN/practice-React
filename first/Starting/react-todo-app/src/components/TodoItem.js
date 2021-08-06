@@ -50,7 +50,7 @@ class TodoItem extends React.Component{
                 style={editMode}
                 value={title}
                 onChange={e=>{
-                    console.log()
+                    console.log(e.target.value,id)
                 }}/>
             </li>
         )
