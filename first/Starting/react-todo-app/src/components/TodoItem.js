@@ -8,18 +8,19 @@ function TodoItem(props){
         textDecoration:"line-through",
 
     }
+    const {completed, id, title} = props.todo;
     return (
         <li className={styles.item}>
             <input type="checkbox" 
             className={styles.checkbox}
-            checked={props.todo.completed}
-            onChange={()=>props.handleChangeProps(props.todo.id)}
+            checked={completed}
+            onChange={()=>props.handleChangeProps(id)}
             />
-            <button onClick={()=>props.deleteTodoProps(props.todo.id)}>
+            <button onClick={()=>props.deleteTodoProps(id)}>
                 delete
             </button>
-            <span style={props.todo.completed ? completedStyle:null}>
-                {props.todo.title}<br/>
+            <span style={completed ? completedStyle:null}>
+                {title}<br/>
             </span>
         </li>
     )
