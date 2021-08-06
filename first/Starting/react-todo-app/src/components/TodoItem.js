@@ -11,6 +11,7 @@ function TodoItem(props){
     const {completed, id, title} = props.todo;
     return (
         <li className={styles.item}>
+            <div onDoubleClick={handleEditing}>
             <input type="checkbox" 
             className={styles.checkbox}
             checked={completed}
@@ -22,6 +23,7 @@ function TodoItem(props){
             <span style={completed ? completedStyle:null}>
                 {title}<br/>
             </span>
+            </div>
         </li>
     )
 }
