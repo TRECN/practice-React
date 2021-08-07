@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react"
 import styles from "./TodoItem.module.css"
+import {AiFillDelete} from "react-icons/ai"
 
 
 
@@ -50,7 +51,7 @@ const TodoItem =(props)=>{
                     onChange={()=>props.handleChangeProps(id)}
                 />
                 <button onClick={()=>props.deleteTodoProps(id)}>
-                    delete
+                    <AiFillDelete/>
                 </button>
                 <span style={completed ? completedStyle:null}>
                     {title}<br/>
