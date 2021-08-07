@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React,{useState, useEffect} from "react";
 //importing Header
 import Header from "./Header";
 
@@ -57,6 +57,15 @@ const TodoContainer =()=>{
         )
 
     }
+
+    useEffect(()=>{
+        console.log("test run")
+
+        //getting stored items
+        const temp =localStorage.getItem("todos")
+        const loadedTodos = JSON.parse(temp)
+        
+    })
 
     return(
         <div className="container">
