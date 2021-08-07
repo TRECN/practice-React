@@ -27,7 +27,9 @@ const InputTodo = props =>{
                 name="title"
                 onChange={onChange}/>
 
-                <button className="input-submit">Submit</button>
+                <button className="input-submit">
+                    Submit
+                </button>
         </form>
 
     )
