@@ -7,7 +7,7 @@ const TodoItem =(props)=>{
     const [editing, setEditing]=useState(false)
 
     const handleEditing=()=>{
-        setEditing(false)
+        setEditing(true)
     }
     
     const handleUpdatedDone=event=>{
