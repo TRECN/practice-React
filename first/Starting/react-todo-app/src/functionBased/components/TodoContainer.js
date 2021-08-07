@@ -88,12 +88,12 @@ const TodoContainer =()=>{
         <div className="container">
             <div className="inner">
                 <Header/>
-                <InputTodo addTodoProps={this.addTodoItem}/>
+                <InputTodo addTodoProps={addTodoItem}/>
                 <TodosList
-                todos={this.state.todos}
-                handleChangeProps={this.handleChange} 
-                deleteTodoProps={this.delTodo}
-                setUpdate={this.setUpdate}/>
+                todos={todos}
+                handleChangeProps={handleChange} 
+                deleteTodoProps={delTodo}
+                setUpdate={setUpdate}/>
             </div>
         </div>
     );
