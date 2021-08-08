@@ -92,7 +92,7 @@ const TodoContainer =()=>{
     },[todos])
 
     return(
-        <>
+        <Switch>
         <Route path="/">
             <div className="container">
                 <div className="inner">
@@ -112,7 +112,7 @@ const TodoContainer =()=>{
         <Route path="*">
             <NotMatch/>
         </Route>
-        </>
+        </Switch>
     );
 }
 
