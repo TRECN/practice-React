@@ -14,6 +14,9 @@ import {v4 as uuidv4} from "uuid";
 //importing Route, Switch components from "ract-router-dom"
 import { Route, Switch } from "react-router-dom";
 
+import About from "../pages/About";
+import NotMatch from "../pages/NotMatch";
+
 const TodoContainer =()=>{
     
     const [todos, setTodos]=useState(getInitialTodos())
