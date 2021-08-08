@@ -92,6 +92,7 @@ const TodoContainer =()=>{
     },[todos])
 
     return(
+        <>
         <Route path="/">
             <div className="container">
                 <div className="inner">
@@ -105,6 +106,13 @@ const TodoContainer =()=>{
                 </div>
             </div>
         </Route>
+        <Route path="/about">
+            <About/>
+        </Route>
+        <Route path="*">
+            <NotMatch/>
+        </Route>
+        </>
     );
 }
 
