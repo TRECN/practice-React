@@ -10,7 +10,9 @@ import {BrowserRouter} from "react-router-dom"
 import "./functionBased/App.css"
 ReactDOM.render(
     <React.StrictMode>
-        <TodoContainer/>
+        <BrowserRouter>
+            <TodoContainer/>
+        </BrowserRouter>
     </React.StrictMode>,
     document.getElementById("root")
 );
