@@ -13,7 +13,15 @@ const Navbar =()=>{
     
     ]
     return (
-        <div>Hello from NavBar</div>
+        <nav>
+            <ul>
+                {
+                    links.map(link=>{
+                        return <li key={link.id}>{link.text}</li>
+                    })
+                }
+            </ul>
+        </nav>
         
     );
 }
