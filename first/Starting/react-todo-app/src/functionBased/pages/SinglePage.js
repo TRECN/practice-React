@@ -13,7 +13,7 @@ const SinglePage=()=>{
         {
             slug: "about-author",
             title: "About the Author",
-            description:
+            discription:
             "Rishabh",
         },
     ]
