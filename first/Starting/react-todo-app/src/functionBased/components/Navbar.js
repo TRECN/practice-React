@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { NavLink } from "react-router-dom";
 
 const Navbar =()=>{
@@ -13,6 +13,7 @@ const Navbar =()=>{
         text:"About",},
     
     ]
+    const [navbarOpen, setNavBarOpen]=useState(false)
     return (
         <nav className="navBar">
             <ul>
