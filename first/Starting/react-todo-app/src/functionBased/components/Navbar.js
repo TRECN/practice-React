@@ -16,6 +16,7 @@ const Navbar =()=>{
     const [navbarOpen, setNavBarOpen]=useState(false)
     return (
         <nav className="navBar">
+            <button>{navbarOpen?"Close":"Open"}</button>
             <ul>
                 {
                     links.map(link=>{
