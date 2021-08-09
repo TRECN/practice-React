@@ -62,3 +62,16 @@ body{
     text-decoration: underline;
     
 }
+
+/* sideBar Nav */
+.navBar{
+    position: relative;
+
+}
+.navBar button{
+    position: fixed;
+    left: 40px;
+    top: 40px;
+    z-index: 10;
+    cursor: pointer;
+}
