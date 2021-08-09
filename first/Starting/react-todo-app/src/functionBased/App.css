@@ -89,3 +89,18 @@ body{
     max-width: 290px;
     z-index: 9px;
 }
+.menuNav.showMenu{
+    width: 100%;
+}
+a{
+    display: block;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: #3fffd2;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.menuNav li:first-child{
+    margin-top: 7rem;
+}
