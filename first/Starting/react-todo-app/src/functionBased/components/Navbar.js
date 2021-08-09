@@ -14,9 +14,12 @@ const Navbar =()=>{
     
     ]
     const [navbarOpen, setNavBarOpen]=useState(false)
+    const handleToggle=()=>{
+        setNavBarOpen(!navbarOpen)
+    }
     return (
         <nav className="navBar">
-            <button>{navbarOpen?"Close":"Open"}</button>
+            <button onClick={handleToggle}>{navbarOpen?"Close":"Open"}</button>
             <ul>
                 {
                     links.map(link=>{
