@@ -13,7 +13,7 @@ const About=()=>{
                     <Link to={`${url}/about-app`}>About App</Link>
                 </li>
                 <li>
-                    <Link to={`${url}/about-auther`}>About Author</Link>
+                    <Link to={`${url}/about-author`}>About Author</Link>
                 </li>
             </ul>
             <Route path={`${path}/:slug`}>
