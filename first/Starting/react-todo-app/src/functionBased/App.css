@@ -60,4 +60,7 @@ body{
 .active-link{
     color:orangered;
     text-decoration: underline;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
