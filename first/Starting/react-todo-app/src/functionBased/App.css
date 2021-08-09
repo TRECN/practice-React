@@ -75,3 +75,8 @@ body{
     z-index: 10;
     cursor: pointer;
 }
+.menuNav{
+    overflow-y:scroll;
+    list-style: none;
+    
+}
