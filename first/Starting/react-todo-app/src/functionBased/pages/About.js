@@ -1,9 +1,24 @@
 import React from "react";
-import {useRouteMatch} from "react-router-dom"
+import {Link, Route, useRouteMatch} from "react-router-dom"
 
 const About=()=>{
-    console.log(useRouteMatch());
-    return <div>Hello from about page</div>
+    const {url, path}=useRouteMatch();
+
+    return (
+        <div>
+            <ul>
+                <li>
+                    <Link to={`${url}/about-app`}>About App</Link>
+                </li>
+                <li>
+                    <Link to={`${url}/about-auther`}>About Author</Link>
+                </li>
+            </ul>
+            <Route path={`${path}/:slug`}>
+                <SinglePage/>
+            </Route>
+        </div>
+    )
 }
 
 export default About
