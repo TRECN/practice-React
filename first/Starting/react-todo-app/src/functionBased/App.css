@@ -121,5 +121,19 @@ a{
     color: #9f9f9f;
     text-transform: capitalize;
     padding: 20px 0;
-    
+    font-weight: 600;
+}
+.about_list a:hover{
+    color: #000;
+}
+.main_content{
+    flex:7;
+}
+.main_content h1{
+    margin-bottom: 15px;
+    line-height: 30px;
+    font-size: 30px;
+}
+.main_content p{
+    line-height: 25px;
 }
