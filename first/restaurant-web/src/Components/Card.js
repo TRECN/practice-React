@@ -5,7 +5,7 @@ const Card = () =>{
 
     return (
         <div className="card">
-            <img src={egg}/>
+            <img src={egg} style={{width:"100%"}}/>
             <h1>EGG and Bread</h1>
             <p><button>Add to cart</button></p>
         </div>
