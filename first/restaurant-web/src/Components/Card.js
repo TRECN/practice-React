@@ -9,7 +9,7 @@ const Card = () =>{
                 <img src={egg} style={{width:"85%"}}/>
                 <h1>EGG and Bread</h1>
                 <p className="price">Rs. 50.00/-</p>
-                <p><button>Add to cart</button></p>
+                <p><button>Order</button></p>
             </div>
         
         </>
