@@ -1,5 +1,7 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
+import {MdFingerprint} from 'react-icons/md'
+import {FaBars, FaTimes} from 'react-icons/fa'
 function Navbar() {
     return (
         <>
