@@ -8,6 +8,7 @@ function Navbar() {
             <div className="navbar">
                 <div className="navbar-container container">
                     <Link to='/' className="navbar-logo">
+                        <MdFingerprint className='navbar-icon'/>
                         LEBAR
                     </Link>
                     <div className="menu-icon">
