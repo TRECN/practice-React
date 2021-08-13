@@ -97,6 +97,14 @@
         transition: all 0.6s ease;
         z-index: 1;
     }
-    
+    .nav-links:hover{
+        color: #f00964;
+        transition: scale(1.2);
+        transition: all 0.3s ease;
+    }
+
+    .nav-item:hover{
+        border: none;
+    }
     
 }
