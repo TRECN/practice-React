@@ -67,11 +67,10 @@
     height: 100%;
 }
 
-.fa-bars{
-    color: #fff;
-}
+
 
 .menu-icon{
+    color: #fff;
     display: none;
 }
 
@@ -122,7 +121,8 @@
     }
 
     .navbar-logo{
-        position: absolute;
+        display: flex;
+        align-items: center;
         top: 0;
         left: 0;
         transform: translate(25% 50%);
@@ -138,10 +138,6 @@
         cursor: pointer;
     }
 
-    .fa-times{
-        color: #fff;
-        font-size: 2rem;
-    }
     
     .nav-btn{
         display: flex;
