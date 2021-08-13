@@ -33,5 +33,23 @@
     font-size: 2rem;
     display: flex;
     align-items: center;
-    
+
 }
+.navbar-icon{
+    margin-right: 0.5rem;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    justify-content: end;
+}
+
+.nav-item{
+    height: 80px;
+    border-bottom: 2px solid transparent;
+}
+
