@@ -73,3 +73,32 @@
     color: #fff;
     border: none;
 }
+
+.red{
+    background-color: #f00946;
+    color: #fff;
+    border: none;
+}
+
+.primary{
+    background-color: #242424;
+    color: #fff;
+    border: none;
+}
+
+.primary:hover{
+    background-color: #fff;
+    color: #242424;
+    border: none;
+}
+
+.green{
+    background-color: #25ce4a;
+    color: #fff;
+    border: none;
+}
+.green:hover{
+    background-color: #242424;
+}
+
+
