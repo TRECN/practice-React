@@ -7,9 +7,9 @@ const SIZE=['btn--medium', 'btn--large', 'btn--mobile', 'btn--wide'];
 
 const COLOR =['primary','blue','red','green'];
 
-const Button =({children,type,onClick,buttonStyle,buttonSize,buttonColor})=>{
+const Button =({children,type,onClick,buttonStyle,buttonsize,buttonColor})=>{
     const checkButtonStyle=STYLES.includes(buttonStyle)?buttonStyle:STYLES[0];
-    const checkButtonSize=SIZE.includes(buttonSize)?buttonSize:SIZE[0];
+    const checkButtonSize=SIZE.includes(buttonsize)?buttonsize:buttonsize;
     const checkButtonColor=COLOR.includes(buttonColor)?buttonColor:null;
 
     return(
