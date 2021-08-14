@@ -4,6 +4,7 @@ import {MdFingerprint} from 'react-icons/md'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import Button from "./Button"
 import "./Navbar.css"
+import {IconContext} from "react-icons/lib"
 function Navbar() {
     const [click,setClick]=useState(false);
     const [button,setButton]=useState(true);
