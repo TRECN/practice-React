@@ -29,6 +29,7 @@
 .btn--medium{
     padding: 8px 20px;
     font-size: 18px;
+    transition: all 0.3s ease;
 }
 
 .btn--large{

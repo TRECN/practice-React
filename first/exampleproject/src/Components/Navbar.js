@@ -23,10 +23,11 @@ function Navbar() {
 
     const showButton = ()=>{
         if (window.innerWidth<=960){
-            setButton(false)
+            setButton(true)
 
-        }else{
-            setButton(true);
+        }
+        if(window.innerWidth>960){
+            setButton(false);
         }
     }
     
@@ -66,13 +67,14 @@ function Navbar() {
                         <li className="nav-btn">
                             {button?(
                                 <Link to="/sign-up" className="btn-link" onClick={closeMobileMenu}>
-                                    <Button buttonStyle='btn--outline' buttonSize="btn--medium">SIGN UP</Button>
-                                </Link>
-                            ):(
-                                <Link to="/sign-up" className="btn-link"onClick={closeMobileMenu}>
                                     <Button buttonStyle='btn--outline' buttonSize="btn--mobile">
                                         SIGN UP
                                     </Button>
+                                    
+                                </Link>
+                            ):(
+                                <Link to="/sign-up" className="btn-link"onClick={closeMobileMenu}>
+                                    <Button buttonStyle='btn--outline'>SIGN UP</Button>
                                 </Link>
                             )}
                         </li>
