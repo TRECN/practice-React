@@ -63,7 +63,7 @@ function Navbar() {
                                 </Link>
                             ):(
                                 <Link to="/sign-up" className="btn-link">
-                                    <Button buttonStyle="btn--outline" buttonSize="btn--large">
+                                    <Button buttonStyle='btn--outline' buttonSize='btn--large'>
                                         SIGN UP
                                         </Button>
                                 </Link>
