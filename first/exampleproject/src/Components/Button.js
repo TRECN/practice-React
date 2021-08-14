@@ -3,13 +3,20 @@ import './Button.css'
 
 const STYLES = ['btn--primary','btn--outline'];
 
-const SIZE=['btn--medium', 'btn--large', 'btn--mobile', 'btn--wide'];
+const SIZES=['btn--medium', 'btn--large', 'btn--mobile', 'btn--wide'];
 
 const COLOR =['primary','blue','red','green'];
 
-const Button =({children,type,onClick,buttonStyle,buttonsize,buttonColor})=>{
+const Button =({
+    children,
+    type,
+    onClick,
+    buttonStyle,
+    buttonSize,
+    buttonColor
+})=>{
     const checkButtonStyle=STYLES.includes(buttonStyle)?buttonStyle:STYLES[0];
-    const checkButtonSize=SIZE.includes(buttonsize)?buttonsize:buttonsize;
+    const checkButtonSize=SIZES.includes(buttonSize)?buttonSize:SIZES[0];
     const checkButtonColor=COLOR.includes(buttonColor)?buttonColor:null;
 
     return(
