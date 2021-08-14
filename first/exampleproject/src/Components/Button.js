@@ -9,7 +9,7 @@ const COLOR =['primary','blue','red','green'];
 
 const Button =({children,type,onClick,buttonStyle,buttonSize,buttonColor})=>{
     const checkButtonStyle=STYLES.includes(buttonStyle)?buttonStyle:STYLES[0];
-    const checkButtonSize=SIZE.includes(buttonSize)?buttonSize:SIZE[2];
+    const checkButtonSize=SIZE.includes(buttonSize)?buttonSize:SIZE[0];
     const checkButtonColor=COLOR.includes(buttonColor)?buttonColor:null;
 
     return(
