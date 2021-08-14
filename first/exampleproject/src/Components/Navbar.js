@@ -30,6 +30,10 @@ function Navbar() {
         }
     }
     
+    useEffect(()=>{
+        showButton()
+    })
+
     return (
         <>
         
