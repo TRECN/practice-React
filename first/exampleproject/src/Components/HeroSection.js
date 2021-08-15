@@ -3,7 +3,7 @@ import Button from './Button'
 import {Link} from 'react-router-dom'
 import './HeroSection.css'
 function HeroSection({
-    lightBg, topLine,lightText, lightTextDesc, headline, discription,
+    lightBg, topLine,lightText, lightTextDesc, headline, description,
     buttonLable, img,alt,imgStart
 }) {
     
@@ -17,7 +17,7 @@ function HeroSection({
                            <div className="home__hero-text-wrapper">
                                <div className="top-line">{topLine}</div>
                                <h1 className={lightText?'heading':'heading dark'}>{headline}</h1>
-                               <p className={lightTextDesc?'home__hero-subtitle':'hero__hero-subtitle dark'}>{discription}</p>
+                               <p className={lightTextDesc?'home__hero-subtitle':'hero__hero-subtitle dark'}>{description}</p>
                                <Link to="/sign-up">
                                    <Button buttonSize='btn--wide' buttonColor='blue'>{buttonLable}</Button>
                                    
