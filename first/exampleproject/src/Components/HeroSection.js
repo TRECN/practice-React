@@ -23,7 +23,10 @@ function HeroSection({
                                    
                                </Link>
                            </div>
-                           <div className="home__hero-img-wrapper">
+                           
+                       </div>
+                       <div className="col">
+                       <div className="home__hero-img-wrapper">
                            <img src={img} alt="" className="home__hero-img" />
                        </div>
                        </div>
