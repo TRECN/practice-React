@@ -1,5 +1,5 @@
 import React from 'react'
-import{Button} from './Button'
+import Button from './Button'
 import {Link} from 'react-router-dom'
 import './HeroSection.css'
 function HeroSection({
@@ -16,9 +16,15 @@ function HeroSection({
                        <div className="col">
                            <div className="home__hero-text-wrapper">
                                <div className="top-line">{topLine}</div>
-                               <h1 className={}>{headline}</h1>
+                               <h1 className={lightText?'heading':'heading dark'}>{headline}</h1>
+                               <p className={lightTextDesc?'home__hero-subtitle':'hero__hero-subtitle dark'}>{discription}</p>
+                               <Link to="/sign-up">
+                                   <Button buttonSize='btn--wide' buttonColor='blue'>{buttonLable}</Button>
+                                   
+                               </Link>
                            </div>
                        </div>
+                       
                    </div>
                </div>
            </div>
