@@ -26,7 +26,7 @@ function Navbar() {
             setButton(true)
 
         }
-        if(window.innerWidth>960){
+        else{
             setButton(false);
         }
     }
@@ -67,7 +67,7 @@ function Navbar() {
                         <li className="nav-btn">
                             {button?(
                                 <Link to="/sign-up" className="btn-link" onClick={closeMobileMenu}>
-                                    <Button buttonStyle='btn--outline' buttonSize="btn--mobile">
+                                    <Button buttonStyle='btn--outline' buttonSize='btn--mobile'>
                                         SIGN UP
                                     </Button>
                                     
