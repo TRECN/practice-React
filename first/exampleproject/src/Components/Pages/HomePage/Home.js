@@ -1,7 +1,7 @@
 import React from 'react'
 import HeroSection from '../../HeroSection'
 import {homeObjOne} from './Data'
-ftion Home() {
+function Home() {
     return (
         <>
           <HeroSection {...homeObjOne} />
