@@ -86,7 +86,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link'
-              to='/'
+              to={'//www.instagram.com/rishabh._.raj._/'}
               target='_blank'
               aria-label='Instagram'
             >
@@ -95,7 +95,7 @@ function Footer() {
             <Link
               className='social-icon-link'
               to={
-                '//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
+                ''
               }
               target='_blank'
               aria-label='Youtube'
@@ -112,7 +112,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link'
-              to='/'
+              to={'//www.linkedin.com/in/rishabh-raj-tarun-aa507a201/'}
               target='_blank'
               aria-label='LinkedIn'
             >
