@@ -71,10 +71,10 @@ function Footer() {
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
               <MdFingerprint className='navbar-icon' />
-              LAVISH
+              LEBAR
             </Link>
           </div>
-          <small className='website-rights'>LAVISH © 2020</small>
+          <small className='website-rights'>LEBAR © 2021</small>
           <div className='social-icons'>
             <Link
               className='social-icon-link'
