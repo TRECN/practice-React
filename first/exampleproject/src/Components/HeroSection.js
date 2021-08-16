@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 import './HeroSection.css'
 function HeroSection({
     lightBg, topLine,lightText, lightTextDesc, headline, description,
-    buttonLable, img,alt,imgStart
+    buttonLable, img, alt,imgStart
 }) {
     
     return (
@@ -27,7 +27,7 @@ function HeroSection({
                        </div>
                        <div className="col">
                        <div className="home__hero-img-wrapper">
-                           <img src={img} alt="" className="home__hero-img" />
+                           <img src={img} alt="alt" className="home__hero-img" />
                        </div>
                        </div>
                        
