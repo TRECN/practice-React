@@ -74,6 +74,9 @@
     color: #fff;
     border: none;
 }
+.blue:hover{
+    background-color:#f00946 ;
+}
 
 .red{
     background-color: #f00946;
