@@ -53,3 +53,11 @@
 .darkBg{
     background-color: #1c2237;
 }
+
+.home__hero-subtitle{
+    max-width: 448px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 24px;
+
+}
