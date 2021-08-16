@@ -25,5 +25,5 @@ const homeObjTwo={
     img:'images/svg-5.svg',
     alt:'Vault'
 };
-
+export default homeObjTwo
 export default homeObjOne
