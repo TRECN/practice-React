@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaFire } from 'react-icons/fa'
+import Button from './Button'
 
 function Pricing() {
     return (
@@ -17,8 +18,13 @@ function Pricing() {
                                     <h4>$58.99</h4>
                                     <p>per month</p>
                                     <ul className="pricing__container-features">
-                                        
+                                        <li>100 Transaction</li>
+                                        <li>2% Cash Back</li>
+                                        <li>$10,000 Limit</li>
                                     </ul>
+                                    <Button buttonSize='btn--wide' buttonColor='primary'>
+                                        Choose Plan
+                                    </Button>
                                 </div>
                             </Link>
                         </div>
