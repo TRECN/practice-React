@@ -12,6 +12,7 @@ function Pricing() {
         <>
        <IconContext.Provider value={{color:'#fff',size:64}}> 
         <div>
+
             <div className="pricing__section">
                 <div className="pricing__wrapper">
                     <div className="pricing__heading">
