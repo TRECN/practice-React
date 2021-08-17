@@ -14,7 +14,7 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home}></Route>
         </Switch>
-        <Pricing/>
+        
         <Footer/>
       </Router>
     </div>
