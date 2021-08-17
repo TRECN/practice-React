@@ -5,10 +5,12 @@ import {Link} from 'react-router-dom'
 
 import {BsXDiamondFill} from 'react-icons/bs'
 import {GiCrystalize} from 'react-icons/gi'
-
+import {IconContext} from 'react-icons/lib'
 
 function Pricing() {
     return (
+        <>
+       <IconContext.Provider value={{color:'#fff',size:64}}></IconContext.Provider> 
         <div>
             <div className="pricing__section">
                 <div className="pricing__wrapper">
@@ -73,7 +75,8 @@ function Pricing() {
                 </div>
             </div>
         </div>
-    )
+        </>
+    );
 }
 
 export default Pricing
