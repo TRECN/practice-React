@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaFire } from 'react-icons/fa'
 import Button from './Button'
+import {Link} from 'react-router-dom'
 
 import {BsXDiamondFill} from 'react-icons/bs'
 
