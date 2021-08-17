@@ -2,7 +2,7 @@ import React from 'react'
 import { FaFire } from 'react-icons/fa'
 import Button from './Button'
 import {Link} from 'react-router-dom'
-
+import './Pricing.css'
 import {BsXDiamondFill} from 'react-icons/bs'
 import {GiCrystalize} from 'react-icons/gi'
 import {IconContext} from 'react-icons/lib'
