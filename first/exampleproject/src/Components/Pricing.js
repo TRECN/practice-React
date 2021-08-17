@@ -2,6 +2,8 @@ import React from 'react'
 import { FaFire } from 'react-icons/fa'
 import Button from './Button'
 
+import {BsXDiamondFill} from 'react-icons/bs'
+
 function Pricing() {
     return (
         <div>
