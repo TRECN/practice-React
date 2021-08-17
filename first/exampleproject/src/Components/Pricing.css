@@ -5,3 +5,19 @@
     justify-content: center;
     background:#fafafa;
 }
+
+.pricing__container-card{
+    background: linear-gradient(45deg, #0660e9 0%, #276afb 100%);
+    box-shadow: 0 6px 20px rgba(56,125,255,0.2);
+    height: 500px;
+    width: 280px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.pricing__container-card:nth-child(2){
+    transform: scale(1.05);
+    background: #242424;
+}
+
+
