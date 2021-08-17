@@ -17,7 +17,7 @@ function Pricing() {
                                         <FaFire/>
                                     </div>
                                     <h3>Starter</h3>
-                                    <h4>$58.99</h4>
+                                    <h4>$8.99</h4>
                                     <p>per month</p>
                                     <ul className="pricing__container-features">
                                         <li>100 Transaction</li>
@@ -34,13 +34,13 @@ function Pricing() {
                                     <div className="icon">
                                         <BsXDiamondFill/>
                                     </div>
-                                    <h3>Starter</h3>
-                                    <h4>$58.99</h4>
+                                    <h3>Gold</h3>
+                                    <h4>$29.99</h4>
                                     <p>per month</p>
                                     <ul className="pricing__container-features">
-                                        <li>100 Transaction</li>
-                                        <li>2% Cash Back</li>
-                                        <li>$10,000 Limit</li>
+                                        <li>1009 Transaction</li>
+                                        <li>3.5% Cash Back</li>
+                                        <li>$100,000 Limit</li>
                                     </ul>
                                     <Button buttonSize='btn--wide' buttonColor='primary'>
                                         Choose Plan
