@@ -14,7 +14,7 @@ function Pricing() {
         <div>
             <div className="pricing__section">
                 <div className="pricing__wrapper">
-                    <div className="pricing__hrading">
+                    <div className="pricing__heading">
                         <div className="pricing__container">
                             <Link to="/sign-up" className='pricing__container-card'>
                                 <div className="pricing__container-cardInfo">
