@@ -4,6 +4,8 @@ import Button from './Button'
 import {Link} from 'react-router-dom'
 
 import {BsXDiamondFill} from 'react-icons/bs'
+import {GiCrystalize} from 'react-icons/gi'
+
 
 function Pricing() {
     return (
@@ -39,9 +41,27 @@ function Pricing() {
                                     <h4>$29.99</h4>
                                     <p>per month</p>
                                     <ul className="pricing__container-features">
-                                        <li>1009 Transaction</li>
+                                        <li>1000 Transaction</li>
                                         <li>3.5% Cash Back</li>
                                         <li>$100,000 Limit</li>
+                                    </ul>
+                                    <Button buttonSize='btn--wide' buttonColor='primary'>
+                                        Choose Plan
+                                    </Button>
+                                </div>
+                            </Link>
+                            <Link to="/sign-up" className='pricing__container-card'>
+                                <div className="pricing__container-cardInfo">
+                                    <div className="icon">
+                                        <GiCrystalize/>
+                                    </div>
+                                    <h3>Diamond</h3>
+                                    <h4>$99.99</h4>
+                                    <p>per month</p>
+                                    <ul className="pricing__container-features">
+                                        <li>Unlimited Transaction</li>
+                                        <li>5% Cash Back</li>
+                                        <li>Unlimited Spending </li>
                                     </ul>
                                     <Button buttonSize='btn--wide' buttonColor='primary'>
                                         Choose Plan
