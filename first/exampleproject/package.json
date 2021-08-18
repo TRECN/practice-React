@@ -1,5 +1,5 @@
 {
-  "homepage": "https://TRECN.github.io/exampleProject-Lebar",
+  
 
   "name": "exampleproject",
   "version": "0.1.0",
@@ -22,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
