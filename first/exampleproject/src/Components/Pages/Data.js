@@ -8,7 +8,7 @@ export const homeObjOne={
   description:'Get access to out exclusive diamond card that allows you to send unlimited transaction without getting charged any fee',
   buttonLable:'Get Started',
   imgStart:'',
-  img:'/assets/svg-1.png',
+  img:'1',
   alt:'Credit Card'
 
 }
@@ -23,7 +23,7 @@ export const homeObjTwo={
       'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime ',
   buttonLable:'Learn More',
   imgStart:'start',
-  img:'/assets/svg-5.png',
+  img:'2',
   alt:'Vault'
 };
 export const homeObjThree = {
@@ -36,8 +36,9 @@ export const homeObjThree = {
     "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
   buttonLable: 'Start Now',
   imgStart: '',
-  img: '/assets/svg-7.png',
+  img: '3',
   alt: 'Vault'
+
 };
 
 
@@ -51,6 +52,6 @@ export const homeObjFour = {
     'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
   buttonLable: 'Sign Up Now',
   imgStart: 'start',
-  img: '/assets/svg-8.png',
+  img: '4',
   alt: 'Vault'
 };
