@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from './Button'
 import {Link} from 'react-router-dom'
+
 import './HeroSection.css'
 function HeroSection({
     lightBg, topLine,lightText, lightTextDesc, headline, description,
@@ -27,7 +28,7 @@ function HeroSection({
                        </div>
                        <div className="col">
                        <div className="home__hero-img-wrapper">
-                           <img src={img} alt={alt} className="home__hero-img" />
+                           <img src='./src/assets/svg1.png' alt={alt} className="home__hero-img" />
                        </div>
                        </div>
                        
