@@ -1,3 +1,5 @@
 export const cardObj1={
-    product,price,btnName
+    product:'EGG and Bread',
+    price:'rs. 50.00/-',
+    btnName:'Order'
 }
