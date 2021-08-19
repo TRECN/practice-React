@@ -1,34 +1,16 @@
 import React from "react";
 import egg from "../assets/egg.jpeg"
 
-const Card = () =>{
+const Card = (product,price,btnName,img) =>{
 
     return (
         <> 
             <div className="container">
                 <div className="card">
                     <img src={egg} style={{width:"85%"}}/>
-                    <h1>EGG and Bread</h1>
-                    <p className="price">Rs. 50.00/-</p>
-                    <p><button>Order</button></p>
-                </div>
-                <div className="card card1">
-                    <img src={egg} style={{width:"85%"}}/>
-                    <h1>PanCake</h1>
-                    <p className="price">Rs. 100.00/-</p>
-                    <p><button>Order</button></p>
-                </div>
-                <div className="card card1">
-                    <img src={egg} style={{width:"85%"}}/>
-                    <h1>PanCake</h1>
-                    <p className="price">Rs. 100.00/-</p>
-                    <p><button>Order</button></p>
-                </div>
-                <div className="card card1">
-                    <img src={egg} style={{width:"85%"}}/>
-                    <h1>PanCake</h1>
-                    <p className="price">Rs. 100.00/-</p>
-                    <p><button>Order</button></p>
+                    <h1>{product}</h1>
+                    <p className="price">{price}</p>
+                    <p><button>{btnName}</button></p>
                 </div>
             </div>
         </>
