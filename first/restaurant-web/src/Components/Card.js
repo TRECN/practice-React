@@ -19,6 +19,18 @@ const Card = () =>{
                     <p className="price">Rs. 100.00/-</p>
                     <p><button>Order</button></p>
                 </div>
+                <div className="card card1">
+                    <img src={egg} style={{width:"85%"}}/>
+                    <h1>PanCake</h1>
+                    <p className="price">Rs. 100.00/-</p>
+                    <p><button>Order</button></p>
+                </div>
+                <div className="card card1">
+                    <img src={egg} style={{width:"85%"}}/>
+                    <h1>PanCake</h1>
+                    <p className="price">Rs. 100.00/-</p>
+                    <p><button>Order</button></p>
+                </div>
             </div>
         </>
     )
