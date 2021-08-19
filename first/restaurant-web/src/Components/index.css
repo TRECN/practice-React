@@ -1,3 +1,7 @@
+body{
+    background: #f1f1;
+}
+
 .container{
     padding: 100px 0 160px;
     display: flex;
@@ -13,6 +17,7 @@
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 5px;
+
 }
 
 .price{
@@ -39,7 +44,9 @@
     .container{
         display: flex;
         flex-direction: column;
-
+    }
+    .card{
+        margin-bottom: 50px;
     }
     
 }
