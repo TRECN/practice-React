@@ -1,6 +1,5 @@
 import React from "react";
 import egg from "../assets/egg.jpeg"
-import image from '../assets/images.jpeg'
 
 const Card = () =>{
 
