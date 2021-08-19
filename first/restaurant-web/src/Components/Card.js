@@ -4,7 +4,8 @@ import egg from "../assets/egg.jpeg"
 const Card = () =>{
 
     return (
-        <>  <div className="container">
+        <> 
+            <div className="container">
                 <div className="card">
                     <img src={egg} style={{width:"85%"}}/>
                     <h1>EGG and Bread</h1>
