@@ -3,7 +3,7 @@ body{
 }
 
 .container{
-    padding: 100px 0 160px;
+    margin: 30px 20px 20px ;
     display: flex;
     flex-direction: row;
     justify-content: center;
