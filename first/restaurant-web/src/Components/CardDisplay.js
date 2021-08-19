@@ -3,7 +3,8 @@ import Card from './Card'
 import {cardObjone} from './Data'
 function CardDisplay() {
     return (
-        <div>
+        <div className='container'>
+            <Card {...cardObjone}/>
             <Card {...cardObjone}/>
         </div>
     )
