@@ -6,6 +6,10 @@ function CardDisplay() {
         <div className='container' >
             <Card {...cardObjone}/>
             <Card {...cardObjone}/>
+            <Card {...cardObjone}/>
+            <Card {...cardObjone}/>
+            <Card {...cardObjone}/>
+            <Card {...cardObjone}/>
         </div>
     )
 }
