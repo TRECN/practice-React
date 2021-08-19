@@ -1,7 +1,7 @@
 import React from "react";
 import egg from "../assets/egg.jpeg"
 
-const Card = (product,price,btnName,img) =>{
+const Card = ({product,price,btnName,img}) =>{
 
     return (
         <> 
