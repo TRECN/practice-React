@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Card from './Components/Card';
 import CardDisplay from './Components/CardDisplay';
 
 //importing css
