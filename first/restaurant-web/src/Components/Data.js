@@ -16,4 +16,10 @@ export const cardObjthree={
     btnName:'Order',
     img:'3'
 }
+export const cardObjfour={
+    product:'EGG and Bread',
+    price:'rs. 50.00/-',
+    btnName:'Order',
+    img:'4'
+}
 
