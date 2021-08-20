@@ -2,7 +2,7 @@ import React from "react";
 import svg from "../assets/egg.png"
 import svg1 from "../assets/Sandwich.png"
 import svg2 from "../assets/Waffel.png"
-import svg3 from "../assets/peggBread.png"
+import svg3 from "../assets/Coffee.png"
 import svg4 from "../assets/fruitSalad.png"
 import svg5 from "../assets/breakfast1.png"
 
