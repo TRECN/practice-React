@@ -1,10 +1,10 @@
 import React from "react";
-import egg from "../assets/egg.jpeg"
-import Sandwich from "../assets/Sandwich.jpg"
-import Waffel from "../assets/Waffel.jpg"
-import peggBread from "../assets/peggBread.jpg"
-import fruitSalad from "../assets/fruitSalad.jpg"
-import breakfast2 from "../assets/breakfast.jpg"
+import svg from "../assets/egg.jpeg"
+import svg1 from "../assets/Sandwich.jpg"
+import svg2 from "../assets/Waffel.jpg"
+import svg3 from "../assets/peggBread.jpg"
+import svg4 from "../assets/fruitSalad.jpg"
+import svg5 from "../assets/breakfast.jpg"
 
 
 const Card = (
@@ -15,25 +15,32 @@ const Card = (
         img
     })=>{
 
-        // const setImg=()=>{
-        //     if(img==='1')
-        //         return svg
-        //     else
-        //         if(img==='2')
-        //             return svg1
-        //     else
-        //     if(img==='3')
-        //         return svg2
-        //     else
-        //     if(img==='4')
-        //         return svg3
-        // }
+         const setImg=()=>{
+             if(img==='1')
+                 return svg
+             else
+                 if(img==='2')
+                     return svg1
+             else
+             if(img==='3')
+                return svg2
+             else
+             if(img==='4')
+               return svg3
+               else
+             if(img==='5')
+               return svg4
+               else
+             if(img==='6')
+               return svg5
+
+         }
     return (
         <> 
             <div className="container">
                 <div className="card">
                     <div className="imgContainer">
-                        <img src={egg} style={{width:"85%"}}/>
+                        <img src={img} style={{width:"85%"}}/>
                     </div>
                     <h1>{product}</h1>
                     <p className="price">{price}</p>
