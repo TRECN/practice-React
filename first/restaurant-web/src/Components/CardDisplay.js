@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from './Card'
-import {cardObjone} from './Data'
+import {cardObjone, cardObjtwo} from './Data'
 function CardDisplay() {
     return (
         <div className='container' >
