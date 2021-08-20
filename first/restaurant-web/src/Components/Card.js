@@ -1,5 +1,11 @@
 import React from "react";
 import egg from "../assets/egg.jpeg"
+import Sandwich from "../assets/Sandwich.jpg"
+import Waffel from "../assets/Waffel.jpg"
+import peggBread from "../assets/egg.jpeg"
+import egg from "../assets/egg.jpeg"
+import egg from "../assets/egg.jpeg"
+
 
 const Card = (
     {
