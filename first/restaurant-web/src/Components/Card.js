@@ -37,7 +37,6 @@ const Card = (
          }
     return (
         <> 
-            <div className="container">
                 <div className="card">
                     <div className="imgContainer">
                         <img src={setImg()} style={{width:"85%"}}/>
@@ -46,7 +45,6 @@ const Card = (
                     <p className="price">{price}</p>
                     <p><button>{btnName}</button></p>
                 </div>
-            </div>
         </>
     )
 
