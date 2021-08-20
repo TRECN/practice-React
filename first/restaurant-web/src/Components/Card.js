@@ -1,10 +1,10 @@
 import React from "react";
-import svg from "../assets/egg.jpeg"
+import svg from "../assets/egg.png"
 import svg1 from "../assets/Sandwich.jpg"
 import svg2 from "../assets/Waffel.jpg"
 import svg3 from "../assets/peggBread.jpg"
 import svg4 from "../assets/fruitSalad.jpg"
-import svg5 from "../assets/breakfast1.jpg"
+import svg5 from "../assets/breakfast1.png"
 
 
 const Card = (
