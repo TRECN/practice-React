@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import "./navbar.css"
+import {Fabars} from 'react-icons'
 const Navbar =()=>{
     const [navbarOpen, setNavbarOpen] = useState(false);
     const myFunction=()=>{
@@ -13,7 +14,7 @@ const Navbar =()=>{
                 <a href="#contact">Contact</a>
                 <a href="#about">About</a>
                 <a className="icon" onClick={myFunction}>
-                <i class="fa fa-bars"></i>
+                <i class=""><Fabars/></i>
                 </a>
             </div>
         </>
