@@ -4,7 +4,7 @@ import svg1 from "../assets/Sandwich.jpg"
 import svg2 from "../assets/Waffel.jpg"
 import svg3 from "../assets/peggBread.jpg"
 import svg4 from "../assets/fruitSalad.jpg"
-import svg5 from "../assets/breakfast.jpg"
+import svg5 from "../assets/breakfast1.jpg"
 
 
 const Card = (
@@ -40,7 +40,7 @@ const Card = (
             <div className="container">
                 <div className="card">
                     <div className="imgContainer">
-                        <img src={img} style={{width:"85%"}}/>
+                        <img src={setImg()} style={{width:"85%"}}/>
                     </div>
                     <h1>{product}</h1>
                     <p className="price">{price}</p>
