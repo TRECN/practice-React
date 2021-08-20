@@ -23,3 +23,10 @@ export const cardObjfour={
     img:'4'
 }
 
+export const cardObjfive={
+    product:'EGG and Bread',
+    price:'rs. 50.00/-',
+    btnName:'Order',
+    img:'5'
+}
+
