@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from './Card'
-import {cardObjone, cardObjtwo,cardObjthree,cardObjfour,cardObjfive} from './Data'
+import {cardObjone, cardObjtwo,cardObjthree,cardObjfour,cardObjfive,cardObjsix} from './Data'
 function CardDisplay() {
     return (
         <div className='container' >
@@ -9,7 +9,7 @@ function CardDisplay() {
             <Card {...cardObjthree}/>
             <Card {...cardObjfour}/>
             <Card {...cardObjfive}/>
-            <Card {...cardObjone}/>
+            <Card {...cardObjsix}/>
         </div>
     )
 }
