@@ -2,9 +2,9 @@ import React from "react";
 import egg from "../assets/egg.jpeg"
 import Sandwich from "../assets/Sandwich.jpg"
 import Waffel from "../assets/Waffel.jpg"
-import peggBread from "../assets/egg.jpeg"
-import egg from "../assets/egg.jpeg"
-import egg from "../assets/egg.jpeg"
+import peggBread from "../assets/peggBread.jpg"
+import fruitSalad from "../assets/fruitSalad.jpg"
+import breakfast2 from "../assets/breakfast.jpg"
 
 
 const Card = (
