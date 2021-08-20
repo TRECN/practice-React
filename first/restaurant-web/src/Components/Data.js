@@ -17,7 +17,7 @@ export const cardObjthree={
     img:'3'
 }
 export const cardObjfour={
-    product:'Potched egg and Bread',
+    product:'Potched egg Bread',
     price:'rs. 50.00/-',
     btnName:'Order',
     img:'4'
