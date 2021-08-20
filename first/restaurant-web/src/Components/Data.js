@@ -10,4 +10,10 @@ export const cardObjtwo={
     btnName:'Order',
     img:'2'
 }
+export const cardObjtwo={
+    product:'EGG and Bread',
+    price:'rs. 50.00/-',
+    btnName:'Order',
+    img:'2'
+}
 
