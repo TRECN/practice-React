@@ -23,7 +23,7 @@ body{
 }
 
 .text-Container{
-    width: 1000px;
+    width: 100%;
     padding: 50px;
 }
 
@@ -67,6 +67,9 @@ body{
     .container{
         display: flex;
         flex-direction: column;
+    }
+    .text-Container{
+        padding: 0;
     }
     .card{
         display: flex;
