@@ -39,12 +39,9 @@ const Card = (
         <> 
                 <div className="card">
                     <div className="card-container">
-                    <div className="imgContainer">
                         <img src={setImg()} style={{width:"85%"}}/>
-                    </div>
-                    <h1>{product}</h1>
-                    <p className="price">{price}</p>
-                    
+                        <h1>{product}</h1>
+                        <p className="price">{price}</p>
                     </div>
                     <button>{btnName}</button>
                 </div>
