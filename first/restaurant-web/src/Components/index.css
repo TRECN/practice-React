@@ -7,7 +7,6 @@ body{
     display: grid;
     align-items: center;
     grid-template-rows: auto;
-    max-width: 1000px;
 }
 
 
