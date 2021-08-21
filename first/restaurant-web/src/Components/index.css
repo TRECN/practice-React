@@ -27,7 +27,8 @@ body{
     padding: 50px;
 }
 .card-container{
-    height: 100%;
+    width: auto;
+        height: 100%;
 
 }
 .price{
@@ -78,6 +79,10 @@ body{
         flex-direction: column;
         margin-bottom: 50px;
         
+    }
+    .card-container{
+        width: 100%;
+        height: auto;
     }
     .imgContainer{
         width: 100%;
