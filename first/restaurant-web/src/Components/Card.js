@@ -38,12 +38,14 @@ const Card = (
     return (
         <> 
                 <div className="card">
+                    <div className="card-container">
                     <div className="imgContainer">
                         <img src={setImg()} style={{width:"85%"}}/>
                     </div>
                     <h1>{product}</h1>
                     <p className="price">{price}</p>
                     <p><button>{btnName}</button></p>
+                    </div>
                 </div>
         </>
     )
