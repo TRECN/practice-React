@@ -19,8 +19,12 @@ body{
     background: #fff;
     display: flex;
     flex-direction:row;
-    justify-content: center;
     align-items: center;
+}
+
+.text-Container{
+    width: 1000px;
+    padding: 50px;
 }
 
 .price{
