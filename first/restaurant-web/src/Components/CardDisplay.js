@@ -5,7 +5,11 @@ function CardDisplay() {
     return (
         <div className='container' >
             <Card {...cardObjone}/>
-
+            <Card {...cardObjtwo}/>
+            <Card {...cardObjthree}/>
+            <Card {...cardObjfour}/>
+            <Card {...cardObjfive}/>
+            <Card {...cardObjsix}/>
         </div>
     )
 }
