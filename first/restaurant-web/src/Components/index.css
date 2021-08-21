@@ -80,4 +80,7 @@ body{
         
     }
     
+    .card button{
+        margin-bottom: 50px;
+    }
 }
