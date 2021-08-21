@@ -58,11 +58,11 @@ body{
 
 .card img:hover{
     transition: all 1.5s ease;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .imgContainer{
-    height: 100%;
+    width: 100%;
 }
 
 @media screen and (max-width:960px){
@@ -79,7 +79,10 @@ body{
         margin-bottom: 50px;
         
     }
-    
+    .imgContainer{
+        width: 100%;
+        
+    }
     .card button{
         margin-bottom: 50px;
     }
