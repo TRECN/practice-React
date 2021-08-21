@@ -6,6 +6,8 @@ body{
     margin: 30px 20px 20px ;
     display: grid;
     align-items: center;
+    grid-template-rows: auto;
+    max-width: 1000px;
 }
 
 
@@ -20,7 +22,6 @@ body{
     display: grid;
     grid-template-columns: auto auto auto auto;
     align-items: center;
-    margin-bottom: 50px;
 }
 
 .text-Container{
