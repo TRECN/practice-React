@@ -44,8 +44,9 @@ const Card = (
                     </div>
                     <h1>{product}</h1>
                     <p className="price">{price}</p>
-                    <p><button>{btnName}</button></p>
+                    
                     </div>
+                    <button>{btnName}</button>
                 </div>
         </>
     )
