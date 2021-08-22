@@ -9,8 +9,13 @@ function Navbar() {
                 </div>
                 <div className="search-bar">
                     <img src="" alt="location" />
-                    
+                    <select>
+                        <option>rishabh</option>
+                    </select>
+                    <img src="" alt="search" />
+                    <input type="text" name="" id="" />
                 </div>
+                
             </div>
         </>
     )
