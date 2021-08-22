@@ -39,7 +39,7 @@ const Card = (
         <> 
                 <div className="card">
                     <div className="card-container">
-                        <img src={setImg()} style={{width:"85%"}}/>
+                        <img src={setImg()} />
                         
                     </div>
                     <div className="text-Container">
