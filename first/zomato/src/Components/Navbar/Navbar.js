@@ -8,6 +8,7 @@ function Navbar() {
                     <img src={logo} alt="Zomato" />
                 </div>
                 <div className="search-bar">
+                    <img src="" alt="location" />
                     
                 </div>
             </div>
