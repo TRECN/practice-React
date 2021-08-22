@@ -5,7 +5,10 @@ function Navbar() {
         <>
             <div className="container">
                 <div className="img-container">
-                    <img src="logo" alt="Zomato" />
+                    <img src={logo} alt="Zomato" />
+                </div>
+                <div className="search-bar">
+                    
                 </div>
             </div>
         </>
