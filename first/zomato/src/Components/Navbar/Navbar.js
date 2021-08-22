@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../assets/zomato.png'
+import './Navbar.css'
 function Navbar() {
     return (
         <>
@@ -15,7 +16,7 @@ function Navbar() {
                     <img src="" alt="search" />
                     <input type="text" name="" id="" />
                 </div>
-                
+
             </div>
         </>
     )
