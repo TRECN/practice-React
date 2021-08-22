@@ -6,7 +6,7 @@ function Navbar() {
         <>
             <div className="container">
                 <div className="img-container">
-                    <img src={logo} alt="Zomato" />
+                    <img src={logo} alt="Zomato" style={{width:'100px'}}/>
                 </div>
                 <div className="search-bar">
                     <img src="" alt="location" />
