@@ -20,7 +20,10 @@ function Navbar() {
                     <BsSearch/>
                     <input type="text" name="" id="" />
                 </div>
-
+                <ul>
+                    <li><a href="/">Log in</a></li>
+                    <li><a href="/"></a></li>
+                </ul>
             </div>
         </>
     )
