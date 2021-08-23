@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../../assets/zomato.png'
 import './Navbar.css'
+import {GoLocation} from 'react-icons/go'
 function Navbar() {
     return (
         <>
@@ -9,7 +10,7 @@ function Navbar() {
                     <img src={logo} alt="Zomato" style={{width:'100px'}}/>
                 </div>
                 <div className="search-bar">
-                    <img src="" alt="location" />
+                    <img src={<GoLocation/>} alt="location" />
                     <select>
                         <option>rishabh</option>
                     </select>
