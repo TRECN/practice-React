@@ -5,6 +5,8 @@
 }
 .search-bar{
     display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 13px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
     border-radius: 7px;
@@ -43,3 +45,5 @@ ul a{
     letter-spacing: 1px;
     font-size: 18px;
 }
+
+
