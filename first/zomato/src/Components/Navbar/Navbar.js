@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../../assets/zomato.png'
 import './Navbar.css'
-import {GoLocation} from 'react-icons/go'
+import {TiLocation} from 'react-icons/ti'
 import {BsSearch} from 'react-icons/bs'
 function Navbar() {
     return (
@@ -12,7 +12,7 @@ function Navbar() {
                 </div>
                 <div className="search-bar">
                     <div className="drop">
-                        <GoLocation className='location-icon'/>
+                        <TiLocation className='location-icon'/>
                         <select className='dropdown'>
                             <option>rishabh</option>
                         </select>
