@@ -22,7 +22,7 @@ function Navbar() {
                 </div>
                 <ul>
                     <li><a href="/">Log in</a></li>
-                    <li><a href="/"></a></li>
+                    <li><a href="/">Sign up</a></li>
                 </ul>
             </div>
         </>
