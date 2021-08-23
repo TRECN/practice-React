@@ -18,7 +18,7 @@ function Navbar() {
                         </select>
                     </div>
                     <BsSearch className='search-icon'/>
-                    <input type="text" name="" id="" />
+                    <input type="text" name="" className='search-text' />
                 </div>
                 <ul>
                     <li><a href="/">Log in</a></li>
