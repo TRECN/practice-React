@@ -18,7 +18,7 @@ function Navbar() {
                     <BsSearch/>
                     <input type="text" name="" id="" />
                 </div>
-
+                
             </div>
         </>
     )
