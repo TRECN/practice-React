@@ -12,7 +12,7 @@ function Navbar() {
                 </div>
                 <div className="search-bar">
                     <div className="drop">
-                        <GoLocation/>
+                        <GoLocation className='location-icon'/>
                         <select className='dropdown'>
                             <option>rishabh</option>
                         </select>
