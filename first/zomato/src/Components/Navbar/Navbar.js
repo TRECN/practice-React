@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../../assets/zomato.png'
 import './Navbar.css'
 import {GoLocation} from 'react-icons/go'
-
+import {BsSearch} from 'react-icons/bs'
 function Navbar() {
     return (
         <>
@@ -15,7 +15,7 @@ function Navbar() {
                     <select>
                         <option>rishabh</option>
                     </select>
-                    <img src="" alt="search" />
+                    <BsSearch/>
                     <input type="text" name="" id="" />
                 </div>
 
