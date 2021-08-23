@@ -13,7 +13,7 @@ function Navbar() {
                 <div className="search-bar">
                     <div className="drop">
                         <GoLocation/>
-                        <select>
+                        <select className='dropdown'>
                             <option>rishabh</option>
                         </select>
                     </div>
