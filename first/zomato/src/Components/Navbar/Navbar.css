@@ -11,5 +11,8 @@
 ul{
     display: flex;
     list-style: none;
+}
+ul a{
     text-decoration: none;
+    padding: 20px 20px 20px 0;
 }
