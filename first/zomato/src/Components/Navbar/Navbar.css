@@ -5,7 +5,7 @@
 }
 .search-bar{
     display: flex;
-    padding: 10px;
+    padding: 13px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 7px;
 
@@ -13,10 +13,17 @@
 .img-container{
     padding: 20px;
 }
+.drop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .dropdown{
     border: none;
     border-right: 2px solid black;
     margin-right: 10px;
+    width: 176px;
+    height: 21px;
 }
 ul{
     display: flex;
