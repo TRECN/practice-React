@@ -6,7 +6,7 @@
 .search-bar{
     display: flex;
     padding: 13px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
     border-radius: 7px;
 
 }
@@ -25,11 +25,11 @@
 }
 .dropdown{
     border: none;
-    border-right: 2px solid rgba(0, 0, 0, 0.4);
+    border-right: 2px solid rgba(0, 0, 0, 0.5);
     margin-right: 10px;
     width: 176px;
     height: 21px;
-    color: rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.5);
 }
 ul{
     display: flex;
@@ -39,5 +39,7 @@ ul a{
     text-decoration: none;
     padding: 20px 20px 20px 0;
     font-family: sans-serif;
-    
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 1px;
+    font-size: 18px;
 }
