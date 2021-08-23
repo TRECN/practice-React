@@ -27,7 +27,7 @@
 }
 .dropdown{
     border: none;
-    border-right: 2px solid rgba(0, 0, 0, 0.5);
+    border-right: 2px solid rgba(0, 0, 0, 0.4);
     margin-right: 10px;
     width: 176px;
     height: 21px;
@@ -48,6 +48,7 @@ ul a{
 .search-icon{
     padding: 0px 7px 0px 0px;
     font-size: 20px;
+    color: rgba(0,0,0,0.5);
 }
 .search-text{
     border: none;
