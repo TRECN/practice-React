@@ -11,14 +11,16 @@ function Navbar() {
                     <img src={logo} alt="Zomato" style={{width:'100px'}}/>
                 </div>
                 <div className="search-bar">
-                    <GoLocation/>
-                    <select>
-                        <option>rishabh</option>
-                    </select>
+                    <div className="drop">
+                        <GoLocation/>
+                        <select>
+                            <option>rishabh</option>
+                        </select>
+                    </div>
                     <BsSearch/>
                     <input type="text" name="" id="" />
                 </div>
-                
+
             </div>
         </>
     )
