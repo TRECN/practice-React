@@ -20,14 +20,16 @@
 }
 .location-icon{
     color: rgb(247, 113, 113);
-    font-size: 20px;
+    font-size: 25.5px;
+    
 }
 .dropdown{
     border: none;
-    border-right: 2px solid black;
+    border-right: 2px solid rgba(0, 0, 0, 0.4);
     margin-right: 10px;
     width: 176px;
     height: 21px;
+    color: rgba(0, 0, 0, 0.4);
 }
 ul{
     display: flex;
