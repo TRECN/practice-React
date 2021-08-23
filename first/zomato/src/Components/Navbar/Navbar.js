@@ -17,7 +17,7 @@ function Navbar() {
                             <option>rishabh</option>
                         </select>
                     </div>
-                    <BsSearch/>
+                    <BsSearch className='search-icon'/>
                     <input type="text" name="" id="" />
                 </div>
                 <ul>
