@@ -12,7 +12,7 @@ function Navbar() {
 
     return (
         <>
-            <div className={`container`}>
+            <div className={`container ${navbarOpen?'responsive':''}`}>
                 <div className="img-container">
                     <img src={logo} alt="Zomato" style={{width:'130px'}}/>
                 </div>
