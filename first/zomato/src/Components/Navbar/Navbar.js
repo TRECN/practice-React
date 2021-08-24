@@ -17,7 +17,9 @@ function Navbar() {
             <div className={`container ${navbarOpen?'responsive':''}`}>
                 
                 <div className="img-container">
-                    <img src={logo} alt="Zomato" style={{width:'130px'}}/>
+                    <a href="/">
+                        <img src={logo} alt="Zomato" style={{width:'130px'}}/>
+                    </a>
                 </div>
                 <div className="search-bar">
                     <div className="drop">
@@ -37,6 +39,13 @@ function Navbar() {
                 
             </div>
             
+
+            <div className="container2">
+                <a className="bar-icon">
+                    <FaBars/>
+                </a>
+
+            </div>
         </>
     )
 }
