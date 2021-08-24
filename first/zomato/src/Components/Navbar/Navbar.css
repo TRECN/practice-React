@@ -69,9 +69,10 @@ ul a{
     color: rgba(0,0,0,0.5);
 }
  @media screen and (max-width:960px) {
-    .container :not(:first-child){
+    .container :not(:first-child):not(:last-child){
         display: none;
     }
+    
     .bar-icon{
         display: block;
         float: left;
