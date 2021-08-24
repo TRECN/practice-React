@@ -14,7 +14,7 @@ function Navbar() {
     return (
         <>
             
-            <div className={`container ${navbarOpen?'responsive':''}`}>
+            <div className='container'>
                 
                 <div className="img-container">
                     <a href="/">
@@ -40,8 +40,8 @@ function Navbar() {
             </div>
             
 
-            <div className="container2">
-                <a className="bar-icon">
+            <div className={`container2 ${navbarOpen?'responsive':''}`}>
+                <a className="bar-icon" onClick={myFunction}>
                     <FaBars/>
                 </a>
                 <div className="img-container">
