@@ -32,10 +32,7 @@ function Navbar() {
                     <input type="text" placeholder='Search for restaurant, cuisine or dish' name="" className='search-text' />
                 </div>
                 
-                <ul>
-                    <li><a href="/">Log in</a></li>
-                    <li><a href="/">Sign up</a></li>
-                </ul>
+                
                 
             </div>
             
@@ -44,6 +41,10 @@ function Navbar() {
                 <a className="bar-icon" onClick={myFunction}>
                     <FaBars/>
                 </a>
+                <ul className='links'>
+                    <li><a href="/">Log in</a></li>
+                    <li><a href="/">Sign up</a></li>
+                </ul>
                 <div className="img-container">
                     <a href="/">
                         <img src={logo} alt="Zomato" style={{width:'130px'}}/>
