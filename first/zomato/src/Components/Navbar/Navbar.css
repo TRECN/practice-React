@@ -3,6 +3,9 @@
     margin: 0;    
 }
 
+.bar-icon{
+    display: none;
+}
 
 .container{
     display: flex;
@@ -68,6 +71,10 @@ ul a{
 @media screen and (max-width:960px) {
     .container :not(:first-child){
         display: none;
+    }
+    .bar-icon{
+        display: block;
+        float: left;
     }
     
 }
