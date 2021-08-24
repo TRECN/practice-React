@@ -6,10 +6,13 @@ import {BsSearch} from 'react-icons/bs'
 function Navbar() {
 
     const [navbarOpen, setNavbarOpen] = useState(false);
+    const myFunction=()=>{
+        setNavbarOpen(!navbarOpen)
+    }
 
     return (
         <>
-            <div className="container">
+            <div className={`container`}>
                 <div className="img-container">
                     <img src={logo} alt="Zomato" style={{width:'130px'}}/>
                 </div>
