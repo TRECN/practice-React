@@ -1,9 +1,12 @@
-import React from 'react'
+import React,{useState} from 'react'
 import logo from '../../assets/zomato.png'
 import './Navbar.css'
 import {TiLocation} from 'react-icons/ti'
 import {BsSearch} from 'react-icons/bs'
 function Navbar() {
+
+    const [navbarOpen, setNavbarOpen] = useState(false);
+
     return (
         <>
             <div className="container">
