@@ -69,7 +69,7 @@ ul a{
     color: rgba(0,0,0,0.5);
 }
  @media screen and (max-width:960px) {
-    .container :not(:first-child){
+    .container {
         display: none;
     }
     
