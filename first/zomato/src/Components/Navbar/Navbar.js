@@ -13,9 +13,7 @@ function Navbar() {
 
     return (
         <>
-            <a className="bar-icon">
-                    <FaBars/>
-                </a>
+            
             <div className={`container ${navbarOpen?'responsive':''}`}>
                 
                 <div className="img-container">
