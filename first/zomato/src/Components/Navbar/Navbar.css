@@ -71,15 +71,18 @@ ul a{
 .img-container:hover{
     cursor: pointer;
 }
- /* @media screen and (max-width:960px) {
+ @media screen and (max-width:960px) {
     .container {
         display: none;
     }
     
-    .bar-icon{
-        display: block;
-        float: left;
+    .container2{
+        margin: 0 0 0 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
+
     
-}  */
+} 
 
