@@ -8,7 +8,7 @@ function Navbar() {
         <>
             <div className="container">
                 <div className="img-container">
-                    <img src={logo} alt="Zomato" style={{width:'100px'}}/>
+                    <img src={logo} alt="Zomato" style={{width:'130px'}}/>
                 </div>
                 <div className="search-bar">
                     <div className="drop">
@@ -18,7 +18,7 @@ function Navbar() {
                         </select>
                     </div>
                     <BsSearch className='search-icon'/>
-                    <input type="text" name="" className='search-text' />
+                    <input type="text" placeholder='Search for restaurant, cuisine or dish' name="" className='search-text' />
                 </div>
                 <ul>
                     <li><a href="/">Log in</a></li>
