@@ -109,8 +109,9 @@ ul a{
         transition: all 0.6s ease-out;
     }
     .search-bar{
-        
-        align-items: center;
+       display: flex;
+       width: 50%;
+       align-items: center;
     }
 
 } 
