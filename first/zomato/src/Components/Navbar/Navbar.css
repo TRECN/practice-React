@@ -91,9 +91,7 @@ ul a{
     }
 
     .responsive{
-        display: flex;
-        flex-direction: column;
-        position: absolute;
+        top: 50px;
         transition: all 0.6s ease-out;
     }
     .links{
