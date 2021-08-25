@@ -90,8 +90,9 @@ ul a{
     }
     .responsive{
         display: flex;
-        
+        flex-direction: column;
     }
+    
 } 
 
 
