@@ -89,7 +89,8 @@ ul a{
         display: none;
     }
     .responsive{
-        display: block;
+        display: flex;
+        
     }
 } 
 
