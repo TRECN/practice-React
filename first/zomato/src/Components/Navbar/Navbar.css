@@ -110,9 +110,7 @@ ul a{
     .cont{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        align-items: center;
+
     }
     .search-bar{
         width: 100%;
