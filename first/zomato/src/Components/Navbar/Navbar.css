@@ -96,9 +96,6 @@ ul a{
         transition: all 0.6s ease-out;
         justify-content: center;
     }
-    .container3.responsive:not(.links){
-        align-items: center;
-    }
     .links{
         display: flex;
         flex-direction: column;
@@ -112,11 +109,14 @@ ul a{
     }
     .cont{
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
+        align-items: center;
     }
     .search-bar{
-        left: 45px;
+        width: 100%;
+        align-items: center;
     }
 
 } 
