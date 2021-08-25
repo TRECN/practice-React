@@ -4,6 +4,7 @@ import './Navbar.css'
 import {TiLocation} from 'react-icons/ti'
 import {BsSearch} from 'react-icons/bs'
 import {FaBars} from 'react-icons/fa'
+import {FaTimes} from 'react-icons/fa'
 function Navbar() {
 
     const [navbarOpen, setNavbarOpen] = useState(false);
@@ -42,7 +43,7 @@ function Navbar() {
 
             <div className='container2'>
                 <a className="bar-icon" onClick={myFunction}>
-                    <FaBars/>
+                    {navbarOpen?<FaTimes/>:<FaBars/>}
                 </a>
                 
                 <div className="img-container">
