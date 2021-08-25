@@ -57,7 +57,7 @@ function Navbar() {
                     <li><a href="/">Log in</a></li>
                     <li><a href="/">Sign up</a></li>
                 </ul>
-                <div>
+                <div className='cont'>
                     <div className="search-bar">
                         <div className="drop">
                             <TiLocation className='location-icon'/>
