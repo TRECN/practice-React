@@ -73,6 +73,7 @@ ul a{
 }
 .container3{
     display: none;
+    z-index: -100%;
 }
  @media screen and (max-width:960px) {
     .container {
@@ -88,6 +89,8 @@ ul a{
 
     .responsive{
         display: flex;
+        flex-direction: column;
+        position: absolute;
         transition: all 0.6s ease-out;
     }
     .links{
