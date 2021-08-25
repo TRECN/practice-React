@@ -40,7 +40,7 @@ function Navbar() {
             </div>
             
 
-            <div className={`container2 ${navbarOpen?'responsive':''}`}>
+            <div className='container2'>
                 <a className="bar-icon" onClick={myFunction}>
                     <FaBars/>
                 </a>
