@@ -71,6 +71,9 @@ ul a{
 .img-container:hover{
     cursor: pointer;
 }
+.container3{
+    display: none;
+}
  @media screen and (max-width:960px) {
     .container {
         display: none;
@@ -82,13 +85,12 @@ ul a{
         align-items: center;
         justify-content: space-between;
     }
-    .links{
+    .container3{
         display: none;
     }
-    .search-bar{
-        display: none;
+    .responsive{
+        display: block;
     }
-    
 } 
 
 
