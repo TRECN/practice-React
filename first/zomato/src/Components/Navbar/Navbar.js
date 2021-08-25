@@ -52,6 +52,8 @@ function Navbar() {
                     </a>
                 </div>
             </div>
+
+            
             <div className={`container3 ${navbarOpen?'responsive':''}`}>
                 <ul className='links'>
                     <li><a href="/">Log in</a></li>
