@@ -97,7 +97,7 @@ ul a{
     .links{
         display: flex;
         flex-direction: column;
-        padding: 25px;
+        padding: 25px 10px;
         height:90vh;
         
     }  
