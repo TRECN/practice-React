@@ -6,6 +6,9 @@ function Tab() {
             <div className="logo">
                 <img src={delivery_active} alt="" />
             </div>
+            <div className="heading">
+                <h1>Delivery</h1>
+            </div>
         </div>
     )
 }
