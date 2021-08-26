@@ -1,6 +1,6 @@
 import React from 'react'
 import Tab from './Tab/Tab'
-import moduleName from 'module'
+import './Tabs.css'
 function Tabs() {
     return (
         <div className='tabs'>
