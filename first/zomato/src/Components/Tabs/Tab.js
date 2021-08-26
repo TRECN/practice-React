@@ -1,10 +1,10 @@
 import React from 'react'
-import diner from '../../assets/tabs/delivery_active.webp'
+import delivery_active from '../../assets/tabs/delivery_active.webp'
 function Tab() {
     return (
         <div>
             <div className="logo">
-                <img src={diner} alt="" />
+                <img src={delivery_active} alt="" />
             </div>
         </div>
     )
