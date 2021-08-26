@@ -5,6 +5,7 @@ function Tabs() {
     return (
         <div>
             <Tab/>
+            <Tab/>
         </div>
     )
 }
