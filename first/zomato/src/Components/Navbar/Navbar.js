@@ -26,7 +26,7 @@ function Navbar() {
                     <div className="drop">
                         <TiLocation className='location-icon'/>
                         <select className='dropdown'>
-                            <option>rishabh</option>
+                            <option>Ranchi</option>
                         </select>
                     </div>
                     <BsSearch className='search-icon'/>
