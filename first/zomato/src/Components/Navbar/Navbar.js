@@ -5,6 +5,7 @@ import {TiLocation} from 'react-icons/ti'
 import {BsSearch} from 'react-icons/bs'
 import {FaBars} from 'react-icons/fa'
 import {FaTimes} from 'react-icons/fa'
+import Tabs from '../Tabs/Tabs'
 function Navbar() {
 
     const [navbarOpen, setNavbarOpen] = useState(false);
@@ -72,6 +73,7 @@ function Navbar() {
                     </div>
                 </div>
             </div>
+            <Tabs/>
         </>
     )
 }
