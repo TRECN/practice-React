@@ -3,17 +3,18 @@
     font-family: sans-serif;
 }
 .tab{
-
+    height: 73px;
+    width: 167px;
     display: flex;
     align-items: center;
     padding: 5px 8px;
     border-bottom: 2px solid red;
 }
 .logo{
-    height: 100%;
     background: burlywood;
     border-radius: 50%;
     padding: 10px;
+    margin: 0 9px 0 0;
 }
 .img{
     height: 30px;
