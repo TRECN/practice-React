@@ -26,3 +26,6 @@
 .conta{
     border-bottom: 2px solid red;
 }
+.conta:hover{
+    cursor: pointer;
+}
