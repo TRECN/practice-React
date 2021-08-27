@@ -5,7 +5,7 @@ function Tab() {
     return (
         <div className='tab'>
             <div className="logo">
-                <img src={delivery_active} alt="" />
+                <img src={delivery_active} className='img'/>
             </div>
             <div className="heading">
                 <h1>Delivery</h1>
