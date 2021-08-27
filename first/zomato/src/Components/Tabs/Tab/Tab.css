@@ -10,5 +10,12 @@
     border-bottom: 2px solid red;
 }
 .logo{
+    height: 50px;
+    width: 50px;
     background: burlywood;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    height: 30px;
 }
