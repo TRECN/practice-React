@@ -3,6 +3,7 @@ import delivery_active from '../../../assets/tabs/delivery_active.webp'
 import './Tab.css'
 function Tab() {
     return (
+        <div className="conta">
         <div className='tab'>
             <div className="logo">
                 <img src={delivery_active} className='img'/>
@@ -10,6 +11,7 @@ function Tab() {
             <div className="head">
                 <div className='heading'>Delivery</div>
             </div>
+        </div>
         </div>
     )
 }
