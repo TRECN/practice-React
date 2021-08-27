@@ -7,8 +7,8 @@ function Tab() {
             <div className="logo">
                 <img src={delivery_active} className='img'/>
             </div>
-            <div className="heading">
-                <div>Delivery</div>
+            <div className="head">
+                <div className='heading'>Delivery</div>
             </div>
         </div>
     )
