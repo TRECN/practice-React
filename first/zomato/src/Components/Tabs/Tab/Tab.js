@@ -12,6 +12,7 @@ function Tab() {
                 <div className='heading'>Delivery</div>
             </div>
         </div>
+        <hr />
         </div>
     )
 }
