@@ -4,7 +4,7 @@ import './Tabs.css'
 function Tabs() {
     return (
         <div className='tabs'>
-            <Tab/>
+            <Tab className='Tab'/>
         </div>
     )
 }
