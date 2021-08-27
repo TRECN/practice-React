@@ -6,6 +6,7 @@
     height: 73px;
     width: 167px;
     display: flex;
+    justify-content: center;
     align-items: center;
     padding: 5px 8px;
     border-bottom: 2px solid red;
