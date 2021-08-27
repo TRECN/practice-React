@@ -3,13 +3,12 @@
     font-family: sans-serif;
 }
 .tab{
-    height: 73px;
-    width: 167px;
+    margin: 6px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 5px 8px;
-    border-bottom: 2px solid red;
+
 }
 .logo{
     background: burlywood;
@@ -22,4 +21,5 @@
 }
 .head{
     font-size: 18px;
+    letter-spacing: 0.5px;
 }
