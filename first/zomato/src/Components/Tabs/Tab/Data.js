@@ -8,6 +8,6 @@ export const TabObjone={
     head: 'Delivery'
 }
 export const TabObjone={
-    img:'../../../assets/tabs/plate_active.webp',
+    img:plate_active,
     head: 'Dining Out'
 }
