@@ -10,14 +10,14 @@ const Tab=(
 ) =>{
     return (
         <div className="conta">
-        <div className='tab'>
-            <div className="logo">
-                <img src={img} className='img'/>
+            <div className='tab'>
+                <div className="logo">
+                    <img src={img} className='img'/>
+                </div>
+                <div className="head">
+                    <div className='heading'>{head}</div>
+                </div>
             </div>
-            <div className="head">
-                <div className='heading'>{head}</div>
-            </div>
-        </div>
         <hr />
         </div>
     )
