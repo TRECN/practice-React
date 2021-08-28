@@ -13,5 +13,5 @@ export const TabObjone={
 }
 export const TabObjone={
     img:nightlife_active,
-    head: 'Dining Out'
+    head: 'Nightlife'
 }
