@@ -6,7 +6,7 @@ function Tabs() {
     return (
         <div className='tabs'>
             <Tab {...TabObjone}/>
-            <Tab />
+            <Tab {...TabObjtwo}/>
             <Tab />
         </div>
     )
