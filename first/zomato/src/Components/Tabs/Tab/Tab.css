@@ -25,6 +25,7 @@
     font-size: 18px;
     letter-spacing: 0.5px;
     color:red;
+    display: flex;
 }
 .conta{
     margin: 6px 10px;
