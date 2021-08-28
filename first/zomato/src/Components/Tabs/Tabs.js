@@ -5,7 +5,7 @@ import {TabObjone,TabObjtwo,TabObjthree,TabObjfour} from '../Tabs/Tab/Data'
 function Tabs() {
     return (
         <div className='tabs'>
-            <Tab />
+            <Tab {...TabObjone}/>
             <Tab />
             <Tab />
         </div>
