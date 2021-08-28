@@ -8,6 +8,7 @@ function Tabs() {
             <Tab {...TabObjone}/>
             <Tab {...TabObjtwo}/>
             <Tab {...TabObjthree}/>
+            <Tab {...TabObjfour}/>
         </div>
     )
 }
