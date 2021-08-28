@@ -1,7 +1,7 @@
 import React from 'react'
 import delivery_active from '../../../assets/tabs/delivery_active.webp'
 import './Tab.css'
-function Tab() {
+const Tab=() =>{
     return (
         <div className="conta">
         <div className='tab'>
