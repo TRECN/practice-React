@@ -9,7 +9,7 @@ export const TabObjone={
 }
 export const TabObjtwo={
     img:plate_active,
-    head: 'Dining Out'
+    head: 'Dining_Out'
 }
 export const TabObjthree={
     img:nightlife_active,
