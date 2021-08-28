@@ -15,3 +15,6 @@ export const TabObjone={
     img:nightlife_active,
     head: 'Nightlife'
 }
+export const TabObjfour={
+
+}
