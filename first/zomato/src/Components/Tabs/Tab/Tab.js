@@ -5,17 +5,17 @@ const Tab=(
     {
         img,
         head,
-        
+
     }
 ) =>{
     return (
         <div className="conta">
         <div className='tab'>
             <div className="logo">
-                <img src={delivery_active} className='img'/>
+                <img src={img} className='img'/>
             </div>
             <div className="head">
-                <div className='heading'>Delivery</div>
+                <div className={head}>Delivery</div>
             </div>
         </div>
         <hr />
