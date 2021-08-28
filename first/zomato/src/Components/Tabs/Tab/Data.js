@@ -16,5 +16,6 @@ export const TabObjthree={
     head: 'Nightlife'
 }
 export const TabObjfour={
-
+    img:nutrition_active,
+    head:'Nutrition',
 }
