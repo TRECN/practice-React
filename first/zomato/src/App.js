@@ -5,12 +5,12 @@ import Tabs from './Components/Tabs/Tabs'
 
 function App() {
     return (
-        <>
+        
             <Router>
                 <Navbar/>
                 <Tabs/>
             </Router>
-        </>
+        
     )
 }
 
