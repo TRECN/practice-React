@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.tab{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 8px;
+
+}
+.logo{
+    background: #ffeecc;
+    border-radius: 100px;
+    width: 2rem;
+    height: 2rem;
+    padding: 15px;
+    margin: 0 9px 0 0;
+}
+.img{
+    height: 30px;
+    
+}
+.head{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color:red;
+    display: flex;
+}
+.conta{
+    margin: 6px 10px;
+}
+.conta:hover{
+    cursor: pointer;
+    
+}
+hr{
+    background-color: red;
+    border-color: transparent;
+}

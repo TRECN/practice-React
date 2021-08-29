@@ -1,0 +1,125 @@
+*{
+    font-family: sans-serif;
+    margin: 0;    
+}
+
+.container2{
+    display: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px;
+    border: 0.1px solid rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    border-radius: 7px;
+
+}
+.img-container{
+    padding: 20px;
+}
+.drop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.location-icon{
+    color: rgb(247, 113, 113);
+    font-size: 25.5px;
+    
+}
+.dropdown{
+    border: none;
+    border-right: 2px solid rgba(0, 0, 0, 0.4);
+    margin-right: 10px;
+    width: 176px;
+    height: 21px;
+    color: rgba(0, 0, 0, 0.5);
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    padding: 20px 20px 20px 0;
+    
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+.search-icon{
+    padding: 0px 7px 0px 0px;
+    font-size: 20px;
+    color: rgba(0,0,0,0.5);
+}
+.search-text{
+    border: none;
+    width: 250px;
+}
+.search-text::placeholder{
+    color: rgba(0,0,0,0.5);
+}
+.img-container:hover{
+    cursor: pointer;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    
+    top: -150%;
+    
+}
+ @media screen and (max-width:770px) {
+    .container {
+        display: none;
+    }
+    
+    .container2{
+        padding: 0 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .container3.responsive{
+        top: 80px;
+        transition: all 0.6s ease-out;
+        justify-content: center;
+        width: 100%;
+        background-color: white;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        padding: 25px 10px;
+        height:90vh;
+        
+    }  
+    .links li{
+        padding: 25px;
+        transition: all 0.6s ease-out;
+    }
+    .cont{
+        display: flex;
+        justify-content: center;
+    }
+    .search-bar{
+       display: flex;
+       align-items: center;
+       margin-bottom: 10px;
+    }
+
+} 
+
+
+
