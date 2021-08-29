@@ -6,10 +6,8 @@ import Tabs from './Components/Tabs/Tabs'
 function App() {
     return (
         <div>
-
                 <Navbar/>
                 <Tabs/>
-
         </div>
     )
 }
