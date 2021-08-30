@@ -61,6 +61,10 @@ ul a{
     font-size: 20px;
     color: rgba(0,0,0,0.5);
 }
+.bar-icon{
+    font-size: 20px ;
+
+}
 .search-text{
     border: none;
     width: 250px;
