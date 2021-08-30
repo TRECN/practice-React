@@ -9,6 +9,7 @@ function App() {
         <div>
             <Router>
                 <Navbar/>
+                <br />
                 <Tabs/>
                 <Switch>
                     
