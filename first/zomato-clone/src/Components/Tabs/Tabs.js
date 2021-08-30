@@ -3,17 +3,20 @@ import Tab from './Tab/Tab'
 import './Tabs.css'
 import {
     Delivery_active,
+     Dining,
      Dining_active,
+      Nightlife,
       Nightlife_active,
+       Nutrition,
        Nutrition_active} from '../Tabs/Tab/Data'
 function Tabs() {
     return (
         <div className='tabs'>
             <div className='section'>
             <Tab {...Delivery_active}/>
-            <Tab {...Dining_active}/>
-            <Tab {...Nightlife_active}/>
-            <Tab {...Nutrition_active}/>
+            <Tab {...Dining}/>
+            <Tab {...Nightlife}/>
+            <Tab {...Nutrition}/>
             </div>
         </div>
     )
