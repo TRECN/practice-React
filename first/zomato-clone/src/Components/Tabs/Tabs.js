@@ -9,10 +9,12 @@ import {
 function Tabs() {
     return (
         <div className='tabs'>
+            <div className='section'>
             <Tab {...Delivery_active}/>
             <Tab {...Dining_active}/>
             <Tab {...Nightlife_active}/>
             <Tab {...Nutrition_active}/>
+            </div>
         </div>
     )
 }
