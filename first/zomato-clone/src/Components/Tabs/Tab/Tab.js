@@ -15,7 +15,7 @@ const Tab=(
                     <img src={img} className='img'/>
                 </div>
                 <div className="head">
-                    <h2 className='heading'>{head}</h2>
+                    <p className='heading'>{head}</p>
                 </div>
             </div>
         <hr />
