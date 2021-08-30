@@ -22,6 +22,19 @@ export const Nutrition_active={
     img:nutrition_active,
     head:'Nutrition',
 }
-export const Delivery={
-    
+export const Delivery_active={
+    img:delivery_active,
+    head: 'Delivery'
+}
+export const Dining_active={
+    img:plate_active,
+    head: 'Dining Out'
+}
+export const Nightlife_active={
+    img:nightlife_active,
+    head: 'Nightlife'
+}
+export const Nutrition_active={
+    img:nutrition_active,
+    head:'Nutrition',
 }
