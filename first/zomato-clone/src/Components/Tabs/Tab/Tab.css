@@ -8,7 +8,13 @@
     justify-content: center;
     align-items: center;
     padding: 5px 8px;
+    margin-bottom: 10px;
+    
 
+}
+.conta{
+    margin: 0 10px;
+    
 }
 .logo{
     background: #ffeecc;
