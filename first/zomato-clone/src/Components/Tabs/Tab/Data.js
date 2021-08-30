@@ -6,22 +6,22 @@ import delivery from '../../../assets/tabs/delivery.webp'
 import plate from '../../../assets/tabs/plate.webp'
 import nightlife from '../../../assets/tabs/Nightlife.webp'
 import nutrition from '../../../assets/tabs/Nutrition.webp'
-export const Delivery={
+export const Delivery_active={
     img:delivery_active,
     head: 'Delivery'
 }
-export const Dining={
+export const Dining_active={
     img:plate_active,
     head: 'Dining Out'
 }
-export const Nightlife={
+export const Nightlife_active={
     img:nightlife_active,
     head: 'Nightlife'
 }
-export const Nutrition={
+export const Nutrition_active={
     img:nutrition_active,
     head:'Nutrition',
 }
-export const TabObjone_={
+export const Delivery={
     
 }
