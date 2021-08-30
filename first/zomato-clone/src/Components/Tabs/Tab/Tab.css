@@ -29,7 +29,8 @@
     display: flex;
 }
 .conta{
-    margin: 6px 10px;
+
+    border-bottom: solid;
 }
 .conta:hover{
     cursor: pointer;
