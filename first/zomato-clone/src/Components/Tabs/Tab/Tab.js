@@ -9,7 +9,7 @@ const Tab=(
     }
 ) =>{
     return (
-        <div className="conta">
+        <section className="conta">
             <div className='tab'>
                 <div className="logo">
                     <img src={img} className='img'/>
@@ -19,7 +19,7 @@ const Tab=(
                 </div>
             </div>
         <hr />
-        </div>
+        </section>
     )
 }
 
