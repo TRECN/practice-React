@@ -12,7 +12,7 @@ export const Delivery_active={
 }
 export const Dining_active={
     img:plate_active,
-    head: 'Dining out'
+    head: 'Dining\u00A0out'
 }
 export const Nightlife_active={
     img:nightlife_active,
