@@ -19,3 +19,6 @@ export const TabObjfour={
     img:nutrition_active,
     head:'Nutrition',
 }
+export const TabObjone_={
+    
+}
