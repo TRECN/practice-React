@@ -1,7 +1,11 @@
 import React from 'react'
 import Tab from './Tab/Tab'
 import './Tabs.css'
-import {Delivery_active, Dining_active, Nightlife_active, Nutrition_active} from '../Tabs/Tab/Data'
+import {
+    Delivery_active,
+     Dining_active,
+      Nightlife_active,
+       Nutrition_active} from '../Tabs/Tab/Data'
 function Tabs() {
     return (
         <div className='tabs'>
