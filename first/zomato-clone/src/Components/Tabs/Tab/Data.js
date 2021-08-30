@@ -23,7 +23,7 @@ export const Nutrition_active={
     head:'Nutrition',
 }
 export const Delivery={
-    img:delivery_active,
+    img:delivery,
     head: 'Delivery'
 }
 export const Dining={
