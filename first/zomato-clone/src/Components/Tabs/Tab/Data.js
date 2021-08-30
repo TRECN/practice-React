@@ -10,11 +10,11 @@ export const Delivery={
     img:delivery_active,
     head: 'Delivery'
 }
-export const TabObjtwo={
+export const Dining={
     img:plate_active,
     head: 'Dining Out'
 }
-export const TabObjthree={
+export const Nightlife={
     img:nightlife_active,
     head: 'Nightlife'
 }
