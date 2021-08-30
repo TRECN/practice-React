@@ -1,11 +1,11 @@
 import React from 'react'
 import Tab from './Tab/Tab'
 import './Tabs.css'
-import {TabObjone,TabObjtwo,TabObjthree,TabObjfour} from '../Tabs/Tab/Data'
+import {TabObjone,TabObjtwo,TabObjthree,TabObjfour, Delivery} from '../Tabs/Tab/Data'
 function Tabs() {
     return (
         <div className='tabs'>
-            <Tab {...TabObjone}/>
+            <Tab {...Delivery}/>
             <Tab {...TabObjtwo}/>
             <Tab {...TabObjthree}/>
             <Tab {...TabObjfour}/>
