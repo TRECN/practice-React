@@ -28,10 +28,7 @@
     color:red;
     display: flex;
 }
-.conta{
 
-    border-bottom: solid;
-}
 .conta:hover{
     cursor: pointer;
     
