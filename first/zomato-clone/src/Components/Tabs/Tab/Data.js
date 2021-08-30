@@ -6,7 +6,7 @@ import delivery from '../../../assets/tabs/delivery.webp'
 import plate from '../../../assets/tabs/plate.webp'
 import nightlife from '../../../assets/tabs/Nightlife.webp'
 import nutrition from '../../../assets/tabs/Nutrition.webp'
-export const TabObjone={
+export const Delivery={
     img:delivery_active,
     head: 'Delivery'
 }
