@@ -18,7 +18,7 @@ export const Nightlife={
     img:nightlife_active,
     head: 'Nightlife'
 }
-export const TabObjfour={
+export const Nutrition={
     img:nutrition_active,
     head:'Nutrition',
 }
