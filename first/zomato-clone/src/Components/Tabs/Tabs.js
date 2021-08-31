@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Tab from './Tab/Tab'
 import './Tabs.css'
 import {
@@ -11,11 +11,15 @@ import {
        Nutrition,
        Nutrition_active} from '../Tabs/Tab/Data'
 function Tabs() {
+    const [click,setclick]=useState(false);
+
+
+
     return (
         <div className='tabs'>
             <div className='section'>
 
-            <Tab {...Delivery}/>
+            <Tab {click?...Delivery:...Delivery_active}/>
             <Tab {...Dining}/>
             <Tab {...Nightlife}/>
             <Tab {...Nutrition}/>
