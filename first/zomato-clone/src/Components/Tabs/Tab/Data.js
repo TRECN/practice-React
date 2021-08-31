@@ -59,6 +59,6 @@ export const Nutrition={
     img:nutrition,
     bg:true,
     head_color:true,
-    underline:,
+    underline:false,
     head:'Nutrition',
 }
