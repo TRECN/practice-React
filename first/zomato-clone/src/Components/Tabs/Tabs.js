@@ -2,6 +2,7 @@ import React from 'react'
 import Tab from './Tab/Tab'
 import './Tabs.css'
 import {
+    Delivery,
     Delivery_active,
      Dining,
      Dining_active,
@@ -13,7 +14,7 @@ function Tabs() {
     return (
         <div className='tabs'>
             <div className='section'>
-            <Tab {...Delivery_active}/>
+            <Tab {...Delivery}/>
             <Tab {...Dining}/>
             <Tab {...Nightlife}/>
             <Tab {...Nutrition}/>
