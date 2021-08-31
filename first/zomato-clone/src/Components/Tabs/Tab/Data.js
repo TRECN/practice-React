@@ -28,7 +28,7 @@ export const Delivery={
 }
 export const Dining={
     img:plate,
-    head: 'Dining Out'
+    head: 'Dining\u00A0Out'
 }
 export const Nightlife={
     img:nightlife,
