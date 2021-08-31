@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import delivery_active from '../../../assets/tabs/delivery_active.webp'
 import './Tab.css'
 const Tab=(
@@ -8,6 +8,9 @@ const Tab=(
 
     }
 ) =>{
+
+    const [Click, setClick]=useState(false);
+
     return (
         <section className="conta">
             <div className='tab'>
