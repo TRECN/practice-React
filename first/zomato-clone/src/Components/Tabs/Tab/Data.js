@@ -36,29 +36,29 @@ export const Nutrition_active={
 }
 export const Delivery={
     img:delivery,
-    bg:true,
-    head_color:true,
-    underline:true,
+    bg:false,
+    head_color:false,
+    underline:false,
     head: 'Delivery'
 }
 export const Dining={
     img:plate,
-    bg:true,
-    head_color:true,
-    underline:true,
+    bg:false,
+    head_color:false,
+    underline:false,
     head: 'Dining\u00A0Out'
 }
 export const Nightlife={
     img:nightlife,
-    bg:true,
-    head_color:true,
-    underline:true,
+    bg:false,
+    head_color:false,
+    underline:false,
     head: 'Nightlife'
 }
 export const Nutrition={
     img:nutrition,
-    bg:true,
-    head_color:true,
+    bg:false,
+    head_color:false,
     underline:false,
     head:'Nutrition',
 }
