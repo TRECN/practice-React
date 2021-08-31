@@ -15,7 +15,7 @@ function Tabs() {
         <div className='tabs'>
             <div className='section'>
 
-            <Tab {...Delivery}/>
+            <Tab{...Delivery}/>
             <Tab {...Dining}/>
             <Tab {...Nightlife}/>
             <Tab {...Nutrition}/>
