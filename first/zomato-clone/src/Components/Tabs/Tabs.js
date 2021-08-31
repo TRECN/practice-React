@@ -15,16 +15,16 @@ function Tabs() {
 
     const handleClick=()=>{
         if(click)
-            return ...Delivery_active
+            return Delivery_active
         else
-            return ...Delivery
+            return Delivery
     }
 
     return (
         <div className='tabs'>
             <div className='section'>
 
-            <Tab handleClick onclick={}/>
+            <Tab ...handleClick />
             <Tab {...Dining}/>
             <Tab {...Nightlife}/>
             <Tab {...Nutrition}/>
