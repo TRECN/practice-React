@@ -11,8 +11,12 @@ const Tab=(
 
     const [Click, setClick]=useState(false);
 
+    const handleClick=()=>{
+        setClick(!Click)
+    }
+
     return (
-        <section className="conta">
+        <section className="conta" onClick={handleClick}>
             <div className='tab'>
                 <div className="logo">
                     <img src={img} className='img'/>
