@@ -38,6 +38,8 @@ export const Delivery={
 }
 export const Dining={
     img:plate,
+    head_color:true,
+    underline:true,
     head: 'Dining\u00A0Out'
 }
 export const Nightlife={
