@@ -13,13 +13,18 @@ import {
 function Tabs() {
     const [click,setclick]=useState(false);
 
-
+    const handleClick=()=>{
+        if(click)
+            return Delivery_active
+        else
+            return Delivery
+    }
 
     return (
         <div className='tabs'>
             <div className='section'>
 
-            <Tab {click?...Delivery:...Delivery_active}/>
+            <Tab {click?Delivery:Delivery_active}/>
             <Tab {...Dining}/>
             <Tab {...Nightlife}/>
             <Tab {...Nutrition}/>
