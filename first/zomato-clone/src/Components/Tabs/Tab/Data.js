@@ -26,6 +26,8 @@ export const Nightlife_active={
 }
 export const Nutrition_active={
     img:nutrition_active,
+    head_color:true,
+    underline:true,
     head:'Nutrition',
 }
 export const Delivery={
