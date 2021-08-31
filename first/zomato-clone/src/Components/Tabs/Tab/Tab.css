@@ -25,6 +25,14 @@
     height: 30px;
     
 }
+.delivery{
+    height: 30px;
+    content: url(../../../assets/tabs/delivery.webp);
+}
+.delivery_active{
+    height: 30px;
+    content: url(../../../assets/tabs/delivery_active.webp);
+}
 .head{
     font-size: 18px;
     letter-spacing: 0.5px;
