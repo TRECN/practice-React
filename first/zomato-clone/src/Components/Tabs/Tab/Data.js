@@ -32,6 +32,8 @@ export const Nutrition_active={
 }
 export const Delivery={
     img:delivery,
+    head_color:true,
+    underline:true,
     head: 'Delivery'
 }
 export const Dining={
