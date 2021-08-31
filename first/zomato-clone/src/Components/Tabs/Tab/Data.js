@@ -8,6 +8,7 @@ import nightlife from '../../../assets/tabs/Nightlife.webp'
 import nutrition from '../../../assets/tabs/Nutrition.webp'
 export const Delivery_active={
     img:delivery_active,
+    bg:true,
     head_color:true,
     underline:true,
     head: 'Delivery'
