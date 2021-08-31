@@ -15,12 +15,14 @@ export const Delivery_active={
 }
 export const Dining_active={
     img:plate_active,
+    bg:true,
     head_color:true,
     underline:true,
     head: 'Dining\u00A0out'
 }
 export const Nightlife_active={
     img:nightlife_active,
+    bg:true,
     head_color:true,
     underline:true,
     head: 'Nightlife'
