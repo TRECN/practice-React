@@ -24,7 +24,7 @@ function Tabs() {
         <div className='tabs'>
             <div className='section'>
 
-            <Tab {click?Delivery:Delivery_active}/>
+            <Tab {handleClick}/>
             <Tab {...Dining}/>
             <Tab {...Nightlife}/>
             <Tab {...Nutrition}/>
