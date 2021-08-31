@@ -19,7 +19,7 @@ const Tab=(
         <section className="conta" onClick={handleClick}>
             <div className='tab'>
                 <div className="logo">
-                    <img src={img} className='img'/>
+                    <img className='img'/>
                 </div>
                 <div className="head">
                     <p className='heading'>{head}</p>
