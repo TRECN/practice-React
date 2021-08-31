@@ -20,6 +20,8 @@ export const Dining_active={
 }
 export const Nightlife_active={
     img:nightlife_active,
+    head_color:true,
+    underline:true,
     head: 'Nightlife'
 }
 export const Nutrition_active={
