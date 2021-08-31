@@ -44,6 +44,8 @@ export const Dining={
 }
 export const Nightlife={
     img:nightlife,
+    head_color:true,
+    underline:true,
     head: 'Nightlife'
 }
 export const Nutrition={
