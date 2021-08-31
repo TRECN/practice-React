@@ -29,31 +29,36 @@ export const Nightlife_active={
 }
 export const Nutrition_active={
     img:nutrition_active,
+    bg:true,
     head_color:true,
     underline:true,
     head:'Nutrition',
 }
 export const Delivery={
     img:delivery,
+    bg:true,
     head_color:true,
     underline:true,
     head: 'Delivery'
 }
 export const Dining={
     img:plate,
+    bg:true,
     head_color:true,
     underline:true,
     head: 'Dining\u00A0Out'
 }
 export const Nightlife={
     img:nightlife,
+    bg:true,
     head_color:true,
     underline:true,
     head: 'Nightlife'
 }
 export const Nutrition={
     img:nutrition,
+    bg:true,
     head_color:true,
-    underline:true,
+    underline:,
     head:'Nutrition',
 }
