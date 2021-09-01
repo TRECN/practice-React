@@ -9,6 +9,7 @@ const Tab=(
         head_C,
         img1,
         add,
+        C_add,
 
     }
 ) =>{
@@ -19,6 +20,7 @@ const Tab=(
         setClick(!Click)
         console.log(window.location.href)
     }
+
 
     return (
         <Link to={add} className="conta" onClick={handleClick}>
