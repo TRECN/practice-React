@@ -93,7 +93,10 @@
     cursor: pointer;
     
 }
-hr{
-    background-color: red;
-    border-color: transparent;
+
+hr .hr_red{
+    border-top: 2px solid red;
+}
+hr .hr_gray{
+    border: transparent;
 }
