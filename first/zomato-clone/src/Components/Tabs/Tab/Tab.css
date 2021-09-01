@@ -96,8 +96,10 @@
 }
 
 .hr_red hr{
-    border-top: 2px solid red;
+    border: 1px solid red;
+    background-color: red;
 }
 .hr_gray hr{
     border: transparent;
+    
 }
