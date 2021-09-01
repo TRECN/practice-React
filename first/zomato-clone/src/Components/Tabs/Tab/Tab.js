@@ -17,17 +17,27 @@ const Tab=(
 
     const [Click, setClick]=useState(false);
     var t=window.location.href
+
+    function refreshPage() {
+        setTimeout(()=>{
+            window.location.reload(false);
+        }, 500);
+        console.log('page to reload')
+    }
+
     const handleClick=()=>{
         setClick(!Click)
         t=window.location.href
+        refreshPage()
     }
     useEffect(() => {     
         t=window.location.href
         console.log(t)
+        
     })
 
     return (
-        <Link to={add} refresh='true' className="conta" onClick={handleClick}>
+        <Link to={add} className="conta" onClick={handleClick}>
             <div className='tab'>
                 <div className={`logo  ${((t===C_add)||(t===C_add1))?img1:''} ${((t!==C_add)||(t!==C_add1))?img:''}`}>
                     <img className={`img`}/>
