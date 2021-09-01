@@ -4,9 +4,7 @@
 }
 
 .tabs{
-
-    border-bottom: .2px solid #EEEEEe;
-    
+    border-bottom: .2px solid #EEEEEe; 
 }
 .section{
     display: flex;
