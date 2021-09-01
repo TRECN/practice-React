@@ -37,20 +37,24 @@ import nutrition from '../../../assets/tabs/Nutrition.webp'
 export const Delivery={
     img:'delivery',
     img1:'delivery_active',
+    head_C:'red',
     head: 'Delivery'
 }
 export const Dining={
     img:'plate',
     img1:'plate_active',
+    head_C:'red',
     head: 'Dining\u00A0Out'
 }
 export const Nightlife={
     img:'nightlife',
     img1:'nightlife_active',
+    head_C:'red',
     head: 'Nightlife'
 }
 export const Nutrition={
     img:'nutrition',
     img1:'nutrition_active',
+    head_C:'red',
     head:'Nutrition',
 }
