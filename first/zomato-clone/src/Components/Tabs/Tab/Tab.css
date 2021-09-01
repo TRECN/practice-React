@@ -94,9 +94,9 @@
     
 }
 
-hr .hr_red{
+.hr_red hr{
     border-top: 2px solid red;
 }
-hr .hr_gray{
+.hr_gray hr{
     border: transparent;
 }
