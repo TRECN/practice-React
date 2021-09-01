@@ -24,38 +24,39 @@
 .img{
     height: 30px;   
 }
-.delivery{
+.delivery .img{
     height: 30px;
     content: url(../../../assets/tabs/delivery.webp);
 }
-.delivery_active{
+.delivery_active .img{
     height: 30px;
     content: url(../../../assets/tabs/delivery_active.webp);
 }
-.plate{
+.plate .img{
     height: 30px;
     content: url(../../../assets/tabs/plate.webp);
 }
-.plate_active{
+.plate_active .img{
     height: 30px;
     content: url(../../../assets/tabs/plate_active.webp);
 }
-.nightlife{
+.nightlife .img{
     height: 30px;
     content: url(../../../assets/tabs/Nightlife.webp);
 }
-.nightlife_active{
+.nightlife_active .img{
     height: 30px;
     content: url(../../../assets/tabs/Nightlife_active.webp);
 }
-.nightlife{
+.nutrition .img{
     height: 30px;
-    content: url(../../../assets/tabs/Nightlife.webp);
+    content: url(../../../assets/tabs/Nutrition.webp);
 }
-.nightlife_active{
+.nutrition_active .img{
     height: 30px;
-    content: url(../../../assets/tabs/Nightlife_active.webp);
+    content: url(../../../assets/tabs/Nutrition_active.webp);
 }
+
 .head{
     font-size: 18px;
     letter-spacing: 0.5px;
