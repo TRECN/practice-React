@@ -6,6 +6,8 @@ import  Delivery  from './Components/Delivery/Delivery'
 
 import Tabs from './Components/Tabs/Tabs'
 import DiningOut from './Components/DiningOut/DiningOut'
+import Nightlife from './Components/Nightlife/Nightlife'
+import Nutrition from './Components/Nutrition/Nutrition'
 
 function App() {
     return (
@@ -16,7 +18,10 @@ function App() {
                 <Tabs/>
                 <Switch>
                     <Route path='/' exact component={Delivery}></Route>
-                    <Route path='/Dining_out' component={DiningOut}></Route>
+                    <Route path='/delivery' exact component={Delivery}></Route>
+                    <Route path='/dining' component={DiningOut}></Route>
+                    <Route path='/nightlife' component={Nightlife}></Route>
+                    <Route path='/nutrition' component={Nutrition}></Route>
                 </Switch>
 
             </Router>

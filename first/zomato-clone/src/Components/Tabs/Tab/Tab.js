@@ -1,6 +1,5 @@
 import React, { useState,useEffect } from 'react'
 import { Link } from 'react-router-dom';
-import delivery_active from '../../../assets/tabs/delivery_active.webp'
 import './Tab.css'
 const Tab=(
     {
