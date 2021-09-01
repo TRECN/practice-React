@@ -9,7 +9,7 @@ import nutrition from '../../../assets/tabs/Nutrition.webp'
 export const Delivery={
     add:'delivery',
     C_add:'http://localhost:3000/#/',
-    C_add1:'http://localhost:3000/delivery',
+    C_add1:'http://localhost:3000/delivery#/',
     img:'delivery',
     img1:'delivery_active',
     head_C:'red',
