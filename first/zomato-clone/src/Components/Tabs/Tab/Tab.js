@@ -23,7 +23,7 @@ const Tab=(
                 <div className={`logo  ${Click?img1:img}`}>
                     <img className={`img`}/>
                 </div>
-                <div className="head">
+                <div className={`head ${Click?head_C:''}`}>
                     <p className='heading'>{head}</p>
                 </div>
             </div>
