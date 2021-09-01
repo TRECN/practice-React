@@ -5,6 +5,7 @@ const Tab=(
     {
         img,
         head,
+        head_C,
         img1,
 
     }
