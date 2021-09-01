@@ -27,9 +27,9 @@ const Tab=(
                     <p className='heading'>{head}</p>
                 </div>
             </div> 
-            <div className="g">
+            <div className={`${Click?'hr_red':'hr_gray'}`}>
                 <hr/>
-                </div>
+            </div>
         </section>
     )
 }
