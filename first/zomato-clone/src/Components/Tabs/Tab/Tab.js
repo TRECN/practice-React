@@ -26,8 +26,10 @@ const Tab=(
                 <div className={`head ${Click?head_C:''}`}>
                     <p className='heading'>{head}</p>
                 </div>
-            </div>
-        <hr />
+            </div> 
+            <div className="g">
+                <hr/>
+                </div>
         </section>
     )
 }
