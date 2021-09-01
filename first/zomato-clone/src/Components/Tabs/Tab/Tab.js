@@ -19,7 +19,7 @@ const Tab=(
     return (
         <section className="conta" onClick={handleClick}>
             <div className='tab'>
-                <div className={`logo  ${Click?img:img1}`}>
+                <div className={`logo  ${Click?img1:img}`}>
                     <img className={`img`}/>
                 </div>
                 <div className="head">
