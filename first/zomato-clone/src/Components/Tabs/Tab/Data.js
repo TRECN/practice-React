@@ -27,13 +27,13 @@ import nutrition from '../../../assets/tabs/Nutrition.webp'
 //     underline:true,
 //     head: 'Nightlife'
 // }
-export const Nutrition_active={
-    img:'nutrition_active',
-    bg:true,
-    head_color:true,
-    underline:true,
-    head:'Nutrition',
-}
+// export const Nutrition_active={
+//     img:'nutrition_active',
+//     bg:true,
+//     head_color:true,
+//     underline:true,
+//     head:'Nutrition',
+// }
 export const Delivery={
     img:'delivery',
     bg:false,
