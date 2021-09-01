@@ -48,6 +48,14 @@
     height: 30px;
     content: url(../../../assets/tabs/Nightlife_active.webp);
 }
+.nightlife{
+    height: 30px;
+    content: url(../../../assets/tabs/Nightlife.webp);
+}
+.nightlife_active{
+    height: 30px;
+    content: url(../../../assets/tabs/Nightlife_active.webp);
+}
 .head{
     font-size: 18px;
     letter-spacing: 0.5px;
