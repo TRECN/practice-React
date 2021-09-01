@@ -46,11 +46,11 @@ export const Dining={
 }
 export const Nightlife={
     img:'nightlife',
-    img:'nightlife_active',
+    img1:'nightlife_active',
     head: 'Nightlife'
 }
 export const Nutrition={
     img:'nutrition',
-    img:'nutrition_active',
+    img1:'nutrition_active',
     head:'Nutrition',
 }
