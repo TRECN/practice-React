@@ -12,7 +12,6 @@ function Tabs() {
     return (
         <div className='tabs'>
             <div className='section'>
-
             <Tab {...Delivery}/>
             <Tab {...Dining}/>
             <Tab {...Nightlife}/>
