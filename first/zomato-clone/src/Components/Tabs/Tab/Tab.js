@@ -17,12 +17,11 @@ const Tab=(
 
     const [Click, setClick]=useState(false);
     var t=window.location.href
-
+    //code to refresh page
     function refreshPage() {
         setTimeout(()=>{
             window.location.reload(false);
-        }, 500);
-        console.log('page to reload')
+        }, 1);
     }
 
     const handleClick=()=>{
