@@ -15,10 +15,10 @@ const Tab=(
 ) =>{
 
     const [Click, setClick]=useState(false);
-
+    const t=console.log(window.location.href)
     const handleClick=()=>{
         setClick(!Click)
-        console.log(window.location.href)
+        
     }
 
 
