@@ -11,7 +11,7 @@
 }
 .conta{
     margin: 0 10px;
-    
+    text-decoration: none;
 }
 .logo{
     border-radius: 100px;
@@ -91,6 +91,7 @@
 }
 .conta:hover{
     cursor: pointer;
+    text-decoration: none;
     
 }
 
