@@ -86,8 +86,9 @@
     color: #787878;
     display: flex;
 }
-
-
+.red{
+    color: red;
+}
 .conta:hover{
     cursor: pointer;
     
