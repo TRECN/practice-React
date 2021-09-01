@@ -8,6 +8,7 @@ const Tab=(
         head,
         head_C,
         img1,
+        add,
 
     }
 ) =>{
@@ -16,10 +17,11 @@ const Tab=(
 
     const handleClick=()=>{
         setClick(!Click)
+        console.log(window.location.href)
     }
 
     return (
-        <Link to='/delivery' className="conta" onClick={handleClick}>
+        <Link to={add} className="conta" onClick={handleClick}>
             <div className='tab'>
                 <div className={`logo  ${Click?img1:img}`}>
                     <img className={`img`}/>
