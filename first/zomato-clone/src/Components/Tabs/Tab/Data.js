@@ -6,27 +6,27 @@ import delivery from '../../../assets/tabs/delivery.webp'
 import plate from '../../../assets/tabs/plate.webp'
 import nightlife from '../../../assets/tabs/Nightlife.webp'
 import nutrition from '../../../assets/tabs/Nutrition.webp'
-export const Delivery_active={
-    img:'delivery_active',
-    bg:true,
-    head_color:true,
-    underline:true,
-    head: 'Delivery'
-}
-export const Dining_active={
-    img:'plate_active',
-    bg:true,
-    head_color:true,
-    underline:true,
-    head: 'Dining\u00A0out'
-}
-export const Nightlife_active={
-    img:'nightlife_active',
-    bg:true,
-    head_color:true,
-    underline:true,
-    head: 'Nightlife'
-}
+// export const Delivery_active={
+//     img:'delivery_active',
+//     bg:true,
+//     head_color:true,
+//     underline:true,
+//     head: 'Delivery'
+// }
+// export const Dining_active={
+//     img:'plate_active',
+//     bg:true,
+//     head_color:true,
+//     underline:true,
+//     head: 'Dining\u00A0out'
+// }
+// export const Nightlife_active={
+//     img:'nightlife_active',
+//     bg:true,
+//     head_color:true,
+//     underline:true,
+//     head: 'Nightlife'
+// }
 export const Nutrition_active={
     img:'nutrition_active',
     bg:true,
