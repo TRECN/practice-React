@@ -83,7 +83,7 @@ ul a{
     top: -150%;
     
 }
- @media screen and (max-width:770px) {
+ @media screen and (max-width:915px) {
     .container {
         display: none;
     }
