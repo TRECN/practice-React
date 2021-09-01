@@ -36,6 +36,7 @@ import nutrition from '../../../assets/tabs/Nutrition.webp'
 // }
 export const Delivery={
     img:'delivery',
+    img1:'delivery_active',
     bg:false,
     head_color:false,
     underline:false,
@@ -43,6 +44,7 @@ export const Delivery={
 }
 export const Dining={
     img:'plate',
+    img1:'plate_active',
     bg:false,
     head_color:false,
     underline:false,
@@ -50,6 +52,7 @@ export const Dining={
 }
 export const Nightlife={
     img:'nightlife',
+    img:'nightlife_active',
     bg:false,
     head_color:false,
     underline:false,
@@ -57,6 +60,7 @@ export const Nightlife={
 }
 export const Nutrition={
     img:'nutrition',
+    img:'nutrition_active',
     bg:false,
     head_color:false,
     underline:false,
