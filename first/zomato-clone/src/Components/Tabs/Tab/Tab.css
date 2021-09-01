@@ -14,7 +14,6 @@
     
 }
 .logo{
-    background: #ffeecc;
     border-radius: 100px;
     width: 2rem;
     height: 2rem;
@@ -23,29 +22,30 @@
 }
 .img{
     height: 30px;   
-}.delivery .img{
-
 }
-.delivery_active .img{
-
+.delivery {
+    background: #ffeecc;
 }
-.plate .img{
-
+.delivery_active{
+    background: #ffeecc;
 }
-.plate_active .img{
-
+.plate{
+    background: #ffeecc;
 }
-.nightlife .img{
-
+.plate_active {
+    background: #ffeecc;
+}   
+.nightlife {
+    background: #ffeecc;
 }
 .nightlife_active {
-
+    background: #ffeecc;
 }
 .nutrition {
-
+    background: #ffeecc;
 }
 .nutrition_active {
-
+    background: #ffeecc;
 }
 .delivery .img{
     height: 30px;
