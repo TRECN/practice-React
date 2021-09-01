@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 import delivery_active from '../../../assets/tabs/delivery_active.webp'
 import './Tab.css'
 const Tab=(
@@ -18,7 +19,7 @@ const Tab=(
     }
 
     return (
-        <section className="conta" onClick={handleClick}>
+        <Link to='/delivery' className="conta" onClick={handleClick}>
             <div className='tab'>
                 <div className={`logo  ${Click?img1:img}`}>
                     <img className={`img`}/>
@@ -30,7 +31,7 @@ const Tab=(
             <div className={`${Click?'hr_red':'hr_gray'}`}>
                 <hr/>
             </div>
-        </section>
+        </Link>
     )
 }
 
