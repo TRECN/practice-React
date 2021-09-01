@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import delivery_active from '../../../assets/tabs/delivery_active.webp'
 import './Tab.css'
@@ -10,29 +10,33 @@ const Tab=(
         img1,
         add,
         C_add,
+        C_add1
 
     }
 ) =>{
 
     const [Click, setClick]=useState(false);
-    const t=console.log(window.location.href)
+    var t=window.location.href
     const handleClick=()=>{
         setClick(!Click)
-        
+        t=window.location.href
     }
-
+    useEffect(() => {     
+        t=window.location.href
+        console.log(t)
+    })
 
     return (
         <Link to={add} className="conta" onClick={handleClick}>
             <div className='tab'>
-                <div className={`logo  ${Click?img1:img}`}>
+                <div className={`logo  ${((t===C_add)||(t===C_add1))?img1:img}`}>
                     <img className={`img`}/>
                 </div>
-                <div className={`head ${Click?head_C:''}`}>
+                <div className={`head ${((t===C_add)||(t===C_add1))?head_C:''}`}>
                     <p className='heading'>{head}</p>
                 </div>
             </div> 
-            <div className={`${Click?'hr_red':'hr_gray'}`}>
+            <div className={`${((t===C_add)||(t===C_add1))?'hr_red':'hr_gray'}`}>
                 <hr/>
             </div>
         </Link>
