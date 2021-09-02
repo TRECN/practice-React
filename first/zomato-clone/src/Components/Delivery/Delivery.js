@@ -1,9 +1,11 @@
 import React from 'react'
+import Btn from './Btn'
 
 function Delivery() {
     return (
-        <div>
-            Delivery
+        <div className='delivery'>
+            <Btn/>
+            
         </div>
     )
 }
