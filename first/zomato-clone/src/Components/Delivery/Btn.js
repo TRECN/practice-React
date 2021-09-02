@@ -4,9 +4,9 @@ function Btn() {
     return (
         <div>
             <button className='btn'>
-            <img src={img} alt="" />
+            <img src={img} alt=""/>
                 Filters
-                </button>
+            </button>
         </div>
     )
 }
