@@ -5,7 +5,7 @@ import {
     Delivery,
      Dining,
       Nightlife,
-       Nutrition,} from '../Tabs/Tab/Data'
+       Nutrition,} from '../../../src/Data'
 function Tabs() {
 
 
