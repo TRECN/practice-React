@@ -35,3 +35,8 @@ export const Nutrition={
     head_C:'red',
     head:'Nutrition',
 }
+
+export const Filters={
+    img:'',
+    name:'Filter'
+}
