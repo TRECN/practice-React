@@ -3,7 +3,7 @@ import Btn from './Btn'
 import {Filters} from '../../Data'
 function Delivery() {
     return (
-        <div className='delivery'>
+        <div className='delivery' style={{backgroundColor:'transparent'}}>
             <Btn {...Filters}/>
         </div>
     )
