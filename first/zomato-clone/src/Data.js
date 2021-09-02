@@ -37,6 +37,6 @@ export const Nutrition={
 }
 
 export const Filters={
-    img:'',
+    img:'filters',
     name:'Filters'
 }
