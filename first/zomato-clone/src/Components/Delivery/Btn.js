@@ -7,7 +7,7 @@ function Btn({
     return (
         <div>
             <button className='btn'>
-                <img src={img} alt=""/>
+                <img className={img}/>
                 {name}
             </button>
         </div>
