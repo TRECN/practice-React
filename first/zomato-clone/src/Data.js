@@ -40,3 +40,13 @@ export const Filters={
     img:'filters',
     name:'Filters'
 }
+export const Rating={
+    name:'Rating: 4.0+'
+}
+export const SandH={
+    
+    name:'Safe and Hygienic'
+}
+export const PureVeg={
+    name:'Filters'
+}
