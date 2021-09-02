@@ -1,5 +1,5 @@
 import React from 'react'
-import img from './img.svg'
+import img from '../../assets/delivery/img.svg'
 function Btn() {
     return (
         <div>
