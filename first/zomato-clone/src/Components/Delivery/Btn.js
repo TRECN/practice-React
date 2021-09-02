@@ -1,11 +1,14 @@
 import React from 'react'
-import img from '../../assets/delivery/img.svg'
-function Btn() {
+import './Btn.css'
+function Btn({
+    img,
+    name
+}) {
     return (
         <div>
             <button className='btn'>
                 <img src={img} alt=""/>
-                Filters
+                {name}
             </button>
         </div>
     )
