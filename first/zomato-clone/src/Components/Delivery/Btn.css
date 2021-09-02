@@ -17,3 +17,7 @@ body{
     margin-right: 5px;
     content: url(../../assets/delivery/img.svg);
 }
+.deliverytime{
+    margin-right: 5px;
+    content: url(../../assets/delivery/img2.svg);
+}
