@@ -4,7 +4,8 @@ body{
 
 .btn{
     padding: 5px;
-    border: 1px solid gray;
-    background: none;
+    border: 1px solid #afaeae;
+    background: #FFFFFF;
+    color: #acaaaa;
     border-radius: 5px;
 }
