@@ -50,3 +50,10 @@ export const SandH={
 export const PureVeg={
     name:'Pure Veg'
 }
+export const DeliveryTime={
+    img:'deliverytime',
+    name:'Delivery Time'
+}
+export const GreatOffers={
+    name:'Great Offers'
+}
