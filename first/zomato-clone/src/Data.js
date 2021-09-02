@@ -41,19 +41,19 @@ export const Filters={
     name:'Filters'
 }
 export const Rating={
-    name:'Rating: 4.0+'
+    name:'Rating:\u00A04.0+'
 }
 export const SandH={
     
-    name:'Safe and Hygienic'
+    name:'Safe\u00A0and\u00A0Hygienic'
 }
 export const PureVeg={
-    name:'Pure Veg'
+    name:'Pure\u00A0Veg'
 }
 export const DeliveryTime={
     img:'deliverytime',
-    name:'Delivery Time'
+    name:'Delivery\u00A0Time'
 }
 export const GreatOffers={
-    name:'Great Offers'
+    name:'Great\u00A0Offers'
 }
