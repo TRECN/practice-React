@@ -48,5 +48,5 @@ export const SandH={
     name:'Safe and Hygienic'
 }
 export const PureVeg={
-    name:'Filters'
+    name:'Pure Veg'
 }
