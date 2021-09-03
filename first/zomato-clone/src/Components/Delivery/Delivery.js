@@ -5,7 +5,7 @@ import './Delivery.css'
 function Delivery() {
     return (
         <>
-        <div className='delivery' style={{backgroundColor:'transparent'}}>
+        <div className='del' style={{backgroundColor:'transparent'}}>
             <Btn {...Filters}/>
             <Btn {...Rating}/>
             <Btn {...SandH}/>
