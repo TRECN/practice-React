@@ -1,11 +1,12 @@
 import React from 'react'
 import Btn from '../Btn/Btn'
+import {Filters } from '../../Data'
 
 function DiningOut() {
     return (
         <>
             <div>
-                <Btn {...Filter}/>
+                <Btn {...Filters}/>
                 <Btn />
                 <Btn />
                 <Btn />
