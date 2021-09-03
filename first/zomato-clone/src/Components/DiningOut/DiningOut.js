@@ -1,6 +1,6 @@
 import React from 'react'
 import Btn from '../Btn/Btn'
-import {Distance, Filters, Rating } from '../../Data'
+import {Distance, Filters, Online, Rating } from '../../Data'
 import './DiningOut.css'
 
 
@@ -11,6 +11,7 @@ function DiningOut() {
                 <Btn {...Filters}/>
                 <Btn {...Rating}/>
                 <Btn {...Distance}/>
+                <Btn {...Online}/>
             </div>
         </>
     )
