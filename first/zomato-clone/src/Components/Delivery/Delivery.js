@@ -11,8 +11,7 @@ function Delivery() {
             <Btn {...SandH}/>
             <Btn {...PureVeg}/>
             <Btn {...DeliveryTime}/>
-            <Btn {...GreatOffers}/>
-            
+            <Btn {...GreatOffers}/> 
         </div>
     </>
     )
