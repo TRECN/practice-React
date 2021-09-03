@@ -4,7 +4,7 @@ function DiningOut() {
     return (
         <>
             <div>
-            
+                
             </div>
         </>
     )
