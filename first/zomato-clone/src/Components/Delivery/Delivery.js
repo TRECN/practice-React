@@ -4,6 +4,7 @@ import {Filters,Rating,SandH,PureVeg,DeliveryTime,GreatOffers} from '../../Data'
 import './Delivery.css'
 function Delivery() {
     return (
+        <>
         <div className='delivery' style={{backgroundColor:'transparent'}}>
             <Btn {...Filters}/>
             <Btn {...Rating}/>
@@ -11,7 +12,9 @@ function Delivery() {
             <Btn {...PureVeg}/>
             <Btn {...DeliveryTime}/>
             <Btn {...GreatOffers}/>
+            
         </div>
+    </>
     )
 }
 
