@@ -37,7 +37,7 @@ const Tab=(
     return (
         <Link to={add} className="conta" onClick={handleClick}>
             <div className='tab'>
-                <div className={`logo  ${((t===C_add)||(t===C_add1))?img1:''} ${((t!==C_add)||(t!==C_add1))?img:''}`}>
+                <div className={`logo  ${((t===C_add)||(t===C_add1))?img1:''} ${(t!==C_add1)?img:''}`}>
                     <img className={`img`}/>
                 </div>
                 <div className={`head ${((t===C_add)||(t===C_add1))?head_C:''}`}>
