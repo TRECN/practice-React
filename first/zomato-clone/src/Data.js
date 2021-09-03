@@ -62,3 +62,6 @@ export const Distance={
     img:'deliverytime',
     name:'Distance'
 }
+export const Online={
+    name:'Online\u00A0bookings'
+}
