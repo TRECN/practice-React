@@ -37,14 +37,14 @@ const Tab=(
     return (
         <Link to={add} className="conta" onClick={handleClick}>
             <div className='tab'>
-                <div className={`logo ${((t===C_add1))?img1:img}`}>
-                    <img className='img'/>
+                <div className={`logo  ${((t===C_add)||(t===C_add1))?img1:''} ${((t!==C_add)||(t!==C_add1))?img:''}`}>
+                    <img className={`img`}/>
                 </div>
-                <div className={`head ${((t===C_add1))?head_C:''}`}>
+                <div className={`head ${((t===C_add)||(t===C_add1))?head_C:''}`}>
                     <p className='heading'>{head}</p>
                 </div>
             </div> 
-            <div className={`${((t===C_add1))?'hr_red':'hr_gray'}`}>
+            <div className={`${((t===C_add)||(t===C_add1))?'hr_red':'hr_gray'}`}>
                 <hr/>
             </div>
         </Link>
