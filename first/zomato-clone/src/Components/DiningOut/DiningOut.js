@@ -7,7 +7,7 @@ import './DiningOut.css'
 function DiningOut() {
     return (
         <>
-            <div>
+            <div className='DiningOut'>
                 <Btn {...Filters}/>
                 <Btn {...Rating}/>
             </div>
