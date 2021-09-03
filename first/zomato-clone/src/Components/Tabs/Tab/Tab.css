@@ -46,6 +46,7 @@
 }
 .delivery .img{
     height: 30px;
+    
     content: url(../../../assets/tabs/delivery.webp);
 }
 .delivery_active .img{
