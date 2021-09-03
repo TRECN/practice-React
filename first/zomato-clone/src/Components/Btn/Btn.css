@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+
+.btn{
+    padding: 8px;
+    border: 1px solid #afaeae;
+    background: #FFFFFF;
+    color: #acaaaa;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 16px;
+    letter-spacing: 0.5px;
+}
+.filters{
+    margin-right: 5px;
+    content: url(../../assets/delivery/img.svg);
+}
+.deliverytime{
+    margin-right: 5px;
+    content: url(../../assets/delivery/img2.svg);
+}
