@@ -65,3 +65,6 @@ export const Distance={
 export const Online={
     name:'Online\u00A0bookings'
 }
+export const Outdoor={
+    name:'Outdoor\u00A0Seating'
+}
