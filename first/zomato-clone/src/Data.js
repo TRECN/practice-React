@@ -58,3 +58,7 @@ export const DeliveryTime={
 export const GreatOffers={
     name:'Great\u00A0Offers'
 }
+export const Distance={
+    img:'deliverytime',
+    name:'Distance'
+}
