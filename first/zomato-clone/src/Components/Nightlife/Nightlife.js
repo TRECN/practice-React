@@ -1,6 +1,7 @@
 import React from 'react'
 import { Distance, Filters, Online, Outdoor, Rating } from '../../Data'
 import Btn from '../Btn/Btn'
+import './Nightlife.css'
 
 function Nightlife() {
     return (
