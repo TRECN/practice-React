@@ -2,5 +2,10 @@
     padding: 15px;
     display: flex;
     background-color: transparent;
-
+    align-items: center;
+}
+@media screen and (min-width:915px) {
+    .nightlife{
+        justify-content: center;
+    }
 }
