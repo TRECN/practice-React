@@ -3,6 +3,7 @@
     width: 350px;
 }
 .im{
+    content: url(../../assets/cards/Dominos_Pizza.webp);
     background-size: contain;
 
 }
