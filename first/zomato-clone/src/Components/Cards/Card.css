@@ -1,6 +1,6 @@
 .Card{
     width: 350px;
-    height: 100%;
+
     display: flex;
     padding: 10px;
     align-items: center;
@@ -24,7 +24,6 @@
 }
 
 .detail{
-    margin: 40px;
     display: block;
 }
 .detail_1{
