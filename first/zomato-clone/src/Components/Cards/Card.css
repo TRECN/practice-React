@@ -5,11 +5,14 @@
     padding: 10px;
     align-items: center;
     border-radius: 20px;
-    border: 1px solid transparent;
+    border: 0.1px solid transparent;
+    display: flex;
+    flex-direction: column;
 }
 .Card:hover{
     padding: 10px;
-    border-color: ;
+    border-color: rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
 }
 .im{
     border-radius: 10px;
