@@ -7,8 +7,7 @@
 .Cards{
     padding: 20px;
     display: flex;
-    align-items: center;
-    
+    justify-content: center;
 }
 
 @media screen and (min-width:915px) {
