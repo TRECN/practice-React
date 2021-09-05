@@ -10,7 +10,9 @@
     display: flex;
     justify-content: center;
 }
-
+.heading{
+    font-weight: 500;
+}
 @media screen and (min-width:915px) {
     .del{
         justify-content: center;
