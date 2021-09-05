@@ -14,8 +14,14 @@ function Delivery() {
             <Btn {...DeliveryTime}/>
             <Btn {...GreatOffers}/> 
         </div>
-        <div className="Cards">
+        <div className="card_col">
+            <div className="heading">
+                <h1>Best Food in Ranchi</h1>
+            </div>
+            <div className="Cards">
             <Card/>
+            </div>
+            
         </div>
     </>
     )
