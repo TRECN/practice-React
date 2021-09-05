@@ -14,7 +14,7 @@ function Delivery() {
             <Btn {...DeliveryTime}/>
             <Btn {...GreatOffers}/> 
         </div>
-        <div className="cards">
+        <div className="Cards">
             <Card/>
         </div>
     </>
