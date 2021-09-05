@@ -27,3 +27,7 @@
     display: flex;
     justify-content: space-between;
 }
+
+.name,.rating{
+    margin:8px 0 8px 0;
+}
