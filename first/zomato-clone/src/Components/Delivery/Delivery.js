@@ -15,7 +15,7 @@ function Delivery() {
             <Btn {...GreatOffers}/> 
         </div>
         <div className="card_col">
-            <div className="heading">
+            <div className="heading1">
                 <h1>Best Food in Ranchi</h1>
             </div>
             <div className="Cards">
