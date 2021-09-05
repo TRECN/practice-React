@@ -6,6 +6,9 @@ function Card() {
     return (
         <div className='Card'>
             <img className='im'/>
+            <div className="detail_1">
+                <h4>Domino's Pizza</h4>
+            </div>
         </div>
     )
 }
