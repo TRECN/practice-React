@@ -13,6 +13,7 @@ function Card() {
                     </div>
                     <div className="rating">
                         <h4>3.4</h4>
+                        <img alt="" />
                     </div>
                 </div>
             </div>
