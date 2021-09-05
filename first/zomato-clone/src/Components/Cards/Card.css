@@ -25,6 +25,5 @@
 }
 .detail_1{
     display: flex;
-    -webkit-box-pack: justify;
     justify-content: space-between;
 }
