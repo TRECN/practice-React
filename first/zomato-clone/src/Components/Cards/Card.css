@@ -1,13 +1,10 @@
 .Card{
     width: 350px;
-
-    display: flex;
-    padding: 10px;
-    align-items: center;
-    border-radius: 20px;
-    border: 0.1px solid transparent;
     display: flex;
     flex-direction: column;
+    padding: 10px;
+    border-radius: 20px;
+    border: 0.1px solid transparent;
 }
 
 .Card:hover{
