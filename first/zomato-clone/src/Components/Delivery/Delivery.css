@@ -4,8 +4,11 @@
     align-items: center;
 }
 
-.cards{
+.Cards{
     padding: 20px;
+    display: flex;
+    align-items: center;
+    
 }
 
 @media screen and (min-width:915px) {
