@@ -6,12 +6,15 @@ function Card() {
     return (
         <div className='Card'>
             <img className='im'/>
+            <div className="detail">
             <div className="detail_1">
                 <h4>Domino's Pizza</h4>
                 <div className="rating">
                     <h4>3.4</h4>
                 </div>
             </div>
+            </div>
+            
         </div>
     )
 }
