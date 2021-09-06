@@ -9,12 +9,15 @@ function Card() {
             <div className="detail">
                 <div className="detail_1">
                     <div className="name">
-                    <h4>Domino's Pizza</h4>
+                        <h4>Domino's Pizza</h4>
                     </div>
                     <div className="rating">
                         <h4>3.4</h4>
                         <img alt=""/>
                     </div>
+                </div>
+                <div className="detail_2">
+                    
                 </div>
             </div>
         </div>
