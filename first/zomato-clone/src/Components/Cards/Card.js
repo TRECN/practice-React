@@ -24,8 +24,6 @@ function Card() {
                         <h4>$200</h4>
                     </div>
                 </div>
-                <br />
-                <hr />
             </div>
         </div>
     )
