@@ -30,7 +30,10 @@
 .detail_2{
     display: flex;
     justify-content: space-between;
-    color: ;
+    color: #afaeae;
+}
+.detail hr{
+    color: #c0c0c0;
 }
 
 .name,.rating{
