@@ -42,8 +42,8 @@
     font-size: 1.2rem;
 }
 
-@media screen and (min-width:915px) {
+@media screen and (max-width:915px) {
     .Card:hover{
-        width: 300px;
+        width: 400px;
     }
 }
