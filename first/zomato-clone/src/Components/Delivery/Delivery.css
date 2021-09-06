@@ -11,8 +11,8 @@
 .Cards{
     margin: 20px;
     padding: 20px;
-    display: grid;
-    grid-template-rows: 3;
+    display: flex;
+    
 }
 .heading{
     font-weight: 500;
