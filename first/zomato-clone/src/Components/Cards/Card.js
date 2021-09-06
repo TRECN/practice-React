@@ -24,6 +24,9 @@ function Card() {
                         <h4>$200</h4>
                     </div>
                 </div>
+                <div className="detail_3">
+                    <h4>Follows all Max Safety measures to ensure....</h4>
+                </div>
             </div>
         </div>
     )
