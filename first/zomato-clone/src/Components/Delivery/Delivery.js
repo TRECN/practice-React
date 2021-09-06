@@ -25,16 +25,7 @@ function Delivery() {
             <Card/>
             <Card/>
             </div>
-            <div className="Cards">
-            <Card/>
-            <Card/>
-            <Card/>
-            </div>
-            <div className="Cards">
-            <Card/>
-            <Card/>
-            <Card/>
-            </div>
+            
             
         </div>
     </>
