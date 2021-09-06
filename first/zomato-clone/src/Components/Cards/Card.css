@@ -43,7 +43,11 @@
 }
 
 @media screen and (max-width:915px) {
+    .Card{
+        margin-right: 20px;
+    }
     .Card:hover{
         width: 400px;
     }
+
 }
