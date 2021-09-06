@@ -3,6 +3,7 @@ import Btn from '../Btn/Btn'
 import {Filters,Rating,SandH,PureVeg,DeliveryTime,GreatOffers} from '../../Data'
 import './Delivery.css'
 import Card from '../Cards/Card'
+import {Dominos} from '../../Data'
 function Delivery() {
     return (
         <>
@@ -20,7 +21,7 @@ function Delivery() {
                 <h1>Best Food in Ranchi</h1>
             </div>
             <div className="Cards">
-            <Card/>
+            <Card {...Dominos}/>
             <Card/>
             <Card/>
             </div>
