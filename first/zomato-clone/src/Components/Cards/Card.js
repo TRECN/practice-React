@@ -20,6 +20,9 @@ function Card() {
                     <div className="cuisine">
                         <h4>Pizza, Fast Food</h4>
                     </div>
+                    <div className="off">
+                        <h4></h4>
+                    </div>
                 </div>
             </div>
         </div>
