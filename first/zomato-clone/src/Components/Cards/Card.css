@@ -30,6 +30,7 @@
 .detail_2{
     display: flex;
     justify-content: space-between;
+    color: ;
 }
 
 .name,.rating{
