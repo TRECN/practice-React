@@ -27,6 +27,10 @@
     display: flex;
     justify-content: space-between;
 }
+.detail_2{
+    display: flex;
+    
+}
 
 .name,.rating{
     margin:8px 0 8px 0;
