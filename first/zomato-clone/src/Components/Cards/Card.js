@@ -17,7 +17,9 @@ function Card() {
                     </div>
                 </div>
                 <div className="detail_2">
-                    
+                    <div className="cuisine">
+                        <h4>Pizza, Fast Food</h4>
+                    </div>
                 </div>
             </div>
         </div>
