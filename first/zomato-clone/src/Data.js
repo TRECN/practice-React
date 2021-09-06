@@ -69,5 +69,5 @@ export const Outdoor={
     name:'Outdoor\u00A0Seating'
 }
 export const Dominos={
-    name:'Dominos Pizza',
+    name:'Domino\'s Pizza',
 }
