@@ -1,5 +1,6 @@
 .Card{
     width: 350px;
+    margin-right: 40px;
     display: flex;
     flex-direction: column;
     padding: 10px;
