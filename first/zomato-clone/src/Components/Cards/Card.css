@@ -39,7 +39,7 @@
     display: flex;
     justify-content: space-between;
     color: #afaeae;
-
+    margin-top: 10px;
 }
 
 .name,.rating{
