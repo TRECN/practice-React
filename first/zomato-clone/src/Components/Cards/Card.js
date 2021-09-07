@@ -4,6 +4,7 @@ import './Card.css'
 
 function Card({
     name,
+    src,
     rating,
     cuisine,
     off,
@@ -11,7 +12,7 @@ function Card({
 }) {
     return (
         <div className='Card'>
-            <img className='im'/>
+            <img className='im' src={src}/>
             <div className="detail">
                 <div className="detail_1">
                     <div className="name">
