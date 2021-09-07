@@ -18,6 +18,9 @@
     width: 100%;
     object-fit:cover;
 }
+.dominos{
+    content: url(../../assets/cards/Dominos_Pizza.webp);
+}
 
 .detail{
     display: block;
