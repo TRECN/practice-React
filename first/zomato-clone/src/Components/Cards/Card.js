@@ -22,7 +22,7 @@ function Card({
                 </div>
                 <div className="detail_2">
                     <div className="cuisine">
-                        <h4>Pizza, Fast Food</h4>
+                        <h4>{cuisine}</h4>
                     </div>
                     <div className="off">
                         <h4>$200</h4>
