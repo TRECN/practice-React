@@ -4,7 +4,8 @@ import './Card.css'
 
 function Card({
     name,
-    rating
+    rating,
+    cuisine
 }) {
     return (
         <div className='Card'>
