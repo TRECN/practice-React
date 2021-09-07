@@ -72,6 +72,7 @@ export const Dominos={
     name:'Domino\'s Pizza',
     rating:'3.4',
     cuisine:'Pizza, Fast Food',
-    off:'$200'
+    off:'$200',
+    notice:'Follows all Max safety measures to ensure your food is safe'
     
 }
