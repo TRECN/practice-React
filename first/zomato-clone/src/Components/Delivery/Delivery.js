@@ -22,8 +22,8 @@ function Delivery() {
             </div>
             <div className="Cards">
             <Card {...Dominos}/>
-            <Card/>
-            <Card/>
+            <Card {...Dominos}/>
+            <Card {...Dominos}/>
             </div>
             
             
