@@ -15,7 +15,7 @@ function Card({
                         <h4>{name}</h4>
                     </div>
                     <div className="rating">
-                        <h4>3.4</h4>
+                        <h4>{rating}</h4>
                         <img alt=""/>
                     </div>
                 </div>
