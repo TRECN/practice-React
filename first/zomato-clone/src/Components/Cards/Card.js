@@ -5,7 +5,8 @@ import './Card.css'
 function Card({
     name,
     rating,
-    cuisine
+    cuisine,
+    off
 }) {
     return (
         <div className='Card'>
@@ -25,11 +26,12 @@ function Card({
                         <h4>{cuisine}</h4>
                     </div>
                     <div className="off">
-                        <h4>$200</h4>
+                        <h4>{off}</h4>
                     </div>
                 </div>
                 <div className="detail_3">
-                    <h4>Follows all Max Safety measures to ensure....</h4>
+                    <h4>Follows all Max Safety measures 
+                        to ensure....</h4>
                 </div>
             </div>
         </div>
