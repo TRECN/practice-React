@@ -71,5 +71,7 @@ export const Outdoor={
 export const Dominos={
     name:'Domino\'s Pizza',
     rating:'3.4',
-    cuisine:'Pizza, Fast Food'
+    cuisine:'Pizza, Fast Food',
+    off:'$200'
+    
 }
