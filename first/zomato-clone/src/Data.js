@@ -75,3 +75,10 @@ export const Dominos={
     off:'$200',
     notice:'Follows all Max safety measures to ensure your food is safe'
 }
+export const Jashn={
+    name:'Jashn The Restaurant',
+    rating:'3.9',
+    cuisine:'North indian, Chinese,Biryani',
+    off:'$200',
+    notice:'Follows all Max safety measures to ensure your food is safe'
+}
