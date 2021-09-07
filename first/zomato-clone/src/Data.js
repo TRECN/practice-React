@@ -78,7 +78,7 @@ export const Dominos={
 }
 export const Jashn={
     name:'Jashn The Restaurant',
-    src:'\'../../assets/cards/\'',
+    src:'\'../../assets/cards/Jashn_the_Restaurant.webp\'',
     rating:'3.9',
     cuisine:'North indian, Chinese,Biryani',
     off:'$200',
