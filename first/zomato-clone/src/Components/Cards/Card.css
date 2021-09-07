@@ -35,6 +35,10 @@
     border-bottom: 0.1px solid #e9e9e9 ;
     padding-bottom: 10px;
 }
+.detail_3{
+    display: flex;
+    
+}
 
 .name,.rating{
     margin:8px 0 8px 0;
