@@ -70,7 +70,7 @@ export const Outdoor={
 }
 export const Dominos={
     name:'Domino\'s Pizza',
-    src:'\'../../assets/cards/Dominos_Pizza.webp\'',
+    src:'dominos',
     rating:'3.4',
     cuisine:'Pizza, Fast Food',
     off:'$200',
@@ -78,7 +78,7 @@ export const Dominos={
 }
 export const Jashn={
     name:'Jashn The Restaurant',
-    src:'../../assets/cards/Jashn_the_Restaurant.webp',
+    src:'Jashn',
     rating:'3.9',
     cuisine:'North indian, Chinese,Biryani',
     off:'$200',
