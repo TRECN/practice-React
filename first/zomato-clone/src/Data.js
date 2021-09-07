@@ -70,6 +70,7 @@ export const Outdoor={
 }
 export const Dominos={
     name:'Domino\'s Pizza',
+    src:'\'../../assets/cards/Dominos_Pizza.webp\'',
     rating:'3.4',
     cuisine:'Pizza, Fast Food',
     off:'$200',
