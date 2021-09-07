@@ -17,8 +17,7 @@
     border-radius: 10px;
     content: url(../../assets/cards/Dominos_Pizza.webp);
     width: 100%;
-    height: 100%;
-    object-fit:fill;
+    object-fit:cover;
 }
 
 .detail{
