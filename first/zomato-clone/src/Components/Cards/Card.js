@@ -31,7 +31,7 @@ function Card({
                 </div>
                 <div className="detail_3">
                     <div className="notice">
-                        <h4>Follows all Max Safety measures to ensure....</h4>
+                        <h4>Follows all Max Safety measures to ensure your food is safe</h4>
                     </div>
                     
                 </div>
