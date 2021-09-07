@@ -6,7 +6,8 @@ function Card({
     name,
     rating,
     cuisine,
-    off
+    off,
+    notice
 }) {
     return (
         <div className='Card'>
@@ -31,7 +32,7 @@ function Card({
                 </div>
                 <div className="detail_3">
                     <div className="notice">
-                        <h4>{}</h4>
+                        <h4>{notice}</h4>
                     </div>
                     
                 </div>
