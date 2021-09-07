@@ -4,6 +4,7 @@ import './Card.css'
 
 function Card({
     name,
+    rating
 }) {
     return (
         <div className='Card'>
