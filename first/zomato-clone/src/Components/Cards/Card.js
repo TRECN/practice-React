@@ -12,7 +12,7 @@ function Card({
 }) {
     return (
         <div className='Card'>
-            <img className='im' src='../../assets/cards/Dominos_Pizza.webp'/>
+            <img className='im' src={src}/>
             <div className="detail">
                 <div className="detail_1">
                     <div className="name">
