@@ -30,8 +30,10 @@ function Card({
                     </div>
                 </div>
                 <div className="detail_3">
-                    <h4>Follows all Max Safety measures 
-                        to ensure....</h4>
+                    <div className="notice">
+                        <h4>Follows all Max Safety measures to ensure....</h4>
+                    </div>
+                    
                 </div>
             </div>
         </div>
