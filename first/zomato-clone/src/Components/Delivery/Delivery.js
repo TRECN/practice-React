@@ -25,6 +25,11 @@ function Delivery() {
             <Card {...Jashn}/>
             <Card {...Punjabi}/>
             </div>
+            <div className="Cards">
+            <Card {...Dominos}/>
+            <Card {...Jashn}/>
+            <Card {...Punjabi}/>
+            </div>
             
             
         </div>
