@@ -29,7 +29,8 @@ export const Nightlife={
 }
 export const Nutrition={
     img:'nutrition',
-
+    C_add:'http://localhost:3000/nutrition',
+    
     add:'nutrition',
     img1:'nutrition_active',
     head_C:'red',
