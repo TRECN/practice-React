@@ -86,7 +86,7 @@ export const Jashn={
 }
 export const Punjabi={
     name:'Punjabi\u00A0Kitchen',
-    src:'Jashn',
+    src:'punjabi',
     rating:'3.9',
     cuisine:'North indian, Chinese,Biryani',
     off:'$200',
