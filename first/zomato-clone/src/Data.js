@@ -11,8 +11,7 @@ export const Delivery={
 }
 export const Dining={
     img:'plate',
-    C_add:'http://localhost:3000/dining',
-    C_add1:'http://localhost:3000/dining#/',
+ 
     add:'dining',
     img1:'plate_active',
     head_C:'red',
