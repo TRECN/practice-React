@@ -1,5 +1,6 @@
 .Card{
     width: 350px;
+    height: 350px;
     margin-right: 40px;
     display: flex;
     flex-direction: column;
@@ -16,6 +17,7 @@
 .im{
     border-radius: 10px;
     width: 100%;
+    height: 100%;
     object-fit:cover;
 }
 .dominos{
