@@ -29,7 +29,6 @@ function Delivery() {
             <Card {...Punjabi}/>
             <Card {...Dominos}/>
             <Card {...Jashn}/>
-            
             </div>
             
             
