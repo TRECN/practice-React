@@ -55,7 +55,6 @@
     
 }
 .name{
-    -webkit-line-clamp: 1;
     text-overflow: ellipsis;
     -webkit-box-orient: vertical;
     display: -webkit-box;
