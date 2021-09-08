@@ -1,6 +1,6 @@
 import React from 'react'
 import Btn from '../Btn/Btn'
-import {Filters,Rating,SandH,PureVeg,DeliveryTime,GreatOffers} from '../../Data'
+import {Filters,Rating,SandH,PureVeg,DeliveryTime,GreatOffers, Punjabi} from '../../Data'
 import './Delivery.css'
 import Card from '../Cards/Card'
 import {Dominos,Jashn} from '../../Data'
@@ -23,7 +23,7 @@ function Delivery() {
             <div className="Cards">
             <Card {...Dominos}/>
             <Card {...Jashn}/>
-            <Card {...Dominos}/>
+            <Card {...Punjabi}/>
             </div>
             
             
