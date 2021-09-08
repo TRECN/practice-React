@@ -38,8 +38,9 @@ function Delivery() {
             </div>
             <div className="Cards">
             <Card {...Punjabi}/>
-            <Card {...Dominos}/>
+            
             <Card {...Jashn}/>
+            <Card {...Dominos}/>
             </div>
             <div className="Cards">
             <Card {...Punjabi}/>
