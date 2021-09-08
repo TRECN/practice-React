@@ -19,7 +19,6 @@ export const Dining={
 }
 export const Nightlife={
     img:'nightlife',
-
     C_add1:'http://localhost:3000/nightlife#/',
     add:'nightlife',
     img1:'nightlife_active',
