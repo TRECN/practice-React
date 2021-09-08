@@ -77,7 +77,7 @@ export const Dominos={
     notice:'Follows all Max safety measures to ensure your food is safe'
 }
 export const Jashn={
-    name:'Jashn The Restaurant',
+    name:'Jashn\u00A0The\u00A0Restaurant',
     src:'Jashn',
     rating:'3.9',
     cuisine:'North indian, Chinese,Biryani',
