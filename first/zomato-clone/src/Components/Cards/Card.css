@@ -53,10 +53,16 @@
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     display: -webkit-box;
+    text-overflow: ellipsis;
+}
+.name{
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
 }
 
 
-.name,.rating{
+.name, .rating{
     
     margin:8px 0 8px 0;
     color: #1c1c1c;
