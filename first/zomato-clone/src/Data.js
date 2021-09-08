@@ -85,7 +85,7 @@ export const Jashn={
     notice:'Follows all Max safety measures to ensure your food is safe'
 }
 export const Punjabi={
-    name:'Jashn\u00A0The\u00A0Restaurant',
+    name:'Punjabi\u00A0Kitchen',
     src:'Jashn',
     rating:'3.9',
     cuisine:'North indian, Chinese,Biryani',
