@@ -34,10 +34,7 @@ export const Nutrition={
     head:'Nutrition',
 }
 
-export const Filters={
-    img:'filters',
-    name:'Filters'
-}
+
 export const Rating={
     name:'Rating:\u00A04.0+'
 }
