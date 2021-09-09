@@ -70,6 +70,10 @@
 .rating{
     background-color: green;
     display: flex;
+    
+}
+.rating h4{
+    color: white;
 }
 
 .name, .rating{
