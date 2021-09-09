@@ -35,7 +35,6 @@ function Card({
                     <div className="notice">
                         <h4>{notice}</h4>
                     </div>
-                    
                 </div>
             </div>
         </div>
