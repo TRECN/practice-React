@@ -74,6 +74,7 @@
 }
 .rating h4{
     color: white;
+    font-size: 15px;
 }
 
 .name, .rating{
@@ -86,7 +87,6 @@
 
 @media screen and (max-width:915px) {
     .Card{
-        
         margin-left: 20px;
         margin-right: 20px;
     }
