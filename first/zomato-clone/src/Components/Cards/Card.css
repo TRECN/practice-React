@@ -28,6 +28,9 @@
 .punjabi{
     content: url(../../assets/cards/Punjabi_Kitchen.webp);
 }
+.star{
+    content: url(../../assets/cards/img3.svg);
+}
 
 .detail{
     display: block;
