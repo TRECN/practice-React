@@ -1,5 +1,6 @@
 .Card{
-    width: 350px;
+    max-width: 350px;
+    height: 350px;
     margin-right: 40px;
     display: flex;
     flex-direction: column;
@@ -86,11 +87,11 @@
 
 @media screen and (max-width:915px) {
     .Card{
-        width: 400px;
+        width: 350px;
         margin-right: 20px;
     }
     .Card:hover{
-        width: 700px;
+        width: ;
     }
 
 }
