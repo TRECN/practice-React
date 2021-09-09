@@ -38,7 +38,6 @@ function Delivery() {
             </div>
             <div className="Cards">
             <Card {...Punjabi}/>
-            
             <Card {...Jashn}/>
             <Card {...Dominos}/>
             </div>
