@@ -6,6 +6,7 @@ import Card from '../Cards/Card'
 import {Dominos,Jashn} from '../../Data'
 function Delivery() {
     return (
+        
         <>
         <div className='del' style={{backgroundColor:'transparent'}}>
             <Btn {...Filters}/>
