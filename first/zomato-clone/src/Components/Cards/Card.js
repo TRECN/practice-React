@@ -20,7 +20,7 @@ function Card({
                     </div>
                     <div className="rating">
                         <h4>{rating}</h4>
-                        <img src=''/>
+                        <img className='star'/>
                     </div>
                 </div>
                 <div className="detail_2">
