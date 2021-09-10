@@ -15,6 +15,7 @@ body{
 }
 .btn:hover{
     background-color: rgb(240, 240, 240);
+    transition: all 0.3s ease;
 }
 .filters{
     margin-right: 5px;
