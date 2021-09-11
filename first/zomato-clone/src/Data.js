@@ -102,7 +102,7 @@ export const Dunki={
 export const Kaveri={
     name:'Kaveri Restaurant',
     src:'kaveri',
-    rating:'3.8',
+    rating:'4.8',
     cuisine:'North Indian, Chinese, Italian, Continental',
     off:'$10',
     location:'Hindpiri, Ranchi',
@@ -112,7 +112,7 @@ export const Kaveri={
 export const Prana={
     name:'Prana',
     src:'prana',
-    rating:'3.8',
+    rating:'4.5',
     cuisine:'North Indian, Chinese, Italian, Continental',
     off:'$10',
     location:'Hindpiri, Ranchi',
