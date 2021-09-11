@@ -1,6 +1,6 @@
 import React from 'react'
 import Btn from '../Btn/Btn'
-import {Distance, Dominos, Dunki, Filters, Kaveri, Online, Outdoor, Parana, Rating } from '../../Data'
+import {Distance, Dominos, Dunki, Filters, Kaveri, Online, Outdoor, Prana, Rating } from '../../Data'
 import './DiningOut.css'
 import Card from '../Cards/Card'
 
