@@ -22,6 +22,7 @@ function DiningOut() {
                 <div className="Cards">
                     <Card {...Dunki}/>
                     <Card {...Kaveri}/>
+                    <Card {}/>
                 </div>
             </div>
         </>
