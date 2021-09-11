@@ -14,6 +14,9 @@ function DiningOut() {
                 <Btn {...Online}/>
                 <Btn {...Outdoor}/>
             </div>
+            <div className="card_col">
+                
+            </div>
         </>
     )
 }
