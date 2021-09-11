@@ -90,5 +90,5 @@ export const Punjabi={
     notice:'Follows all Max safety measures to ensure your food is safe'
 }
 export const Dunki={
-
+    name:'Dunki',
 }
