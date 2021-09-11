@@ -18,6 +18,9 @@ function DiningOut() {
                 <div className="heading1">
                     <h1>Dine-Out Restaurants in Ranchi</h1>
                 </div>
+                <div className="Cards">
+                    
+                </div>
             </div>
         </>
     )
