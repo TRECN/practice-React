@@ -91,4 +91,5 @@ export const Punjabi={
 }
 export const Dunki={
     name:'Dunki',
+    src:'dunki',
 }
