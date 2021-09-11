@@ -1,7 +1,8 @@
 import React from 'react'
 import Btn from '../Btn/Btn'
-import {Distance, Filters, Online, Outdoor, Rating } from '../../Data'
+import {Distance, Dominos, Filters, Online, Outdoor, Rating } from '../../Data'
 import './DiningOut.css'
+import Card from '../Cards/Card'
 
 
 function DiningOut() {
@@ -19,7 +20,7 @@ function DiningOut() {
                     <h1>Dine-Out Restaurants in Ranchi</h1>
                 </div>
                 <div className="Cards">
-                    
+                    <Card {...Dominos}/>
                 </div>
             </div>
         </>
