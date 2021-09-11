@@ -16,7 +16,7 @@ function DiningOut() {
             </div>
             <div className="card_col">
                 <div className="heading1">
-                    <h4></h4>
+                    <h1>Dine-Out Restaurants in Ranchi</h1>
                 </div>
             </div>
         </>
