@@ -111,7 +111,7 @@ export const Kaveri={
 }
 export const Prana={
     name:'Prana',
-    src:'kaveri',
+    src:'prana',
     rating:'3.8',
     cuisine:'North Indian, Chinese, Italian, Continental',
     off:'$10',
