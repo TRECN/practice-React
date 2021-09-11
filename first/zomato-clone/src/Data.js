@@ -96,5 +96,6 @@ export const Dunki={
     cuisine:'North Indian, Chinese, Italian, Continental',
     off:'$10',
     location:'Lalpur, Ranchi',
-    time:'Closes in 33 minutes'
+    time:'Closes in 33 minutes',
+    notice:'Follows all Max safety measures to ensure your food is safe'
 }
