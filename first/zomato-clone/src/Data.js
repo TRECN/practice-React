@@ -92,4 +92,7 @@ export const Punjabi={
 export const Dunki={
     name:'Dunki',
     src:'dunki',
+    rating:'3.8',
+    cuisine:'North Indian, Chinese, Italian, Continental',
+    
 }
