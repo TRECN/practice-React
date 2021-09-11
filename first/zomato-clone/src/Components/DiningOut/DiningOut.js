@@ -1,6 +1,6 @@
 import React from 'react'
 import Btn from '../Btn/Btn'
-import {Distance, Dominos, Dunki, Filters, Online, Outdoor, Rating } from '../../Data'
+import {Distance, Dominos, Dunki, Filters, Kaveri, Online, Outdoor, Rating } from '../../Data'
 import './DiningOut.css'
 import Card from '../Cards/Card'
 
@@ -21,6 +21,7 @@ function DiningOut() {
                 </div>
                 <div className="Cards">
                     <Card {...Dunki}/>
+                    <Card {...Kaveri}/>
                 </div>
             </div>
         </>
