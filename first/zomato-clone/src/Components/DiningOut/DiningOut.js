@@ -16,7 +16,7 @@ function DiningOut() {
             </div>
             <div className="card_col">
                 <div className="heading1">
-                    
+                    <h4></h4>
                 </div>
             </div>
         </>
