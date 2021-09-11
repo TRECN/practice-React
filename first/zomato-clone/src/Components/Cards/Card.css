@@ -37,6 +37,9 @@
 .dunki{
     content:url(../../assets/cards/Dhunki.webp);
 }
+.kaveri{
+    content: url(../../assets/cards/Kaveri.webp);
+}
 
 .detail{
     display: block;
