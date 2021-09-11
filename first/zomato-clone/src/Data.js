@@ -101,11 +101,11 @@ export const Dunki={
 }
 export const Kaveri={
     name:'Kaveri Restaurant',
-    src:'dunki',
+    src:'kaveri',
     rating:'3.8',
     cuisine:'North Indian, Chinese, Italian, Continental',
     off:'$10',
-    location:'Lalpur, Ranchi',
+    location:'Hindpiri, Ranchi',
     time:'Closes in 33 minutes',
     notice:'Follows all Max safety measures to ensure your food is safe'
 }
