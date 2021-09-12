@@ -66,6 +66,7 @@ ul a{
 
 }
 .search-text{
+    outline: none;
     border: none;
     width: 250px;
 }
