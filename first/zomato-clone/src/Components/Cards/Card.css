@@ -111,6 +111,14 @@
     font-size: 1.2rem;
 }
 
+.off{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
 @media screen and (max-width:915px) {
     .Card{
         margin-left: 20px;
