@@ -36,10 +36,11 @@ function Card({
                     <div className="notice">
                         <h4>{notice}</h4>
                     </div>
-                    <div className="close">
+                    
+                </div>
+                <div className="close">
                         <h4>{time}</h4>
                     </div>
-                </div>
             </div>
         </div>
     )
