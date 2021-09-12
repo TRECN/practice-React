@@ -114,7 +114,7 @@ export const Prana={
     src:'prana',
     rating:'4.5',
     cuisine:'North Indian, Chinese, Italian, Continental',
-    off:'₹1000',
+    off:'₹1000 for 1 person',
     location:'Hindpiri, Ranchi',
     time:'Closes in 33 minutes',
     notice:'Follows all Max safety measures to ensure your food is safe'
