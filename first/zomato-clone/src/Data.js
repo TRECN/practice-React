@@ -94,7 +94,7 @@ export const Dunki={
     src:'dunki',
     rating:'3.8',
     cuisine:'North Indian, Chinese, Italian, Continental',
-    off:'₹1000',
+    off:'₹1000 for 1 person',
     location:'Lalpur, Ranchi',
     time:'Closes in 33 minutes',
     notice:'Follows all Max safety measures to ensure your food is safe'
@@ -104,7 +104,7 @@ export const Kaveri={
     src:'kaveri',
     rating:'4.8',
     cuisine:'North Indian, Chinese, Italian, Continental',
-    off:'₹1000',
+    off:'₹1000 for 1 person',
     location:'Hindpiri, Ranchi',
     time:'Closes in 33 minutes',
     notice:'Follows all Max safety measures to ensure your food is safe'
