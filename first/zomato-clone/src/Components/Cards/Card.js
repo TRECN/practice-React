@@ -9,7 +9,7 @@ function Card({
     cuisine,
     off,
     notice,
-    close
+    time
 }) {
     return (
         <div className='Card'>
