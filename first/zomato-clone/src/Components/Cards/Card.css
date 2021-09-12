@@ -104,6 +104,13 @@
     padding: 2px;
 }
 
+.rating{
+    margin:8px 0 8px 0;
+    color: #1c1c1c;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
 .name, .rating{
     margin:8px 0 8px 0;
     color: #1c1c1c;
