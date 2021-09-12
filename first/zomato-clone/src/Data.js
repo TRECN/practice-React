@@ -70,7 +70,7 @@ export const Dominos={
     src:'dominos',
     rating:'3.4',
     cuisine:'Pizza, Fast Food',
-    off:'$200',
+    off:'₹200',
     notice:'Follows all Max safety measures to ensure your food is safe'
 }
 export const Jashn={
@@ -78,7 +78,7 @@ export const Jashn={
     src:'Jashn',
     rating:'3.9',
     cuisine:'North indian, Chinese,Biryani',
-    off:'$200',
+    off:'₹200',
     notice:'Follows all Max safety measures to ensure your food is safe'
 }
 export const Punjabi={
@@ -86,7 +86,7 @@ export const Punjabi={
     src:'punjabi',
     rating:'3.9',
     cuisine:'North indian, Chinese,Biryani',
-    off:'$200',
+    off:'₹200',
     notice:'Follows all Max safety measures to ensure your food is safe'
 }
 export const Dunki={
@@ -94,7 +94,7 @@ export const Dunki={
     src:'dunki',
     rating:'3.8',
     cuisine:'North Indian, Chinese, Italian, Continental',
-    off:'$10',
+    off:'₹10',
     location:'Lalpur, Ranchi',
     time:'Closes in 33 minutes',
     notice:'Follows all Max safety measures to ensure your food is safe'
@@ -104,7 +104,7 @@ export const Kaveri={
     src:'kaveri',
     rating:'4.8',
     cuisine:'North Indian, Chinese, Italian, Continental',
-    off:'10',
+    off:'₹10',
     location:'Hindpiri, Ranchi',
     time:'Closes in 33 minutes',
     notice:'Follows all Max safety measures to ensure your food is safe'
