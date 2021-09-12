@@ -37,6 +37,7 @@
     
 }
 .dropdown{
+    outline: none;
     border: none;
     border-right: 2px solid rgba(0, 0, 0, 0.4);
     margin-right: 10px;
