@@ -63,6 +63,10 @@
     margin-top: 10px;
 }
 
+.max{
+    content: url(../../assets/cards/maxsafety.webp);
+}
+
 .close{
     margin-top: 2px;
     color: rgb(187, 14, 14);
@@ -90,6 +94,7 @@
     font-size: 1.2rem;
     
 }
+
 
 .name h4{
     overflow: hidden;
