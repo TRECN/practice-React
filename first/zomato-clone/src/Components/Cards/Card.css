@@ -65,6 +65,10 @@
     margin-top: 10px;
 }
 
+.close{
+    
+}
+
 .notice{
     overflow: hidden;
     text-overflow: ellipsis;
