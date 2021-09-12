@@ -41,6 +41,9 @@ function Card({
                     <div className="notice">
                         <h4>{notice}</h4>
                     </div>
+                    <div className="maxsafe">
+                        <img classname='max'/>
+                    </div>
                     
                 </div>
                 
