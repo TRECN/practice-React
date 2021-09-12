@@ -91,6 +91,10 @@
     display: -webkit-box;
 }
 .rating{
+    margin:8px 0 8px 0;
+    color: #1c1c1c;
+    font-weight: 700;
+    font-size: 1.2rem;
     background-color: green;
     display: flex;
     align-items: center;
@@ -104,12 +108,6 @@
     padding: 2px;
 }
 
-.rating{
-    margin:8px 0 8px 0;
-    color: #1c1c1c;
-    font-weight: 700;
-    font-size: 1.2rem;
-}
 
 .name{
     margin:8px 0 8px 0;
