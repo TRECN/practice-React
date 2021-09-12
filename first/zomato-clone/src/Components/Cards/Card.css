@@ -64,6 +64,7 @@
 }
 
 .max{
+    height: 15px;
     content: url(../../assets/cards/maxsafety.webp);
 }
 
