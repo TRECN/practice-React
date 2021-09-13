@@ -29,14 +29,15 @@ function Card({
                     <div className="cuisine">
                         <h4>{cuisine}</h4>
                     </div>
-                    <div className="location">
-                        
-                    </div>
+                    
                     <div className="off">
                         <h4>{off}</h4>
                     </div>
                     
                 </div>
+                <div className="location">
+                        <h4>{location}</h4>
+                    </div>
                 <div className="close">
                         <h4>{time}</h4>
                     </div>
