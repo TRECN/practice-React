@@ -46,6 +46,9 @@
 .urban{
     content: url(../../assets/cards/TUB.webp);
 }
+.winN{
+    content: url(../../assets/cards/Wine.webp);
+}
 
 .detail{
     display: block;
