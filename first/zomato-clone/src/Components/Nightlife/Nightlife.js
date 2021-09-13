@@ -17,6 +17,7 @@ function Nightlife() {
             <div className="Cards">
                 <Card {...PranaN}/>
                 <Card {...TUB}/>
+                <Card/>
                     
             </div>
 
