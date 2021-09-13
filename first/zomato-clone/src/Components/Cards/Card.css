@@ -42,6 +42,9 @@
 .prana{
     content: url(../../assets/cards/Parana.webp);
 }
+.urban{
+    content: url(../../assets/cards/TUB.webp);
+}
 
 .detail{
     display: block;
