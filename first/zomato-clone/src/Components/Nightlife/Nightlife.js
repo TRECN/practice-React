@@ -1,6 +1,7 @@
 import React from 'react'
-import { Distance, Filters, Online, Outdoor, Rating } from '../../Data'
+import { Distance, Filters, Online, Outdoor, PranaN, Rating } from '../../Data'
 import Btn from '../Btn/Btn'
+import Card from '../Cards/Card'
 import './Nightlife.css'
 
 function Nightlife() {
@@ -12,6 +13,10 @@ function Nightlife() {
                 <Btn {...Distance}/>
                 <Btn {...Online}/>
                 <Btn {...Outdoor}/>
+            </div>
+            <div className="Cards">
+                <Card {...PranaN}/>
+                    
             </div>
 
         </>
