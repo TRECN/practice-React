@@ -140,3 +140,13 @@ export const TUB={
     time:'Closes in 1 hour 6 minutes',
     notice:'Follows all Max safety measures to ensure your food is safe'
 }
+export const TUB={
+    name:'The Urbanbrava',
+    src:'urban',
+    rating:'4.4',
+    cuisine:'North Indian, Chinese, Italian, Continental',
+    off:'₹1000 for 2 person',
+    location:'Hindpiri, Ranchi',
+    time:'Closes in 1 hour 6 minutes',
+    notice:'Follows all Max safety measures to ensure your food is safe'
+}
