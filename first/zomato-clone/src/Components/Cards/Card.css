@@ -67,7 +67,12 @@
     height: 15px;
     content: url(../../assets/cards/maxsafety.webp);
 }
-
+.location{
+    display: flex;
+    justify-content: space-between;
+    color: #afaeae;
+    margin-top: 10px;
+}
 .close{
     margin-top: 2px;
     color: rgb(187, 14, 14);
