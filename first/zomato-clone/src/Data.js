@@ -125,6 +125,17 @@ export const PranaN={
     rating:'4.5',
     cuisine:'European, North Indian, Chinese, Italian, Continental',
     off:'₹1000 for 1 person',
+    location:'Harmu, Ranchi',
+    time:'Opens tomorrow 12 noon',
+    notice:'Follows all Max safety measures to ensure your food is safe'
+}
+
+export const TUB={
+    name:'The Urbanbrava',
+    src:'urban',
+    rating:'4.4',
+    cuisine:'North Indian, Chinese, Italian, Continental',
+    off:'₹1000 for 2 person',
     location:'Hindpiri, Ranchi',
     time:'Opens tomorrow 12 noon',
     notice:'Follows all Max safety measures to ensure your food is safe'
