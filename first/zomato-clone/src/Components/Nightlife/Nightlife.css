@@ -4,6 +4,21 @@
     background-color: transparent;
     align-items: center;
 }
+.parent{
+    position: relative;
+    margin: 2em;
+} 
+
+.parent img{
+    position: absolute;
+}
+
+.parent .overlay{
+    position: absolute;
+    top: -1em;
+    text-align: center;    
+    width: 100%;
+}
 @media screen and (min-width:915px) {
     .nightlife{
         justify-content: center;
