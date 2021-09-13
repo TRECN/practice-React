@@ -13,12 +13,7 @@ function Nightlife() {
                 <Btn {...Online}/>
                 <Btn {...Outdoor}/>
             </div>
-            <div className="Cards">
-            <div class="parent">
-  <img src="http://www.gstatic.com/webp/gallery/1.webp" />
-  <span class="overlay">OVERLAY</span>
-</div>
-            </div>
+
         </>
     )
 }
