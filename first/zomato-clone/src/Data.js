@@ -130,7 +130,7 @@ export const PranaN={
     notice:'Follows all Max safety measures to ensure your food is safe'
 }
 
-export const TUB={
+export const tub={
     name:'The Urbanbrava',
     src:'urban',
     rating:'4.4',
