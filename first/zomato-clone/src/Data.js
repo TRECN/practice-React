@@ -126,6 +126,6 @@ export const PranaN={
     cuisine:'European, North Indian, Chinese, Italian, Continental',
     off:'₹1000 for 1 person',
     location:'Hindpiri, Ranchi',
-    time:'Closes in 33 minutes',
+    time:'Opens tomorrow 12 noon',
     notice:'Follows all Max safety measures to ensure your food is safe'
 }
