@@ -4,32 +4,10 @@ import {Filters,Rating,SandH,PureVeg,DeliveryTime,GreatOffers, Punjabi} from '..
 import './Delivery.css'
 import Card from '../Cards/Card'
 import {Dominos,Jashn} from '../../Data'
-import pan from '../../assets/cards/paneer.jpg'
 function Delivery() {
     return (
         <>
-        <div className="insp">
-            <h1>Inspiration for your first order</h1>
-            <div className="Insp">
-            <div className="paneer inspD">
-                <img src={pan} className='inspI'/>
-                <h3>Paneer</h3>
-            </div>
-            <div className="paneer inspD">
-                <img src={pan} className='inspI'/>
-                <h3>Paneer</h3>
-            </div>
-            <div className="paneer inspD">
-                <img src={pan} className='inspI'/>
-                <h3>Paneer</h3>
-            </div>
-            <div className="paneer inspD">
-                <img src={pan} className='inspI'/>
-                <h3>Paneer</h3>
-            </div>
-            
-            </div>
-        </div>
+       
         <div className='del' style={{backgroundColor:'transparent'}}>
             <Btn {...Filters}/>
             <Btn {...Rating}/>
@@ -37,6 +15,28 @@ function Delivery() {
             <Btn {...PureVeg}/>
             <Btn {...DeliveryTime}/>
             <Btn {...GreatOffers}/> 
+        </div>
+        <div className="insp">
+            <h1>Inspiration for your first order</h1>
+            <div className="Insp">
+            <div className="paneer inspD">
+                <img className='inspI'/>
+                <h3>Paneer</h3>
+            </div>
+            <div className="paneer inspD">
+                <img className='inspI'/>
+                <h3>Paneer</h3>
+            </div>
+            <div className="paneer inspD">
+                <img className='inspI'/>
+                <h3>Paneer</h3>
+            </div>
+            <div className="paneer inspD">
+                <img className='inspI'/>
+                <h3>Paneer</h3>
+            </div>
+            
+            </div>
         </div>
         <div className="card_col">
             <br />
