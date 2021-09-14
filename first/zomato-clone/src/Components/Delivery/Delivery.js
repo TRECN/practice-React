@@ -20,19 +20,19 @@ function Delivery() {
             <h1>Inspiration for your first order</h1>
             <div className="Insp">
             <div className="inspD">
-                <img className='inspI Paneer'/>
+                <img className='inspI paneer'/>
                 <h3>Paneer</h3>
             </div>
             <div className="inspD">
-                <img className='inspI Chicken'/>
+                <img className='inspI chicken'/>
                 <h3>Paneer</h3>
             </div>
             <div className="inspD">
-                <img className='inspI'/>
+                <img className='inspI Biryani'/>
                 <h3>Paneer</h3>
             </div>
             <div className="inspD">
-                <img className='inspI'/>
+                <img className='inspI Pizza'/>
                 <h3>Paneer</h3>
             </div>
             
