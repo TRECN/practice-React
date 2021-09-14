@@ -10,7 +10,7 @@ function Delivery() {
         <>
         <div className="insp">
             <div className="paneer">
-                <img />
+                <img src={pan} />
                 
             </div>
         </div>
