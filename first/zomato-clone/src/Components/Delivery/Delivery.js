@@ -8,7 +8,10 @@ function Delivery() {
     return (
         <>
         <div className="insp">
-            
+            <div className="paneer">
+                <img className='pan'/>
+                
+            </div>
         </div>
         <div className='del' style={{backgroundColor:'transparent'}}>
             <Btn {...Filters}/>
