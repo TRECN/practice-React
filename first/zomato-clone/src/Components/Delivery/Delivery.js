@@ -9,6 +9,8 @@ function Delivery() {
     return (
         <>
         <div className="insp">
+            <h1>Inspiration for your first order</h1>
+            <div className="Insp">
             <div className="paneer inspD">
                 <img src={pan} className='inspI'/>
                 <h3>Paneer</h3>
@@ -26,6 +28,7 @@ function Delivery() {
                 <h3>Paneer</h3>
             </div>
             
+            </div>
         </div>
         <div className='del' style={{backgroundColor:'transparent'}}>
             <Btn {...Filters}/>
