@@ -7,10 +7,13 @@
     display: flex;
     align-items: center;
 }
-.insp{
+.insp h1{
+    margin: 20px;
+}
+.Insp{
     display: flex;
     justify-content: space-between;
-    margin: 0 20px;
+    margin: 20px;
 }
 .inspD{
     display: flex;
@@ -20,6 +23,7 @@
 }
 .inspI{
     width: 200px;
+    border-radius: 20px;
 }
 .heading1 h1{
     margin-left: 20px;
