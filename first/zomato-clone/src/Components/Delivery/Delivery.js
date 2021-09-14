@@ -41,7 +41,7 @@ function Delivery() {
         <div className="card_col">
             <br />
             <div className="heading1">
-                <h1>Best Food in Ranchi</h1>
+                <h1>Delivery Resrtaurants in Ranchi</h1>
             </div>
             <div className="Cards">
             <Card {...Dominos}/>
