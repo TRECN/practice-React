@@ -25,15 +25,15 @@ function Delivery() {
             </div>
             <div className="inspD">
                 <img className='inspI chicken'/>
-                <h3>Paneer</h3>
+                <h3>Chicken</h3>
             </div>
             <div className="inspD">
                 <img className='inspI Biryani'/>
-                <h3>Paneer</h3>
+                <h3>Biryani</h3>
             </div>
             <div className="inspD">
                 <img className='inspI Pizza'/>
-                <h3>Paneer</h3>
+                <h3>Pizza</h3>
             </div>
             
             </div>
