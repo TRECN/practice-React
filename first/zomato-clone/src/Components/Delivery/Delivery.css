@@ -9,6 +9,8 @@
 }
 .insp{
     display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
 }
 .inspD{
     display: flex;
