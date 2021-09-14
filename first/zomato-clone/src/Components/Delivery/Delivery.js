@@ -9,9 +9,9 @@ function Delivery() {
     return (
         <>
         <div className="insp">
-            <div className="paneer">
+            <div className="paneer inspD">
                 <img src={pan} className='inspI'/>
-                
+                <h3>Paneer</h3>
             </div>
         </div>
         <div className='del' style={{backgroundColor:'transparent'}}>
