@@ -7,9 +7,13 @@
     display: flex;
     align-items: center;
 }
+.insp{
+    display: flex;
+}
 .inspD{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .heading1 h1{
     margin-left: 20px;
