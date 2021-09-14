@@ -26,9 +26,8 @@ function Nightlife() {
                 
             </div>
             <div className="Cards">
-            <Card {...tub}/>
+                <Card {...tub}/>
                 <Card {...PranaN}/>
-                
                 <Card {...Wine}/>  
             </div>
 
