@@ -7,6 +7,9 @@ import {Dominos,Jashn} from '../../Data'
 function Delivery() {
     return (
         <>
+        <div className="insp">
+            
+        </div>
         <div className='del' style={{backgroundColor:'transparent'}}>
             <Btn {...Filters}/>
             <Btn {...Rating}/>
