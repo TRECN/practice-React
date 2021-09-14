@@ -11,7 +11,9 @@
 .heading1 h1{
     margin-left: 20px;
 }
-
+.inspI{
+    width: 200px;
+}
 .Cards{
     margin: 20px;
     padding: 20px;
