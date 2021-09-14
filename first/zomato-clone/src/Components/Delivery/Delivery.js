@@ -13,6 +13,14 @@ function Delivery() {
                 <img src={pan} className='inspI'/>
                 <h3>Paneer</h3>
             </div>
+            <div className="paneer inspD">
+                <img src={pan} className='inspI'/>
+                <h3>Paneer</h3>
+            </div>
+            <div className="paneer inspD">
+                <img src={pan} className='inspI'/>
+                <h3>Paneer</h3>
+            </div>
         </div>
         <div className='del' style={{backgroundColor:'transparent'}}>
             <Btn {...Filters}/>
