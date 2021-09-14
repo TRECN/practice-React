@@ -2,6 +2,18 @@
     font-family: sans-serif;
     font-weight: 200;
 }
+.paneer{
+    content: url(../../assets/cards/paneer.jpg);
+}
+.chicken{
+    content: url(../../assets/cards/chicken.webp);
+}
+.Biryani{
+    content: url(../../assets/cards/biryani.webp);
+}
+.Pizza{
+    content: url(../../assets/cards/Pizza.webp);
+}
 .del{
     padding: 15px;
     display: flex;
