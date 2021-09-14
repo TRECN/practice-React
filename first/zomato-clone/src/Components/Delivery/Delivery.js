@@ -4,12 +4,13 @@ import {Filters,Rating,SandH,PureVeg,DeliveryTime,GreatOffers, Punjabi} from '..
 import './Delivery.css'
 import Card from '../Cards/Card'
 import {Dominos,Jashn} from '../../Data'
+import pan from '../../assets/cards/paneer.webp'
 function Delivery() {
     return (
         <>
         <div className="insp">
             <div className="paneer">
-                <img className='pan'/>
+                <img />
                 
             </div>
         </div>
