@@ -17,7 +17,7 @@ function Delivery() {
             <Btn {...GreatOffers}/> 
         </div>
         <div className="insp">
-            <div>
+            <div className="heading1">
                 <h1>Inspiration for your first order</h1>
             </div>
             <div className="Insp">
