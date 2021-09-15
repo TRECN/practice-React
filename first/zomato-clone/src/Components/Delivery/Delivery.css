@@ -45,9 +45,6 @@
 .heading1{
     justify-content: center;
 }
-.heading1 h1{
-    text-align: left;
-}
 
 .Cards{
     margin: 20px;
@@ -71,4 +68,11 @@
         flex-direction: column;
         align-items: center;
     } 
+}
+@media screen and (min-width:1000px) {
+    .heading1{
+        display: flex;
+        justify-content: center;
+    }
+    
 }
