@@ -159,7 +159,8 @@
     
 }
 .time{
-    color: #8f8f8f;
+    color: #6e6e6e;
+    background-color: #dad6d6;
 }
 @media screen and (max-width:915px) {
     .Card{
