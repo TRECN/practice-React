@@ -162,6 +162,9 @@
     color: #6e6e6e;
     background-color: #eeeaea;
     max-width: fit-content;
+    padding: 1px 3px;
+    font-size: 15px;
+    
 }
 @media screen and (max-width:915px) {
     .Card{
