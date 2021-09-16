@@ -147,7 +147,9 @@
 }
 
 .discount{
-    bottom: 1.2rem;
+    color: white;
+    position: absolute;
+    
 }
 
 @media screen and (max-width:915px) {
