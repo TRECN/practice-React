@@ -15,6 +15,7 @@ function Card({
     return (
         <div className='Card'>
             <img className={`im ${src}`}/>
+            <p className="discount">₹75 OFF</p>
             <div className="detail">
                 <div className="detail_1">
                     <div className="name">
