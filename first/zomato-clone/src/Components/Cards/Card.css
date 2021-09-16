@@ -150,8 +150,9 @@
     color: #FFFFFF;
     max-width: fit-content;
     padding: 1px 3px;
-    font-size: 15px;
+    font-size: 13px;
     border-radius: 2px;
+
     background-color: rgb(39, 129, 231);
     position: relative;
     bottom: 2rem;
