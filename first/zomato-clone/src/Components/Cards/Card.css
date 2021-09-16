@@ -162,6 +162,7 @@
     max-width: fit-content;
     padding: 1px 3px;
     font-size: 15px;
+    margin-right: 10px;
 }
 .hoverr{
     position: relative;
