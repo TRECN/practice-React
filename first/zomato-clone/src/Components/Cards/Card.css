@@ -166,7 +166,8 @@
 .hoverr{
     position: relative;
     display: flex;
-    
+    justify-content: space-between;
+    bottom: 2rem;
 }
 @media screen and (max-width:915px) {
     .Card{
