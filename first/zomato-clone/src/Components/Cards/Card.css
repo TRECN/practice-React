@@ -146,6 +146,10 @@
     display: -webkit-box;
 }
 
+.discount{
+    bottom: 1.2rem;
+}
+
 @media screen and (max-width:915px) {
     .Card{
         margin-left: 20px;
