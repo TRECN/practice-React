@@ -158,7 +158,9 @@
     bottom: 2rem;
     
 }
-
+.time{
+    color: #8f8f8f;
+}
 @media screen and (max-width:915px) {
     .Card{
         margin-left: 20px;
