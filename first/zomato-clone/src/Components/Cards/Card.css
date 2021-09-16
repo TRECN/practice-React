@@ -148,8 +148,9 @@
 
 .discount{
     color: rgb(255, 0, 0);
-    position: absolute;
-    margin-top: 7em;
+    position: relative;
+    bottom: 1.2rem;
+    right:1.2rem;
     
 }
 
