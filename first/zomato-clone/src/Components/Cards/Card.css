@@ -154,8 +154,6 @@
     border-radius: 2px;
     letter-spacing: 1px;
     background-color: rgb(39, 129, 231);
-    position: relative;
-    bottom: 2rem;
     
 }
 .time{
@@ -164,7 +162,11 @@
     max-width: fit-content;
     padding: 1px 3px;
     font-size: 15px;
-    position: absolute;
+}
+.hoverr{
+    position: relative;
+    display: flex;
+    
 }
 @media screen and (max-width:915px) {
     .Card{
