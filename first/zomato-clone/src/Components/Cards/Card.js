@@ -15,8 +15,10 @@ function Card({
     return (
         <div className='Card'>
             <img className={`im ${src}`}/>
+            <div className='hoverr'>
             <p className="discount">₹75 OFF</p>
             <p className="time">30 min</p>
+            </div>
             <div className="detail">
                 <div className="detail_1">
                     <div className="name">
