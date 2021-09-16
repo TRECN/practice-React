@@ -164,7 +164,8 @@
     max-width: fit-content;
     padding: 1px 3px;
     font-size: 15px;
-    
+    position: relative;
+    bottom: 3rem;
 }
 @media screen and (max-width:915px) {
     .Card{
