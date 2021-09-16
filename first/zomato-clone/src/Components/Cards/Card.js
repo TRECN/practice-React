@@ -16,6 +16,7 @@ function Card({
         <div className='Card'>
             <img className={`im ${src}`}/>
             <p className="discount">₹75 OFF</p>
+            <p className="time">30 min</p>
             <div className="detail">
                 <div className="detail_1">
                     <div className="name">
