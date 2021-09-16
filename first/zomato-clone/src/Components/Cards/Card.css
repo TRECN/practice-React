@@ -149,6 +149,7 @@
 .discount{
     color: #FFFFFF;
     max-width: fit-content;
+    padding: 1px 3px;
     background-color: rgb(39, 129, 231);
     position: relative;
     bottom: 2rem;
