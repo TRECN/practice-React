@@ -18,7 +18,9 @@ function DiningOut() {
                     <img className='arrow'/>
                 </div>
                 <div className="collects">
-                
+                    <div className="collect">
+                    
+                    </div>
                 </div>
 
             </div>
