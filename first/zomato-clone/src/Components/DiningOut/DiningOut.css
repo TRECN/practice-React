@@ -34,7 +34,7 @@
 .collect{
 }
 .momo{
-    max-width: 200px;
+    width: auto;
     max-height: 300px;
     content: url(../../assets/diningout/momo.avif);
 }
