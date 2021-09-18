@@ -39,6 +39,21 @@
     max-height: 300px;
     content: url(../../assets/diningout/momo.avif);
 }
+.cafe{
+    border-radius: 5px;
+    max-height: 300px;
+    content: url(../../assets/diningout/cafe.avif);
+}
+.coff{
+    border-radius: 5px;
+    max-height: 300px;
+    content: url(../../assets/diningout/coff.avif);
+}
+.food{
+    border-radius: 5px;
+    max-height: 300px;
+    content: url(../../assets/diningout/food.avif);
+}
 @media screen and (min-width:915px) {
     .DiningOut{
         justify-content: center;
