@@ -34,6 +34,7 @@
 .collect{
 }
 .momo{
+    border-radius: 5px;
     
     max-height: 300px;
     object-fit:inherit;
