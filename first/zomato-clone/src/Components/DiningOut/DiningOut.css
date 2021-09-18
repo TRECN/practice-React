@@ -27,6 +27,10 @@
 .arrow{
     content: url(../../assets/diningout/img11.svg);
 }
+.collects{
+    display: flex;
+    
+}
 @media screen and (min-width:915px) {
     .DiningOut{
         justify-content: center;
