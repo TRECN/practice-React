@@ -36,7 +36,7 @@
 .momo{
     width: 200px;
     max-height: 300px;
-    object-fit:contain;
+    object-fit:inherit;
     content: url(../../assets/diningout/momo.avif);
 }
 @media screen and (min-width:915px) {
