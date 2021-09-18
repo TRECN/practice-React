@@ -31,6 +31,9 @@
     display: flex;
     justify-content: center;
 }
+.momo{
+    
+}
 @media screen and (min-width:915px) {
     .DiningOut{
         justify-content: center;
