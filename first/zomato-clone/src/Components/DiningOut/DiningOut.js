@@ -17,6 +17,9 @@ function DiningOut() {
                     <p className='all'>All collections in Ranchi</p>
                     <img className='arrow'/>
                 </div>
+                <div className="collects">
+                
+                </div>
 
             </div>
             <div className='DiningOut'>
