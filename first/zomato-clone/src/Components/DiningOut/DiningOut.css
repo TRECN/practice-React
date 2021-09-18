@@ -16,6 +16,9 @@
 .heading2{
     color: rgb(139, 139, 139);
 }
+.all{
+    color: rgb(245, 112, 112);
+}
 
 @media screen and (min-width:915px) {
     .DiningOut{
