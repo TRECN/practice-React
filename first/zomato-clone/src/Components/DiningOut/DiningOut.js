@@ -8,6 +8,11 @@ import Card from '../Cards/Card'
 function DiningOut() {
     return (
         <>
+            <div className="Collentions">
+                <div className="heading1">
+                    <h1>Collections</h1>
+                </div>
+            </div>
             <div className='DiningOut'>
                 <Btn {...Filters}/>
                 <Btn {...Rating}/>
