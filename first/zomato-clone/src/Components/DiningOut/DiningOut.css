@@ -9,6 +9,11 @@
     display: flex;
     justify-content: center;
 }
+
+.Collections{
+    
+}
+
 @media screen and (min-width:915px) {
     .DiningOut{
         justify-content: center;
