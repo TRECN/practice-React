@@ -29,7 +29,7 @@
 }
 .collects{
     display: flex;
-    
+    justify-content: center;
 }
 @media screen and (min-width:915px) {
     .DiningOut{
