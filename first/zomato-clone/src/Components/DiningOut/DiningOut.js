@@ -22,13 +22,13 @@ function DiningOut() {
                         <img className="momo" />
                     </div>
                     <div className="collect">
-                        <img className="momo" />
+                        <img className="cafe" />
                     </div>
                     <div className="collect">
-                        <img className="momo" />
+                        <img className="coff" />
                     </div>
                     <div className="collect">
-                        <img className="momo" />
+                        <img className="food" />
                     </div>
                     
                 </div>
