@@ -13,6 +13,9 @@
 .Collections{
     background-color: #F8F8F8;
 }
+.heading2{
+    color: rgb(139, 139, 139);
+}
 
 @media screen and (min-width:915px) {
     .DiningOut{
