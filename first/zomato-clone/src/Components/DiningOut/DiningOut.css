@@ -21,6 +21,9 @@
     justify-content: center;
     color: rgb(139, 139, 139);
 }
+.collects{
+    display: flex;
+}
 .all{
     margin-left: 50px;
     color: rgb(245, 112, 112);
