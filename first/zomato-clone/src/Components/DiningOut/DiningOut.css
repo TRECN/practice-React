@@ -11,12 +11,13 @@
 }
 
 .Collections{
+    justify-content: center;
     background-color: #F8F8F8;
 }
 .collects{
     display: flex;
     align-items: center;
-    width: fit-content;
+    height: fit-content;
 }
 .heading2{
     margin-top: 30px;
@@ -64,6 +65,7 @@
     content: url(../../assets/diningout/food.avif);
 }
 @media screen and (min-width:915px) {
+    
     .DiningOut{
         justify-content: center;
     }
