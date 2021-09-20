@@ -13,7 +13,10 @@
 .Collections{
     background-color: #F8F8F8;
 }
-
+.collects{
+    width: 1000px;
+    align-items: center;
+}
 .heading2{
     margin-top: 30px;
     display: flex;
