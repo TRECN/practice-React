@@ -14,11 +14,6 @@
     justify-content: center;
     background-color: #F8F8F8;
 }
-.collects{
-    display: flex;
-    align-items: center;
-    height: fit-content;
-}
 .heading2{
     margin-top: 30px;
     display: flex;
@@ -65,7 +60,9 @@
     content: url(../../assets/diningout/food.avif);
 }
 @media screen and (min-width:915px) {
-    
+    .collects{
+        width: fit-content;
+    }
     .DiningOut{
         justify-content: center;
     }
