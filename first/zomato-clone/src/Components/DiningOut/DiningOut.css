@@ -24,11 +24,7 @@
     justify-content: center;
     color: rgb(139, 139, 139);
 }
-.collects{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 .all{
     margin-left: 50px;
     color: rgb(245, 112, 112);
@@ -66,7 +62,9 @@
 }
 @media screen and (min-width:915px) {
     .collects{
-        width: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .DiningOut{
         justify-content: center;
