@@ -34,9 +34,17 @@ function DiningOut() {
                     </div>
                     <div className="collect">
                         <img className="coff" />
+                        <div className="hov">
+                            <h2>Tranding This Week</h2>
+                            <h3>23 places <img className='Warrow'/></h3>                           
+                        </div>
                     </div>
                     <div className="collect">
                         <img className="food" />
+                        <div className="hov">
+                            <h2>Tranding This Week</h2>
+                            <h3>23 places <img className='Warrow'/></h3>                           
+                        </div>
                     </div>
                     
                 </div>
