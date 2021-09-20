@@ -11,7 +11,10 @@
 }
 
 .Collections{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: #F8F8F8;
 }
 .heading2{
@@ -23,6 +26,8 @@
 }
 .collects{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .all{
     margin-left: 50px;
@@ -35,10 +40,7 @@
 .Warrow{
     content: url(../../assets/diningout/img12.svg);
 }
-.collects{
-    display: flex;
-    justify-content: center;
-}
+
 .collect{
     padding: 20px;
 }
