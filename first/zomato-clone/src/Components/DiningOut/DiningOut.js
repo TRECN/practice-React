@@ -20,6 +20,8 @@ function DiningOut() {
                 <div className="collects">
                     <div className="collect">
                         <img className="momo" />
+                        <div className="hov">
+                                                    </div>
                     </div>
                     <div className="collect">
                         <img className="cafe" />
