@@ -13,6 +13,7 @@
 .Collections{
     background-color: #F8F8F8;
 }
+
 .heading2{
     margin-top: 30px;
     display: flex;
@@ -26,6 +27,10 @@
 }
 .arrow{
     content: url(../../assets/diningout/img11.svg);
+}
+
+.Warrow{
+    content: url(../../assets/diningout/img12.svg);
 }
 .collects{
     display: flex;
