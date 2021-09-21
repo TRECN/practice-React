@@ -38,9 +38,6 @@
     content: url(../../assets/diningout/img12.svg);
 }
 
-.collect{
-    padding: 20px;
-}
 .momo{
     border-radius: 5px;
     max-height: 300px;
@@ -61,6 +58,7 @@
     max-height: 300px;
     content: url(../../assets/diningout/food.avif);
 }
+
 @media screen and (min-width:915px) {
     .collects{
         display: flex;
