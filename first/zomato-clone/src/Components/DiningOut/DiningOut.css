@@ -75,13 +75,3 @@
     
 }
 
-@media screen and (min-width:915px) {
-    .collects{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .DiningOut{
-        justify-content: center;
-    }
-}
