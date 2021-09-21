@@ -43,8 +43,7 @@ function DiningOut() {
                             <h2>Tranding This Week</h2>
                             <h3>23 places <img className='Warrow'/></h3>                           
                         </div>
-                    </div>
-                    
+                    </div>   
                 </div>
 
             </div>
