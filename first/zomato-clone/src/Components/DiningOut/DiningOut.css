@@ -69,6 +69,7 @@
     color: #FFFFFF;
     font-weight: bold;
     margin: 0 0 20px 20px;
+    background-image: linear-gradient(top, #000, transparent);
 }
 
 @media screen and (min-width:915px) {
