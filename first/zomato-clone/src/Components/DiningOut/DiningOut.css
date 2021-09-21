@@ -65,7 +65,8 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    bottom: 3rem;
+    bottom: 4rem;
+
 }
 
 @media screen and (min-width:915px) {
