@@ -25,6 +25,7 @@
 .collects{
     display: flex;
     align-items:flex-start;
+    
 }
 .all{
     margin-left: 50px;
