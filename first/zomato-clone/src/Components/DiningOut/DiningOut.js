@@ -3,8 +3,6 @@ import Btn from '../Btn/Btn'
 import {Distance, Dunki, Filters, Kaveri, Online, Outdoor, Prana, Rating } from '../../Data'
 import './DiningOut.css'
 import Card from '../Cards/Card'
-
-
 function DiningOut() {
     return (
         <>
