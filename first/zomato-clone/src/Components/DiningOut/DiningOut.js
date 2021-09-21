@@ -82,5 +82,4 @@ function DiningOut() {
         </>
     )
 }
-
 export default DiningOut
