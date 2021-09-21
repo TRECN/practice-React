@@ -61,6 +61,10 @@
     max-height: 300px;
     content: url(../../assets/diningout/food.avif);
 }
+.hov{
+    position: relative;
+    display: flex;
+}
 
 @media screen and (min-width:915px) {
     .collects{
