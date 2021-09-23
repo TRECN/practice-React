@@ -43,7 +43,9 @@
     padding: 20px;
     border-radius: 20px;
 }
-
+.collect:hover{
+    
+}
 .momo{
     border-radius: 20pxpx;
     max-height: 300px;
