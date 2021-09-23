@@ -9,7 +9,7 @@ function Card({
     notice,
     time,
     location
-}) {
+}){
     return (
         <div className='Card'>
             <img className={`im ${src}`}/>
