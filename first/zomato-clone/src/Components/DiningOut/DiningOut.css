@@ -25,10 +25,7 @@
     align-items:flex-start;
     
 }
-.all{
-    margin-left: 50px;
-    color: rgb(245, 112, 112);
-}
+
 .arrow{
     content: url(../../assets/diningout/img11.svg);
 }
