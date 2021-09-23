@@ -37,7 +37,7 @@ function Card({
                 </div>
                 <div className="location">
                         <h4>{location}</h4>
-                    </div>
+                </div>
                 <div className="close">
                         <h4>{time}</h4>
                     </div>
