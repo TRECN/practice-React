@@ -4,8 +4,7 @@ import './Tabs.css'
 import {
     Delivery,
      Dining,
-      Nightlife,
-       Nutrition,} from '../../../src/Data'
+      Nightlife,} from '../../../src/Data'
 function Tabs() {
 
 
