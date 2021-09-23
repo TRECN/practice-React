@@ -49,7 +49,6 @@ function Card({
                         <h4>{notice}</h4>
                     </div>   
                 </div>
-                
             </div>
         </div>
     )
