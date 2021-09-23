@@ -7,7 +7,7 @@ import './Nightlife.css'
 function Nightlife() {
     return (
         <>
-            <div className='nightlife'>
+            <div className='night'>
                 <Btn {...Filters}/>
                 <Btn {...Rating}/>
                 <Btn {...Distance}/>
