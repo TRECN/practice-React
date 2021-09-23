@@ -35,7 +35,6 @@ function Card({
                     <div className="off">
                         <h4>{off}</h4>
                     </div>
-                    
                 </div>
                 <div className="location">
                         <h4>{location}</h4>
