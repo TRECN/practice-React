@@ -14,8 +14,6 @@ function Tabs() {
             <div className='section'>
             <Tab {...Delivery}/>
             <Tab {...Dining}/>
-            
-            <Tab {...Nutrition}/>
             <Tab {...Nightlife}/>
             </div>
         </div>
