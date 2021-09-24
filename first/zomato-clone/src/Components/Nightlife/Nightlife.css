@@ -2,7 +2,7 @@
     padding: 15px;
     display: flex;
     background-color: transparent;
-    align-items: center;
+    justify-content: center;
 }
 .Cards{
     margin: 20px;
