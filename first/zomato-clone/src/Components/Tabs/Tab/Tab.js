@@ -10,7 +10,6 @@ const Tab=(
         add,
         C_add,
         C_add1
-
     }
 ) =>{
 
