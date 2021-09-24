@@ -24,7 +24,12 @@ function Navbar() {
                     </a>
                 </div>
                 <div className="search-bar">
-                    
+                    <div className="drop">
+                        <TiLocation className='location-icon'/>
+                        <select className='dropdown'>
+                            <option>Ranchi</option>
+                        </select>
+                    </div>
                     <BsSearch className='search-icon'/>
                     <input type="text" placeholder='Search for restaurant, cuisine or dish' name="" className='search-text' />
                 </div>
