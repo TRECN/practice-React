@@ -2,17 +2,7 @@ body{
     margin: 0;
 }
 
-.btn{
-    padding: 8px;
-    border: 1px solid #afaeae;
-    background: #FFFFFF;
-    color: #acaaaa;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    margin: 0 0 0 16px;
-    letter-spacing: 0.5px;
-}
+
 .btn:hover{
     background-color: rgb(240, 240, 240);
     transition: all 0.3s ease;
