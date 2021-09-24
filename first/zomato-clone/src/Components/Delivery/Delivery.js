@@ -8,14 +8,7 @@ function Delivery() {
     return (
         <>
        
-        <div className='del' style={{backgroundColor:'transparent'}}>
-            <Btn {...Filters}/>
-            <Btn {...Rating}/>
-            <Btn {...SandH}/>
-            <Btn {...PureVeg}/>
-            <Btn {...DeliveryTime}/>
-            <Btn {...GreatOffers}/> 
-        </div>
+        
         <div className="insp">
             <div className="heading1">
                 <h1>Inspiration for your first order</h1>
