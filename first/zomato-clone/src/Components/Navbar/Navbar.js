@@ -33,10 +33,7 @@ function Navbar() {
                     <BsSearch className='search-icon'/>
                     <input type="text" placeholder='Search for restaurant, cuisine or dish' name="" className='search-text' />
                 </div>
-                <ul >
-                    <li><a href="/">Log in</a></li>
-                    <li><a href="/">Sign up</a></li>
-                </ul>
+               
             </div>
             
 
