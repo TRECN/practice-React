@@ -12,7 +12,6 @@ const Tab=(
         C_add1
     }
 ) =>{
-
     const [Click, setClick]=useState(false);
     var t=window.location.href
     //code to refresh page
