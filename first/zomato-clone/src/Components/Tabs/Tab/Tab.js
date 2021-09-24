@@ -12,7 +12,14 @@ const Tab=(
         C_add1
     }
 ) =>{
-
+    const [Click, setClick]=useState(false);
+    var t=window.location.href
+    //code to refresh page
+    function refreshPage() {
+        setTimeout(()=>{
+            window.location.reload(false);
+        }, 1);
+    }
 
     const handleClick=()=>{
         setClick(!Click)
