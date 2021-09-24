@@ -21,9 +21,7 @@
     height: 100%;
     object-fit:inherit;
 }
-.dominos{
-    content: url(../../assets/cards/Dominos_Pizza.webp);
-}
+
 .Jashn{
     content: url(../../assets/cards/Jashn_the_Restaurant.webp);
 }
