@@ -40,7 +40,17 @@ function Navbar() {
             </div>
             
 
-           
+            <div className='container2'>
+                <a className="bar-icon" onClick={myFunction}>
+                    {navbarOpen?<FaTimes/>:<FaBars/>}
+                </a>
+                
+                <div className="img-container">
+                    <a href="/">
+                        <img src={logo} alt="Zomato" style={{width:'130px'}}/>
+                    </a>
+                </div>
+            </div>
 
 
             <div className={`container3 ${navbarOpen?'responsive':''}`}>
