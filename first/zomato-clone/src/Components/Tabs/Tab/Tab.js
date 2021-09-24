@@ -31,7 +31,6 @@ const Tab=(
     useEffect(() => {     
         t=window.location.href
         console.log(t)
-        
     })
 
     return (
@@ -50,5 +49,4 @@ const Tab=(
         </Link>
     )
 }
-
 export default Tab
