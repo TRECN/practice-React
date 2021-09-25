@@ -44,7 +44,6 @@ function Navbar() {
                 <a className="bar-icon" onClick={myFunction}>
                     {navbarOpen?<FaTimes/>:<FaBars/>}
                 </a>
-                
                 <div className="img-container">
                     <a href="/">
                         <img src={logo} alt="Zomato" style={{width:'130px'}}/>
