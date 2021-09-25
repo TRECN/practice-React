@@ -69,8 +69,6 @@ function Delivery() {
             <Card {...Dominos}/>
             <Card {...Jashn}/>
             </div>
-            
-            
         </div>
     </>
     )
