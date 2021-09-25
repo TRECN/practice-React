@@ -47,7 +47,13 @@ function DiningOut() {
                 </div>
 
             </div>
-            
+            <div className='DiningOut'>
+                <Btn {...Filters}/>
+                <Btn {...Rating}/>
+                <Btn {...Distance}/>
+                <Btn {...Online}/>
+                <Btn {...Outdoor}/>
+            </div>
             <div className="card_col">
                 <div className="heading1">
                     <h1>Dine-Out Restaurants in Ranchi</h1>
