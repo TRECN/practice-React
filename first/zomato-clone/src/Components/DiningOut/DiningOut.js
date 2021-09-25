@@ -68,7 +68,16 @@ function DiningOut() {
                     <Card {...Kaveri}/>
                     <Card {...Prana}/>
                 </div>
-                
+                <div className="Cards">
+                    <Card {...Dunki}/>
+                    <Card {...Kaveri}/>
+                    <Card {...Prana}/>
+                </div>
+                <div className="Cards">
+                    <Card {...Dunki}/>
+                    <Card {...Kaveri}/>
+                    <Card {...Prana}/>
+                </div>
             </div>
         </>
     )
