@@ -4,9 +4,7 @@ body{
 
 .btn{
     padding: 8px;
-    border: 1px solid #afaeae;
-    background: #FFFFFF;
-    color: #acaaaa;
+    
     border-radius: 8px;
     display: flex;
     align-items: center;
