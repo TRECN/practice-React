@@ -10,7 +10,11 @@ function DiningOut() {
                 <div className="heading1">
                     <h1>Collections</h1>
                 </div>
-                
+                <div className="heading2">
+                    <h3>Explore curated lists of top restaurants, cafes, pubs, and bars in ranchi,based on trends</h3>
+                    <p className='all'>All collections in Ranchi</p>
+                    <img className='arrow'/>
+                </div>
                 <div className="collects">
                     <div className="collect">
                         <img className="momo" />
