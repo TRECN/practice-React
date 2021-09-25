@@ -38,8 +38,6 @@ function Navbar() {
                     <li><a href="/">Sign up</a></li>
                 </ul>
             </div>
-            
-
             <div className='container2'>
                 <a className="bar-icon" onClick={myFunction}>
                     {navbarOpen?<FaTimes/>:<FaBars/>}
