@@ -42,13 +42,7 @@ function Card({
                         <h4>{time}</h4>
                     </div>
                 <div className="detail_3">
-                <div className="maxsafe">
-                        <img className='max'/>
-                    </div>
-                    <div className="notice">
-                        <h4>{notice}</h4>
-                    </div>   
-                </div>  
+                
             </div>
         </div>
     )
