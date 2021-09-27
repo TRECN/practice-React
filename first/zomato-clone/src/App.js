@@ -20,9 +20,6 @@ function App() {
                     <Route path='/delivery' exact component={Delivery}></Route>
                     <Route path='/dining' component={DiningOut}></Route>
                     <Route path='/nightlife' component={Nightlife}></Route>
-                    <Route path='/nutrition' component={Nutrition}></Route>
-
-                    
                 </Switch>
 
             </Router>
