@@ -21,6 +21,8 @@ function App() {
                     <Route path='/dining' component={DiningOut}></Route>
                     <Route path='/nightlife' component={Nightlife}></Route>
                     <Route path='/nutrition' component={Nutrition}></Route>
+
+                    
                 </Switch>
 
             </Router>
