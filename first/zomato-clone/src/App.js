@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route } from 'react-router';
-import { BrowserRouter as Router, Switch} from "react-router-dom"
+import { HashRouter as Router, Switch} from "react-router-dom"
 import Navbar from './Components/Navbar/Navbar'
 import  Delivery  from './Components/Delivery/Delivery'
 import Tabs from './Components/Tabs/Tabs'
