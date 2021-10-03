@@ -18,7 +18,7 @@ function Navbar() {
             <div className='container'>
                 
                 <div className="img-container">
-                    <a href="/">
+                    <a href="/Zomato-Clone">
                         <img src={logo} alt="Zomato" style={{width:'130px'}}/>
                     </a>
                 </div>
