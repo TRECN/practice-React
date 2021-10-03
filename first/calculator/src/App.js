@@ -13,6 +13,12 @@ function App() {
         <button>-</button>
 
         <button>Del</button>
+
+        </div>
+        <div className="digits">
+        <button>0</button>
+        <button>.</button>
+        <button>=</button>
         </div>
       </div>
     </div>
