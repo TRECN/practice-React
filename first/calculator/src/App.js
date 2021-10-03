@@ -34,7 +34,7 @@ function App() {
   }
 
   const calculate =() =>{
-    setCalc(eval(calc).toString())
+    setCalc(result)
   }
 
   const deleteLast=()=>{
