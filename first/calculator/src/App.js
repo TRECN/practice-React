@@ -6,7 +6,14 @@ function App() {
           <span>(0)</span>0
 
         </div>
-        <div className="operators"></div>
+        <div className="operators">
+        <button>/</button>
+        <button>*</button>
+        <button>+</button>
+        <button>-</button>
+
+        <button>Del</button>
+        </div>
       </div>
     </div>
   );
