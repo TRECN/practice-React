@@ -1,7 +1,7 @@
 :root{
   --primary:#d81e5b;
   --secondary: #8c38ff;
-  --dark:black;
+  --dark:rgb(22, 21, 21);
   --light:rgb(204, 203, 203);
 }
 
@@ -32,12 +32,12 @@ body{
 }
 
 .display{
-  padding: 15px;
+  padding: 16px;
   text-align: right;
   background-color: var(--dark);
   color: var(--light);
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 300;
 
 }
 .display span{
@@ -66,4 +66,14 @@ button:hover{
   flex: 1 1 0%;
   font-weight: 700;
   background-color:var(--primary);
+}
+
+.digits{
+  display: flex;
+  flex-wrap: wrap;
+}
+.digits button{
+  flex: 1 1 33.33%;
+  max-width: 33.33%;
+  background-color: var(--dark);
 }
