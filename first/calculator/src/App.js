@@ -1,4 +1,12 @@
 function App() {
+
+  const createDigits=()=>{
+    const digits=[]
+    for(let i=1;i<10;i++){
+      
+    }
+  }
+
   return (
     <div className="App">
       <div className="calculator">
