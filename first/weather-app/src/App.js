@@ -9,8 +9,10 @@ function App() {
     navigator.geolocation.getCurrentPosition(function(position){
       setLat(position.coords.latitude);
       setLong(position.coords.longitude);
-    })
-  });
+    });
+    console.log("Latitude is: ",lat);
+    console.log("Longitude is: ", long)
+  },[lat,long]);
 
 
   return (
