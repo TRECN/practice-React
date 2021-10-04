@@ -1,2 +1,13 @@
+cd ..
 node -v
 npx create-react-app <appname>
+
+git remote -v
+git init
+git add.
+git commit -m 'first commit'
+git branch -M master
+git remote add origin 'link'
+git push -u origin master
+
+npm run deploy
