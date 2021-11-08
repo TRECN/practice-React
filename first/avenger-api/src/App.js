@@ -10,7 +10,11 @@ export default function App() {
       try{
         const resp=await fetch(url);
         const json=await resp.json();
-        
+        setData(json['0']);
+        console.log(data);
+      }
+      catch(error){
+        console.log('error',error);
       }
     }
     fetchData();
