@@ -1,9 +1,9 @@
 import React from 'react'
 import './Cards.css'
 export default function Cards(
-    data
+    data1
 ) {
-    console.log(data)
+    console.log(data1)
     return (
         
         <div className='cards'>
