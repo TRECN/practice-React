@@ -26,22 +26,28 @@ export default function App() {
   //   fetchData();
   // }, [])
 
-  const [data,setData]=useState([]);
+  const [dataa,setDataa]=useState([]);
+  const [data,setData]=useState({});
   
   useEffect(()=>{
     fetchData();
   },[])
 
+  useEffect(()=>{
+    console.log(dataa)
+  },[dataa])
+
   const fetchData=async()=>{
     const response = await Axios(url);
-    setData(response['data'])
+    setDataa(response.data)
+    setData(dataa[1])
   }
 
-  
+
   return (
     <div className="App">
       <h1></h1>
-      <Cards{...data}/>
+      
        
     </div>
   );
