@@ -26,7 +26,7 @@ export default function App() {
   //   fetchData();
   // }, [])
 
-  const [data,setData]=useState([]);
+  const [json,setJson]=useState([]);
   
   
   useEffect(()=>{
@@ -34,14 +34,13 @@ export default function App() {
   },[])
 
   useEffect(()=>{
-    console.log(data[1])
-
-  },[data])
+    console.log(json)
+  },[json])
   
   
   const fetchData=async()=>{
     const response = await Axios(url);
-    setData(response.data)
+    setJson(response.data)
 
   }
 
@@ -51,7 +50,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>a</h1>
-      <Cards{...data[1]}/>
+      <Cards{...json[1]}/>
        
     </div>
   );
