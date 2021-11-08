@@ -5,6 +5,7 @@ export default function Cards(
 ) {
     console.log(data)
     return (
+        
         <div className='cards'>
             <div className="thumbnail">
                 <img src="" alt="" srcset="" />
