@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Cards.css'
 export default function Cards(
-    data1
+    data
 ) {
-    console.log(data1)
+    const [show,setShow]=useState({});
+    useEffect(()=>{
+        setShow(data)
+    },[show])
+
+
     return (
         
         <div className='cards'>
