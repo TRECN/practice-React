@@ -10,7 +10,7 @@ export default function App() {
     try{
     const response=await fetch(url);
     const json=await response.json();
-    console.log(json)
+    console.log(json[1].show)
     data=json
     console.log(data)
     }catch(error){
@@ -22,7 +22,6 @@ export default function App() {
     Fetch()
   },[])
   
-
 
   return (
     <div className="App">
