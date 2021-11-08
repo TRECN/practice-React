@@ -1,33 +1,37 @@
 
 import React, { useEffect, useState } from "react";
+
+import Cards from "./components/Cards";
+import Axios from 'axios'
 export default function App() {
   
   
   const url = "https://api.tvmaze.com/search/shows?q=avengers";
   let data={}
-  const [num,setNum]=useState({})
+  const [da,setDa]=useState([])
+
   useEffect(() => {
-    setNum('8')
-    const fetchData = async () => {
-      try{
-        const resp=await fetch(url);
-        const json=await resp.json();
-        console.log(json);
-        data=json;
-        console.log(data)
-        console.log(data[num])
-      }
-      catch(error){
-        console.log('error',error);
-      }
-    }
+    
+    
     fetchData();
   }, [])
+
+  const fetchData = async () => {
+    try{
+      const resp= await Axios(url);
+      setDa(resp.data)
+    }
+    catch(error){
+      console.log('error',error);
+    }
+  }
   
   return (
     <div className="App">
+      <h1>{da}</h1>
       
-      
+      <Cards{...data}/>
+       
     </div>
   );
 }
