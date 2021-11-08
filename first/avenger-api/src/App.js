@@ -17,6 +17,7 @@ export default function App() {
         const json=await resp.json();
         console.log(json);
         setDa(json[num])
+        console.log(da)
         
       }
       catch(error){
