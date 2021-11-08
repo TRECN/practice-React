@@ -8,16 +8,17 @@ export default function Cards(
     useEffect(()=>{
         setData(json)
     },[data])
-
-    console.log(json)
-
     useEffect(()=>{
         setShow(json.show);
     },[show])
     useEffect(()=>{
-        console.log(show)
-    })
-    console.log(show)
+        setTimeout(()=>{
+            console.log(data);
+            console.log(show);
+        },2000)
+        
+    },[data,show])
+    
     return (
         
         <div className='cards'>
