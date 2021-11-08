@@ -1,14 +1,23 @@
 import React, { useEffect, useState } from 'react'
 import './Cards.css'
 export default function Cards(
-    data
+    json
 ) {
+    const [data,setData]=useState({});
     const [show,setShow]=useState({});
     useEffect(()=>{
-        setShow(data)
+        setData(json)
+    },[data])
+
+    console.log(json)
+
+    useEffect(()=>{
+        setShow(json.show);
     },[show])
-
-
+    useEffect(()=>{
+        console.log(show)
+    })
+    console.log(show)
     return (
         
         <div className='cards'>
