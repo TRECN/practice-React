@@ -5,9 +5,6 @@ export default function App() {
   
   const url = "https://api.tvmaze.com/search/shows?q=avengers";
   let data={}
-  const [da,setDa]=useState({
-    name:''
-  });
   const [num,setNum]=useState({})
   useEffect(() => {
     setNum('8')
@@ -16,9 +13,9 @@ export default function App() {
         const resp=await fetch(url);
         const json=await resp.json();
         console.log(json);
-        setDa(json[num])
-        console.log(da)
-        
+        data=json;
+        console.log(data)
+        console.log(data[num])
       }
       catch(error){
         console.log('error',error);
