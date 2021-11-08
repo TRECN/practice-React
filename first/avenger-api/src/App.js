@@ -50,7 +50,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1></h1>
+      <h1>a</h1>
       <Cards{...data[1]}/>
        
     </div>
