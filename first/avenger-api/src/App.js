@@ -4,14 +4,20 @@ export default function App() {
   
   
   const url = "https://api.tvmaze.com/search/shows?q=avengers";
-  const [data,setData]=useState([]);
+  let data={}
+  const [da,setDa]=useState({
+    name:''
+  });
+  const [num,setNum]=useState({})
   useEffect(() => {
+    setNum('8')
     const fetchData = async () => {
       try{
         const resp=await fetch(url);
         const json=await resp.json();
-        setData(json['0']);
-        console.log(data);
+        console.log(json);
+        setDa(json[num])
+        
       }
       catch(error){
         console.log('error',error);
