@@ -12,19 +12,19 @@ export default function Cards(
             </div>
 
             <div className="name">
-                <h1></h1>
+                <h1>a</h1>
             </div>
             <div className="lang">
-                <h1></h1>
+                <h1>a</h1>
             </div>
             <div className="genres">
-                <h1></h1>
+                <h1>a</h1>
             </div>
             <div className="runtime">
-                <h1></h1>
+                <h1>a</h1>
             </div>
             <div className="premiered">
-                <h1></h1>
+                <h1>a</h1>
             </div>
         </div>
     )
