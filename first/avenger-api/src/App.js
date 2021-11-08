@@ -1,6 +1,6 @@
 
 import React, { useEffect,useState } from "react";
-import Cards from "./components/Cards";
+//import Cards from "./components/Cards";
 import Axios from 'axios'
 export default function App() {
   
@@ -27,21 +27,23 @@ export default function App() {
   // }, [])
 
   const [dataa,setDataa]=useState([]);
-  const [data,setData]=useState({});
+  
   
   useEffect(()=>{
     fetchData();
   },[])
 
   useEffect(()=>{
-    console.log(dataa)
+    console.log(dataa[1])
   },[dataa])
-
+  
   const fetchData=async()=>{
     const response = await Axios(url);
     setDataa(response.data)
-    setData(dataa[1])
+
   }
+
+  
 
 
   return (
