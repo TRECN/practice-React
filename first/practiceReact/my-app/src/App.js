@@ -4,6 +4,10 @@ import './App.css';
 
 // import Item from './MyItem'
 
+class StarWars extends React.Component{
+  
+}
+
 function App() {
   return (
     <div className="App">
