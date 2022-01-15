@@ -1,6 +1,11 @@
 import React from 'react'
 
 class Item extends React.Component{
+
+    constructor(){
+        
+    }
+
     clickMe(){
         console.log("I was clicked",this.props.name)
     }
