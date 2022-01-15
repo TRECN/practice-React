@@ -13,7 +13,7 @@ class Item extends React.Component{
     clickMe(){
         this.setState({
             click:this.state.click +1,
-        })
+        });
         console.log("I was clicked",this.props.name)
     }
     render(){
@@ -25,7 +25,7 @@ class Item extends React.Component{
             ()=>this.clickMe()}
             >Hello World {this.props.name}</h1>
 
-            <span>{}</span>
+            <span>{this.state.click} is the number of clicks</span>
         </>
       )
     }
