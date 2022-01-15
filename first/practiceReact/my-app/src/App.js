@@ -12,6 +12,7 @@ class StarWars extends React.Component{
       <div>
         <h1>Name</h1>
         <p>Height cm</p>
+        <p>Homeworld: URL</p>
       </div>  
     )
   }
