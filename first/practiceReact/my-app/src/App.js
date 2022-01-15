@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Item name='rishabh'/>
-        <Item name='raj'/>
+        {/* <Item name='rishabh'/> */}
+
 
       </header>
     </div>
