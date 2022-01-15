@@ -13,6 +13,7 @@ class StarWars extends React.Component{
     super()
 
     this.state={
+      loadedCharacter:false,
       name:null,
       height:null,
       homeworld:null,
@@ -24,6 +25,7 @@ class StarWars extends React.Component{
   getNewCharacter=()=>{
     console.log("clicked")
     this.setState({
+      loadedCharacter:true,
       name:'luke',
       height:175,
       homeworld:'Totonine',
@@ -33,13 +35,20 @@ class StarWars extends React.Component{
 
   render(){
     return(
+      
       <div>
-        <h1>{this.state.name}</h1>
-        <p>{this.state.height}</p>
-        <p>Homeworld: {this.state.homeworld}</p>
-        <ul>
-          <li>{this.state.flims}</li>
-        </ul>
+        {
+          this.state.loadedCharacter&&
+            <div >
+                <h1>{this.state.name}</h1>
+                <p>{this.state.height}</p>
+                <p>Homeworld: {this.state.homeworld}</p>
+                <ul>
+                  <li>{this.state.flims}</li>
+                </ul>
+            </div>
+          
+        }
         <button type='button' onClick={()=>this.getNewCharacter()} className='btn'>Randomize</button>
       </div>  
     )
