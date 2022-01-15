@@ -9,7 +9,7 @@ import React from 'react';
 class StarWars extends React.Component{
 
   getNewCharacter=()=>{
-    
+
   }
 
   render(){
@@ -21,7 +21,7 @@ class StarWars extends React.Component{
         <ul>
           <li>Films in here</li>
         </ul>
-        <button type='button' onClick={} className='btn'>Randomize</button>
+        <button type='button' onClick={()=>this.getNewCharacter()} className='btn'>Randomize</button>
       </div>  
     )
   }
