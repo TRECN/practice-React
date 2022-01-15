@@ -6,13 +6,16 @@ class Item extends React.Component{
         super(props)
 
         this.state={
-            click:0
+            click:0,
+            name:'rishabh123'
         }
+        this.props.name=this.state.name
     }
 
     clickMe(){
         this.setState({
             click:this.state.click +1,
+
         });
         console.log("I was clicked",this.props.name)
     }
