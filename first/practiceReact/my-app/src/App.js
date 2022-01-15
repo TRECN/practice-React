@@ -16,6 +16,7 @@ class StarWars extends React.Component{
         <ul>
           <li>Films in here</li>
         </ul>
+        <button type='button' class='btn'>Randomize</button>
       </div>  
     )
   }
