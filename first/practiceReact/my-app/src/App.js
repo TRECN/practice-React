@@ -9,7 +9,7 @@ import React from 'react';
 class StarWars extends React.Component{
 
   getNewCharacter=()=>{
-
+    console.log("clicked")
   }
 
   render(){
