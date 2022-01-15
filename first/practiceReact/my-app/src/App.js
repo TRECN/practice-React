@@ -2,7 +2,7 @@ import logo from './logo.svg';
 
 import './App.css';
 
-import Item from './MyItem'
+// import Item from './MyItem'
 
 function App() {
   return (
