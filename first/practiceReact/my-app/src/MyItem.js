@@ -4,6 +4,10 @@ class Item extends React.Component{
     //for creating states
     constructor(props){
         super(props)
+
+        this.state={
+            click:0
+        }
     }
 
     clickMe(){
