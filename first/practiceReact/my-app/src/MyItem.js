@@ -2,7 +2,7 @@ import React from 'react'
 
 class Item extends React.Component{
     clickMe(){
-        console.log("I was clicked")
+        console.log("I was clicked",this.props.name)
     }
     render(){
 
