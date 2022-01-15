@@ -9,7 +9,10 @@ import React from 'react';
 class StarWars extends React.Component{
   render(){
     return(
-      <h1>this is star Wars</h1>
+      <div>
+        <h1>Name</h1>
+        p
+      </div>  
     )
   }
 }
