@@ -8,7 +8,9 @@ class Item extends React.Component{
 
 
       return(
-        <h1 onClick={}>Hello World {this.props.name}</h1>
+        <h1 onClick={
+            ()=>this.clickMe()}
+        >Hello World {this.props.name}</h1>
       )
     }
   }
