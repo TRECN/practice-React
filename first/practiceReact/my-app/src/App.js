@@ -11,7 +11,7 @@ class StarWars extends React.Component{
     return(
       <div>
         <h1>Name</h1>
-        p
+        <p>Height cm</p>
       </div>  
     )
   }
