@@ -55,8 +55,7 @@ class StarWars extends React.Component{
                             
                         </div>
                  }
-                <button type='button' className='btn' onClick={()=>this.getCharacter()}>Randomize</button>
-            </div>
+              
         )
     }
 }
