@@ -42,7 +42,7 @@ class StarWars extends React.Component{
         return(
             <div>
                 <div className="content">
-                    <img src={this.state.img} height='300px'/>
+                    <img className='image'src={this.state.img} height='300px'/>
                     <h1>{this.state.name}</h1>
                     <p>{this.state.height}</p>
                     <p>{this.state.homeworld}</p>
