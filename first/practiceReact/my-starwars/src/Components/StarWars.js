@@ -8,7 +8,8 @@ class StarWars extends React.Component{
         super()
 
         this.state={
-            img:'https://vignette.wikia.nocookie.net/starwars/images/2/20/LukeTLJ.jpg',
+            loaded:false,
+            img:'',
             name:null,
             height:null,
             homeland:null,
@@ -19,6 +20,22 @@ class StarWars extends React.Component{
 
     getCharacter=()=>{
         console.log('clicked')
+        
+        const url=`https://raw.githubusercontent.com/akabab/starwars-api/master/api/id/1.json`
+        fetch(url)
+            .then(response=>response.json())
+            .then(data=>{
+                console.log(data)
+                this.setState({
+                    loaded:true,
+                    img:data.image,
+                    name:data.name,
+                    height:data.height,
+                    homeland:data.homeland,
+                    films:[]
+                })
+
+            })
     }
 
     render(){
