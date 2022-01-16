@@ -45,6 +45,11 @@ class StarWars extends React.Component{
   }
 
   render(){
+
+    const movies=()=>{
+      
+    }
+
     return(
       
       <div>
@@ -55,7 +60,7 @@ class StarWars extends React.Component{
                 <p>{this.state.height}</p>
                 <p><a href= {this.state.homeworld}>Homeworld</a></p>
                 <ul>
-                  <li>{this.state.films}</li>
+                  {movies}
                 </ul>
             </div>
           
