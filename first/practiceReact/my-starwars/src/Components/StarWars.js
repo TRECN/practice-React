@@ -17,17 +17,24 @@ class StarWars extends React.Component{
         }
     }
 
+    getCharacter=()=>{
+        console.log('clicked')
+    }
 
     render(){
         return(
-            <div className="">
-                <img src={this.state.img} height='300px'/>
-                <h1>{this.state.name}</h1>
-                <p>{this.state.height}</p>
-                <p>{this.state.homeland}</p>
-                <ul>
-                    <li>{this.state.films}</li>
-                </ul>
+            <div>
+                <div className="">
+                    <img src={this.state.img} height='300px'/>
+                    <h1>{this.state.name}</h1>
+                    <p>{this.state.height}</p>
+                    <p>{this.state.homeland}</p>
+                    <ul>
+                        <li>{this.state.films}</li>
+                    </ul>
+                </div>
+
+                <button type='button' className='btn' onClick={()=>this.getCharacter()}>Randomize</button>
             </div>
         )
     }
