@@ -7,8 +7,8 @@ class StarWars extends React.Component{
 
         super()
 
-        const state={
-            img:null,
+        this.state={
+            img:'https://vignette.wikia.nocookie.net/starwars/images/2/20/LukeTLJ.jpg',
             name:null,
             height:null,
             homeland:null,
@@ -21,12 +21,12 @@ class StarWars extends React.Component{
     render(){
         return(
             <div className="">
-                <img src="https://vignette.wikia.nocookie.net/starwars/images/2/20/LukeTLJ.jpg"height='300px'/>
-                <h1>Luke Skywalker</h1>
-                <p>Height</p>
-                <p>HomeLand</p>
+                <img src={this.state.img} height='300px'/>
+                <h1>{this.state.name}</h1>
+                <p>{this.state.height}</p>
+                <p>{this.state.homeland}</p>
                 <ul>
-                    <li>films</li>
+                    <li>{this.state.films}</li>
                 </ul>
             </div>
         )
