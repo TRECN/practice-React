@@ -5,18 +5,7 @@ class StarWars extends React.Component{
 
     constructor(){
 
-        super()
-
-        this.state={
-            loaded:false,
-            img:'',
-            name:null,
-            height:null,
-            homeworld:null,
-            wiki:null
-
-        }
-    }
+       
 
     getCharacter=()=>{
         console.log('clicked')
