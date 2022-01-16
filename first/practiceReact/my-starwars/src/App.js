@@ -1,5 +1,5 @@
 import './App.css';
-
+import StarWars from './Components/StarWars'
 
 
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-
+        <StarWars/>
       </header>
     </div>
   );
