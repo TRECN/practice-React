@@ -6,6 +6,16 @@ import React from 'react';
 
 // import Item from './MyItem'
 
+class FilmItemRow extends React.Component{
+  render(){
+    return(
+      <li>
+        <a href="#">Sometext</a>
+      </li>
+    )
+  }
+}
+
 class StarWars extends React.Component{
 
   constructor(){
@@ -48,7 +58,7 @@ class StarWars extends React.Component{
 
     const movies=
         this.state.films.map((url,i)=>{
-          return <FilmItemRow/>
+          return <FilmItemRow key={i}/>
         })
       
     
