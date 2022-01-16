@@ -12,8 +12,8 @@ class StarWars extends React.Component{
             img:'',
             name:null,
             height:null,
-            homeland:null,
-            films:[]
+            homeworld:null,
+            wiki:null
 
         }
     }
@@ -31,8 +31,8 @@ class StarWars extends React.Component{
                     img:data.image,
                     name:data.name,
                     height:data.height,
-                    homeland:data.homeland,
-                    films:[]
+                    homeworld:data.homeworld,
+                    wiki:
                 })
 
             })
@@ -45,7 +45,7 @@ class StarWars extends React.Component{
                     <img src={this.state.img} height='300px'/>
                     <h1>{this.state.name}</h1>
                     <p>{this.state.height}</p>
-                    <p>{this.state.homeland}</p>
+                    <p>{this.state.homeworld}</p>
                     <ul>
                         <li>{this.state.films}</li>
                     </ul>
