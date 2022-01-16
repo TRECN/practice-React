@@ -46,9 +46,12 @@ class StarWars extends React.Component{
 
   render(){
 
-    const movies=()=>{
+    const movies=
+        this.state.films.map((url,i)=>{
+          return <FilmItemRow/>
+        })
       
-    }
+    
 
     return(
       
