@@ -36,7 +36,7 @@ class StarWars extends React.Component{
           name:data.name,
           height:data.height,
           homeworld:data.homeworld,
-          flims:['item 1', 'item2']
+          flims:['item']
         })
       })
 
