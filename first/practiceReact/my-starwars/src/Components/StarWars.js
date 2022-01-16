@@ -22,23 +22,7 @@ class StarWars extends React.Component{
         console.log('clicked')
         const random = Math.round(Math.random()*70)
         const url=`https://raw.githubusercontent.com/akabab/starwars-api/master/api/id/${random}.json`
-        fetch(url)
-            .then(response=>response.json())
-            .then(data=>{
-                console.log(data)
-                setTimeout(()=>{
-                    this.setState({
-                        loaded:true,
-                        img:data.image,
-                        name:data.name,
-                        height:data.height,
-                        homeworld:data.homeworld,
-                        wiki:data.wiki
-                    },2000)
-                })
-
-            })
-    }
+        fet
 
     render(){
         return(
