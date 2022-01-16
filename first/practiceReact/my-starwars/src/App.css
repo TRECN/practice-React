@@ -35,3 +35,8 @@
   text-decoration: none;
   color: yellow;
 }
+
+.image{
+  border: 5px solid yellow ;
+  border-radius: 50%;
+}
