@@ -17,7 +17,7 @@ class StarWars extends React.Component{
       name:null,
       height:null,
       homeworld:null,
-      flims:[]
+      films:[]
     }
   }
 
@@ -36,8 +36,8 @@ class StarWars extends React.Component{
           name:data.name,
           height:data.height,
           homeworld:data.homeworld,
-          flims:['item']
-          
+          films:data.films
+
         })
       })
 
@@ -55,7 +55,7 @@ class StarWars extends React.Component{
                 <p>{this.state.height}</p>
                 <p>Homeworld: {this.state.homeworld}</p>
                 <ul>
-                  <li>{this.state.flims}</li>
+                  <li>{this.state.films}</li>
                 </ul>
             </div>
           
