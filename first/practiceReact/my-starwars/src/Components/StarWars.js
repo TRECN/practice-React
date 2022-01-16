@@ -2,6 +2,22 @@
 import React from 'react'
 
 class StarWars extends React.Component{
+
+    constructor(){
+
+        super()
+
+        const state={
+            img:null,
+            name:null,
+            height:null,
+            homeland:null,
+            films:[]
+
+        }
+    }
+
+
     render(){
         return(
             <div className="">
