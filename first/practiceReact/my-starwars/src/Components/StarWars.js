@@ -26,13 +26,15 @@ class StarWars extends React.Component{
             .then(response=>response.json())
             .then(data=>{
                 console.log(data)
-                this.setState({
-                    loaded:true,
-                    img:data.image,
-                    name:data.name,
-                    height:data.height,
-                    homeworld:data.homeworld,
-                    wiki:data.wiki
+                setTimeout(()=>{
+                    this.setState({
+                        loaded:true,
+                        img:data.image,
+                        name:data.name,
+                        height:data.height,
+                        homeworld:data.homeworld,
+                        wiki:data.wiki
+                    },2000)
                 })
 
             })
