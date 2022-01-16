@@ -10,7 +10,7 @@ class FilmItemRow extends React.Component{
   render(){
     return(
       <li>
-        <a href="#">Sometext</a>
+        <a href={this.props.url}>{this.props.url}</a>
       </li>
     )
   }
@@ -57,12 +57,11 @@ class StarWars extends React.Component{
   render(){
 
     const movies=
-        this.state.films.map((url,i)=>{
-          return <FilmItemRow key={i}/>
+        this.state.films.map((i,url)=>{
+          return <FilmItemRow key={i} url={url}/>
         })
       
     
-
     return(
       
       <div>
