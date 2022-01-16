@@ -25,7 +25,7 @@ class StarWars extends React.Component{
   getNewCharacter=()=>{
     console.log("clicked")
     //getting api request
-    let num=Math.ceil(Math.random()*18);
+    let num=Math.round(Math.random()*82);
     const url = `https://swapi.dev/api/people/${num}/`
     fetch(url)
       .then(response=>response.json())
