@@ -20,8 +20,8 @@ class StarWars extends React.Component{
 
     getCharacter=()=>{
         console.log('clicked')
-        
-        const url=`https://raw.githubusercontent.com/akabab/starwars-api/master/api/id/1.json`
+        const random = Math.round(Math.random()*70)
+        const url=`https://raw.githubusercontent.com/akabab/starwars-api/master/api/id/${random}.json`
         fetch(url)
             .then(response=>response.json())
             .then(data=>{
