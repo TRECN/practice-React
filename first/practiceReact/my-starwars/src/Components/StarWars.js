@@ -32,7 +32,7 @@ class StarWars extends React.Component{
                     name:data.name,
                     height:data.height,
                     homeworld:data.homeworld,
-                    wiki:
+                    wiki:data.wiki
                 })
 
             })
@@ -46,9 +46,7 @@ class StarWars extends React.Component{
                     <h1>{this.state.name}</h1>
                     <p>{this.state.height}</p>
                     <p>{this.state.homeworld}</p>
-                    <ul>
-                        <li>{this.state.films}</li>
-                    </ul>
+                    <p><a href={this.state.wiki}>{this.state.wiki}</a></p>
                 </div>
 
                 <button type='button' className='btn' onClick={()=>this.getCharacter()}>Randomize</button>
