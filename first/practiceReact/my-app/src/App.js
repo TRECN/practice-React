@@ -25,20 +25,22 @@ class StarWars extends React.Component{
   getNewCharacter=()=>{
     console.log("clicked")
     //getting api request
-    const url = "https://swapi.dev/api/people/1/"
+    let num=Math.ceil(Math.random()*18);
+    const url = `https://swapi.dev/api/people/1/`
     fetch(url)
       .then(response=>response.json())
       .then(data=>{
         console.log(data)
+        this.setState({
+          loadedCharacter:true,
+          name:data.name,
+          height:data.height,
+          homeworld:data.homeworld,
+          flims:['item 1', 'item2']
+        })
       })
 
-    this.setState({
-      loadedCharacter:true,
-      name:'luke',
-      height:175,
-      homeworld:'Totonine',
-      flims:['item 1', 'item2']
-    })
+    
   }
 
   render(){
