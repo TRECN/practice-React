@@ -4,7 +4,7 @@ import Home from './components/Home'
 
 const AboutView=()=>{
   return(
-    <h2>Auout us</h2>
+    <h2>About us</h2>
   )
 }
 
