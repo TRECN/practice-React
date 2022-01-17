@@ -7,7 +7,7 @@ const AboutView=()=>{
     <h2>About us</h2>
   )
 }
-
+import AboutView from './components/AboutView'
 
 function App() {
   return (
