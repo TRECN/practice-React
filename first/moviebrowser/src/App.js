@@ -13,7 +13,8 @@ function App() {
   return (
     <div >
       <Navbar/>
-      <Home/>      
+      <Home/>    
+      <AboutView/>  
     </div>
   );
 }
