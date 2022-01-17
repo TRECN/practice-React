@@ -1,13 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar'
+import Home from './components/Home'
 
-const Home=()=>{
-  return(
-    <>
-      <h1>Hello world</h1>
-    </>
-  )
-}
 
 function App() {
   return (
