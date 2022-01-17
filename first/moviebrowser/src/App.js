@@ -9,13 +9,12 @@ function App() {
     <div >
       <Navbar/>
       <Routes>
-        <Route path='/' exact>
-          <Home/>
-        </Route>   
-        <Route path='/about' component={AboutView}/>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/about' element={<AboutView/>}/>
       </Routes> 
     </div>
   );
 }
+
 
 export default App;
