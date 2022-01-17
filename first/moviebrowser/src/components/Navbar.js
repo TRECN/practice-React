@@ -18,7 +18,7 @@ const  Navbar=()=>{
           <Link className="nav-link" to="/about">About</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link disabled" to="#" tabIndex="-1" aria-disabled="true">Disabled</Link>
+          <Link className="nav-link disabled" to="/" tabIndex="-1" aria-disabled="true">Coming soon</Link>
         </li>
       </ul>
       <form className="d-flex">
