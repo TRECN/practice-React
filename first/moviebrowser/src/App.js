@@ -8,9 +8,12 @@ import AboutView from './components/AboutView'
 function App() {
   return (
     <div >
-      <Navbar/>
-      <Home/>    
-      <AboutView/>  
+      <Switch>
+        
+        <Navbar/>
+        <Home/>    
+        <AboutView/>   
+      </Switch> 
     </div>
   );
 }
