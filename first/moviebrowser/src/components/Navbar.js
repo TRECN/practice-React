@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
 
-const updateSearch=()=>{
+
+
+const updateSearch=(e)=>{
   console.log(e.target.value)
 }
 
 
-const Navbar = () => {
+const Navbar = ({searchText}) => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
