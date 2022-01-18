@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Navbar = ({searchText}) => {
+const Navbar = ({searchText, serSearchResults}) => {
 
   const updateSearch=(e)=>{
     console.log(e.target.value)
