@@ -4,7 +4,7 @@ const SearchView = ({keyword,searchResults}) => {
   const title=`you are searching for ${keyword}`
 
   return <>
-    <Hero text={keyword}/>
+    <Hero text={title}/>
   </>;
 };
 
