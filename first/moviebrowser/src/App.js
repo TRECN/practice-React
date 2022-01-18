@@ -11,7 +11,7 @@ import { useState } from "react";
 function App() {
 
   const [searchResults,setSearchResults]=useState([])
-  const [searchText,setSearchText]=useState('')
+  const [searchText,setSearchText]=useState('Searching for ,,,')
 
 
 
