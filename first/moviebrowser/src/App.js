@@ -8,7 +8,6 @@ import SearchView from './components/SearchView'
 import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
 
-
 function App() {
 
   const [searchResults,setSearchResults]=useState([])
@@ -22,7 +21,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutView />} />
-        <Route path='/search' element={<SearchView/>}/>
+        <Route path='/search' element={<SearchView/>}
+        keyword={searchText} searchResults={searchResults}
+        />
       </Routes>
     </div>
   );
