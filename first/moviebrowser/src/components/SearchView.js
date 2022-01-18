@@ -1,5 +1,7 @@
 const SearchView = () => {
-  return <></>;
+  return <>
+  
+  </>;
 };
 
 export default SearchView;
