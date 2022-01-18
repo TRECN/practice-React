@@ -2,12 +2,15 @@ import { Link } from "react-router-dom";
 
 
 
-const updateSearch=(e)=>{
-  console.log(e.target.value)
-}
+
 
 
 const Navbar = ({searchText}) => {
+
+  const updateSearch=(e)=>{
+    console.log(e.target.value)
+  }
+
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -56,7 +59,7 @@ const Navbar = ({searchText}) => {
                 placeholder="Search"
                 aria-label="Search"
                 value={searchText}
-                onChange={updateSearch()}
+                onChange={updateSearch}
               />
               <button className="btn btn-outline-success" type="submit">
                 Search
