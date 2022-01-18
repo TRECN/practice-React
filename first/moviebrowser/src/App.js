@@ -14,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutView />} />
+        <Route path='/search' element={<SearchView/>}/>
       </Routes>
     </div>
   );
