@@ -1,7 +1,7 @@
 const Hero=()=>{
   return(
-    <header className="bg-dark text white p-5">
-      <h1 className="text-primary">This is a hero component</h1>
+    <header className="bg-dark text-white p-5">
+      <h1>This is a hero component</h1>
     </header>
   )
 }
