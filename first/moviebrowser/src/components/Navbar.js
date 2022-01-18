@@ -1,10 +1,5 @@
 import { Link } from "react-router-dom";
 
-
-
-
-
-
 const Navbar = ({searchText}) => {
 
   const updateSearch=(e)=>{
