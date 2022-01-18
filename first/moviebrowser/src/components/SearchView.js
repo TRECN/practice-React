@@ -1,7 +1,5 @@
-const SearchView=()=>{
-    return(
+const SearchView = () => {
+  return <></>;
+};
 
-    )
-}
-
-export default SearchView
+export default SearchView;
