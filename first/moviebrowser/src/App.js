@@ -11,7 +11,7 @@ import { useState } from "react";
 function App() {
 
   const [searchResults,setSearchResults]=useState([])
-  const [searchText,setSearchText]=useState('Searching for ,,,')
+  const [searchText,setSearchText]=useState('Searching for...')
 
 
 
@@ -21,8 +21,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutView />} />
-        <Route path='/search' element={<SearchView/>}
-        keyword={searchText} searchResults={searchResults}
+        <Route path='/search' 
+          element={
+          <SearchView keyword={searchText} searchResults={searchResults}
+        />}
+        
         />
       </Routes>
     </div>
