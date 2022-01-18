@@ -4,7 +4,6 @@ const AboutView=()=>{
     return(
       <>
         <Hero text='Welcome to About page'/>
-        <h2>About us</h2>
 
       </>
     )
