@@ -48,6 +48,8 @@ const Navbar = () => {
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
+                value='to be search value'
+                
               />
               <button className="btn btn-outline-success" type="submit">
                 Search
