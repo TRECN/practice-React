@@ -1,5 +1,5 @@
 import Hero from "./Hero";
-const SearchView = () => {
+const SearchView = ({keyword,searchResults}) => {
     
   return <>
     <Hero text='You are Searching for'/>
