@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 
-const Navbar = ({searchText, serSearchResults}) => {
+const Navbar = ({searchText, setSearchText}) => {
 
   const updateSearch=(e)=>{
-    console.log(e.target.value)
+    setSearchText(e.target.value)
   }
 
   return (
