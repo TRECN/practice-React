@@ -14,6 +14,8 @@ function App() {
   const [searchResults,setSearchResults]=useState([])
   const [searchText,setSearchText]=useState('')
 
+
+
   return (
     <div>
       <Navbar />
