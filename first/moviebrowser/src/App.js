@@ -6,8 +6,13 @@ import AboutView from "./components/AboutView";
 import SearchView from './components/SearchView'
 
 import { Routes, Route } from "react-router-dom";
+import { useState } from "react";
+
 
 function App() {
+
+  const [searchResults,setSearchResults]=useState([])
+
   return (
     <div>
       <Navbar />
