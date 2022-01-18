@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div>
-      <Navbar />
+      <Navbar searchText={searchText} />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutView />} />
