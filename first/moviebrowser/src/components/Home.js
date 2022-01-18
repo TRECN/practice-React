@@ -1,4 +1,8 @@
-
+const Hero=()=>{
+  return(
+    
+  )
+}
 const Home=()=>{
     return(
       <>
