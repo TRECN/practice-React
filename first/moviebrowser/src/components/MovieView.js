@@ -24,7 +24,7 @@ const MovieView = () => {
             return <Hero text="Loading..."/>
         }
         if(movieDetails){
-            const posterPath=`${movieDetails.poster_path}`
+            const posterPath=`https://image.tmdb.org/t/p/w500${movieDetails.poster_path}`
             return <>
                 <Hero text={movieDetails.original_title} />
                 <div className="container my-4">
