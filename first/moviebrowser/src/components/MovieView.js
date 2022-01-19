@@ -24,7 +24,20 @@ const MovieView = () => {
             return <Hero text="Loading..."/>
         }
         if(movieDetails){
-            return <Hero text={movieDetails.original_title} />
+            const posterPath=`${movieDetails.poster_path}`
+            return <>
+                <Hero text={movieDetails.original_title} />
+                <div className="container my-4">
+                    <div className="row">
+                        <div className="col-md-3">
+                            left col
+                        </div>
+                        <div className="col-md-9">
+                            right col
+                        </div>
+                    </div>
+                </div>
+            </>
 
         }
     }
