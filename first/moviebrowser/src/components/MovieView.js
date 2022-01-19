@@ -14,9 +14,16 @@ const AboutView = () => {
             .then(response=>response.json())
             .then(data=>{
                 setMovieDetails(data)
+                setIsLoading(false)
             })
 
     },[id])
+
+    renderMovieDetail=()=>{
+        if(isLoading){
+            return <Hero text="Loading"/>
+        }
+    }
 
   return (
     <>
