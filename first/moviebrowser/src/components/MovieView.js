@@ -25,7 +25,7 @@ const MovieView = () => {
             return <Hero text="Loading..."/>
         }
         if(movieDetails){
-            <Hero text={movieDetails.original_title} />
+            return <Hero text={movieDetails.original_title} />
 
         }
     }
