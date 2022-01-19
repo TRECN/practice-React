@@ -14,7 +14,7 @@ function App() {
   const [searchText,setSearchText]=useState('')
 
   useEffect(()=>{
-    console.log(searchText)
+    // console.log(searchText)
   },[searchText])
 
   return (
