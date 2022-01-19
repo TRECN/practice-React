@@ -7,6 +7,11 @@ const AboutView = () => {
 
     const [movieDetails,setMovieDetails]=useState({})
 
+    useEffect(()=>{
+        console.log('make a api request ',id)
+
+    },[id])
+
   return (
     <>
       <Hero text="Movie details" />
