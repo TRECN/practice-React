@@ -6,15 +6,16 @@ import AboutView from "./components/AboutView";
 import SearchView from './components/SearchView'
 
 import { Routes, Route } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function App() {
 
   const [searchResults,setSearchResults]=useState([])
   const [searchText,setSearchText]=useState('')
 
-
-  
+  useEffect(()=>{
+    console.log(searchText)
+  },[searchText])
 
   return (
     <div>
