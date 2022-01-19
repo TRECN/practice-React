@@ -4,7 +4,7 @@ import {useNavigate, Link } from "react-router-dom";
 const Navbar = ({ searchText, setSearchText }) => {
   const history=useNavigate()
   const updateSearch = (e) => {
-    history.push('/search')
+    history('/search')
     setSearchText(e.target.value);
   };
 
