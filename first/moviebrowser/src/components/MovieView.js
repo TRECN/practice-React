@@ -1,7 +1,6 @@
 import Hero from "./Hero";
 import { useParams } from "react-router-dom";
 import { useState, useEffect} from "react";
-import { render } from "@testing-library/react";
 const MovieView = () => {
     const {id}=useParams();
     console.log(id)
