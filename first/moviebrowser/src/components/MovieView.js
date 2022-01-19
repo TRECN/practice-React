@@ -1,5 +1,5 @@
 import Hero from "./Hero";
-
+import { useParams } from "react-router-dom";
 const AboutView = () => {
   return (
     <>
