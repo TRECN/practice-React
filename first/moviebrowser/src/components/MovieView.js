@@ -1,7 +1,8 @@
 import Hero from "./Hero";
 import { useParams } from "react-router-dom";
 import { useState, useEffect} from "react";
-const AboutView = () => {
+import { render } from "@testing-library/react";
+const MovieView = () => {
     const {id}=useParams();
     console.log(id)
 
@@ -19,18 +20,17 @@ const AboutView = () => {
 
     },[id])
 
-    renderMovieDetail=()=>{
+    const renderMovieDetail=()=>{
         if(isLoading){
-            return <Hero text="Loading"/>
+            return <Hero text="Loading..."/>
+        }
+        if(movieDetails){
+            <Hero text={movieDetails.original_title} />
+
         }
     }
 
-  return (
-    <>
-      <Hero text={movieDetails.original_title} />
-      
-    </>
-  );
+  return renderMovieDetail()
 };
 
-export default AboutView;
+export default MovieView;
