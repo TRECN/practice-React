@@ -8,6 +8,7 @@ const MovieView = () => {
     const [movieDetails,setMovieDetails]=useState({})
     const [isLoading, setIsLoading]=useState(true)
 
+
     useEffect(()=>{
         console.log('make a api request ',id)
         fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=cfc4a1b05a66247ddb5d7a51cd7c8280&language=en-US`)
@@ -25,8 +26,9 @@ const MovieView = () => {
         }
         if(movieDetails){
             const posterPath=`https://image.tmdb.org/t/p/w500${movieDetails.poster_path}`
+            const backdropUrl= `https://image.tmdb.org/t/p/w500${movieDetails.backdrop_path}`
             return <>
-                <Hero text={movieDetails.original_title} />
+                <Hero text={movieDetails.original_title}  backdrop={backdropUrl}/>
                 <div className="container my-4">
                     <div className="row">
                         <div className="col-md-3">
