@@ -10,6 +10,7 @@ const SearchView = ({keyword,searchResults}) => {
 
   return <>
     <Hero text={title}/>
+    {resultsHtml}
   </>;
 };
 
