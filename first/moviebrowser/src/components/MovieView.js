@@ -30,10 +30,13 @@ const MovieView = () => {
                 <div className="container my-4">
                     <div className="row">
                         <div className="col-md-3">
-                            left col
+                            <img src={posterPath} alt="..." className="img-fluid shadow rounded"/>
                         </div>
                         <div className="col-md-9">
-                            right col
+                            <h2>{movieDetails.original_title}</h2>
+                            <p className="lead">
+                                {movieDetails.overview}
+                            </p>
                         </div>
                     </div>
                 </div>
