@@ -6,6 +6,7 @@ const AboutView = () => {
     console.log(id)
 
     const [movieDetails,setMovieDetails]=useState({})
+    const [isLoading, setIsLoading]=useState(true)
 
     useEffect(()=>{
         console.log('make a api request ',id)
