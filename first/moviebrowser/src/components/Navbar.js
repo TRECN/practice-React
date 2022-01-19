@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 //cfc4a1b05a66247ddb5d7a51cd7c8280
-const Navbar = ({searchText, setSearchText}) => {
-
-  const updateSearch=(e)=>{
-    setSearchText(e.target.value)
-  }
+//https://api.themoviedb.org/3/search/movie?api_key=cfc4a1b05a66247ddb5d7a51cd7c8280&language=en-US&query=star%20wars&page=1&include_adult=false
+const Navbar = ({ searchText, setSearchText }) => {
+  const updateSearch = (e) => {
+    setSearchText(e.target.value);
+  };
 
   return (
     <div>
