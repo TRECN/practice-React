@@ -20,6 +20,7 @@ function App() {
         .then(response=>response.json())
         .then(data=>{
           setSearchResult(data.results)
+          console.log(data.results)
         })
     }
   },[searchText])
