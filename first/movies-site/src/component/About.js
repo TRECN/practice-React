@@ -1,7 +1,9 @@
+import Hero from "./Hero"
+
 const About=()=>{
     return(
         <>
-            <h1>About us</h1>
+            <Hero text='About Us'/>
         </>
     )
 }
