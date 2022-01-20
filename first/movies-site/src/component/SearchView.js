@@ -1,4 +1,9 @@
 const SearchView=({searchText,searchResult})=>{
+
+    const ApiResult=searchResult.map((obj,i)=>{
+
+    })
+
     return(
         <>
             <header className="bg-primary text-white p-5 ">
