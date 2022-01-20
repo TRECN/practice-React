@@ -20,7 +20,7 @@ function App() {
         .then(response=>response.json())
         .then(data=>{
           setSearchResults(data.results)
-          console.log(searchResults)
+          console.log(data.results)
         })
     }
   },[searchText])
