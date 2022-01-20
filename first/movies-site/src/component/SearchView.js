@@ -1,12 +1,12 @@
 import Hero from "./Hero"
 
-const SearchView=({searchText,searchResult})=>{
+const SearchView=({searchText,searchResuls})=>{
 
-    // const ApiResult=searchResult.map((obj,i)=>{
-    //     return <>
-    //         <h1>obj.original_title</h1>
-    //     </>
-    // })
+    // const ApiResult=searchResults.map((obj,i)=>{
+    //    return <>
+    //        <h1>{obj.original_title}</h1>
+    //    </>
+    //  })
 
     return(
         <>
