@@ -11,7 +11,7 @@ import { useEffect, useState } from 'react';
 
 function App() {
 
-  const [searchResults,setSearchResults]=useState({})
+  const [searchResults,setSearchResults]=useState([])
   const [searchText,setSearchText]=useState('')
 
   useEffect(()=>{
@@ -20,7 +20,7 @@ function App() {
         .then(response=>response.json())
         .then(data=>{
           setSearchResults(data.results)
-          console.log(data.results)
+          console.log(searchResults)
         })
     }
   },[searchText])
@@ -31,7 +31,7 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path="/search" element={
-          <SearchView searchText={searchText} searchResult={searchResults}/>
+          <SearchView searchText={searchText} searchResults={searchResults}/>
         }/>
       </Routes>
     </div>
