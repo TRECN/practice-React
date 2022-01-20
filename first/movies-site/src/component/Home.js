@@ -7,6 +7,7 @@ const Home = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-8 offset-lg-2 my-5">
+            <p className="lead">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
             libero dolorem sint assumenda corrupti cupiditate voluptatem nostrum
             eveniet culpa non sunt voluptates cum corporis magnam aut
@@ -24,6 +25,7 @@ const Home = () => {
             dolores aperiam hic rem eveniet perferendis doloremque aut
             praesentium. Dignissimos iusto soluta et laborum unde. Eveniet est
             similique hic dignissimos.
+            </p>
           </div>
         </div>
       </div>
