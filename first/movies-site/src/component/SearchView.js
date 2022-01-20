@@ -1,3 +1,5 @@
+import Hero from "./Hero"
+
 const SearchView=({searchText,searchResult})=>{
 
     const ApiResult=searchResult.map((obj,i)=>{
@@ -6,10 +8,8 @@ const SearchView=({searchText,searchResult})=>{
 
     return(
         <>
-            <header className="bg-primary text-white p-5 ">
-                <h1>You are searching for {searchText}</h1>
-                {ApiResult}
-            </header>
+            <Hero text={searchText}/>
+            {ApiResult}
         </>
     )
 }
