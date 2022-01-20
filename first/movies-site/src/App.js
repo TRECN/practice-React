@@ -11,7 +11,7 @@ import { useEffect, useState } from 'react';
 
 function App() {
 
-  const [searchResult,setSearchResult]=useState({})
+  const [searchResults,setSearchResults]=useState({})
   const [searchText,setSearchText]=useState('')
 
   useEffect(()=>{
@@ -19,8 +19,8 @@ function App() {
       fetch(`https://api.themoviedb.org/3/search/movie?api_key=cfc4a1b05a66247ddb5d7a51cd7c8280&language=en-US&query=${searchText}&page=1&include_adult=false`)
         .then(response=>response.json())
         .then(data=>{
-          setSearchResult(data.results)
-          console.log(data.results)
+          setSearchResults(data.results)
+          console.log(searchResults)
         })
     }
   },[searchText])
@@ -31,7 +31,7 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path="/search" element={
-          <SearchView searchText={searchText} searchResult={searchResult}/>
+          <SearchView searchText={searchText} searchResult={searchResults}/>
         }/>
       </Routes>
     </div>
