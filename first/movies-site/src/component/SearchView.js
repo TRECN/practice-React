@@ -1,6 +1,6 @@
 import Hero from "./Hero"
 
-const SearchView=({searchText,searchResuls})=>{
+const SearchView=({searchText,searchResults})=>{
 
      const ApiResult=searchResults.map((obj,i)=>{
       return <>
