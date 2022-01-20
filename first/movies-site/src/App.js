@@ -5,15 +5,20 @@ import About from './component/About';
 
 import { Routes,Route } from 'react-router-dom';
 import SearchView from './component/SearchView';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 
 
 function App() {
 
   const [searchResult,setSearchResult]=useState({})
-  const [searchText,setSearchText]=useState('hi')
+  const [searchText,setSearchText]=useState('')
 
+  useEffect(()=>{
+    if(searchText){
+      
+    }
+  },[searchText])
   return (
     <div className="App">
       <Navbar searchText={searchText} setSearchText={setSearchText}/>
@@ -29,3 +34,6 @@ function App() {
 }
 
 export default App;
+
+//cfc4a1b05a66247ddb5d7a51cd7c8280
+//https://api.themoviedb.org/3/search/movie?api_key=cfc4a1b05a66247ddb5d7a51cd7c8280&language=en-US&query=star%20wars&page=1&include_adult=false
