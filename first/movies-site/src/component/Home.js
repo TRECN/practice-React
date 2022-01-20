@@ -1,7 +1,9 @@
+import Hero from "./Hero"
+
 const Home=()=>{
     return(
         <>
-            <h1>Welcome to Movie Site</h1>
+            <Hero text='Welcome to movie site'/>
         </>
     )
 }
