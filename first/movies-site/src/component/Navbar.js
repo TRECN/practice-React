@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-const Navbar = () => {
+const Navbar = ({searchText, setSearchText}) => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -38,6 +38,7 @@ const Navbar = () => {
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
+                value={}
               />
               <button className="btn btn-outline-success" type="submit">
                 Search
