@@ -29,6 +29,9 @@ const MovieView =()=>{
                 <div className="col-md-3">
                     <img src={imgPath} alt="" className="img-fluid" />
                 </div>
+                <div >
+
+                </div>
             </div>
         </div>
     </>
