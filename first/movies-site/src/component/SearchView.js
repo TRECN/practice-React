@@ -2,10 +2,12 @@ import { Link } from "react-router-dom";
 import Hero from "./Hero";
 
 const MovieCard = ({ movie }) => {
+
+    const path=`https://image.tmdb.org/t/p/w500${movie.poster_path}`
   return (
     <>
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="..." />
+      <div class="card" style={{width:'18em'}}>
+        <img src={path} class="card-img-top" alt="..." />
         <div class="card-body">
           <h5 class="card-title">{movie.original_title}</h5>
           <p class="card-text">
@@ -25,7 +27,7 @@ const SearchView = ({ searchText, searchResults }) => {
   const ApiResult = searchResults.map((obj, i) => {
     return (
       <>
-        <h1 key={i}>{obj.original_title}</h1>
+        <MovieCard movie={obj}/>
       </>
     );
   });
