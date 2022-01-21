@@ -3,9 +3,8 @@ const Navbar = ({searchText, setSearchText}) => {
     const history=useNavigate()
     const updateSearch=(e)=>{
       history('/search')
-      if(e.target.value){
         setSearchText(e.target.value)
-      }
+      
 
     }
 
