@@ -2,16 +2,9 @@ import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 const Navbar = ({searchText, setSearchText}) => {
     const history=useNavigate()
-    const [clicked,setClicked]=useState(true)
-    
-
-    const searchClicked=()=>{
-        setClicked(false)
-    }
     const updateSearch=(e)=>{
-      setClicked(true)
       history('/search')
-      if(clicked){
+      if(e.target.value){
         setSearchText(e.target.value)
       }
 
@@ -58,7 +51,7 @@ const Navbar = ({searchText, setSearchText}) => {
                 value={searchText}
                 onChange={updateSearch}
               />
-              <button className="btn btn-outline-success" type="submit" onClick={searchClicked}>
+              <button className="btn btn-outline-success" type="submit">
                 Search
               </button>
             </form>
