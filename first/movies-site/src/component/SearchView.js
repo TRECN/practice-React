@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Hero from "./Hero";
 
 const MovieCard = ({ movie }) => {
@@ -11,9 +12,9 @@ const MovieCard = ({ movie }) => {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </p>
-          <a href="#" class="btn btn-primary">
+          <Link href="#" class="btn btn-primary">
             Go somewhere
-          </a>
+          </Link>
         </div>
       </div>
     </>
