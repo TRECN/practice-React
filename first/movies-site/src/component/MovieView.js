@@ -1,50 +1,55 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom"
+import { useParams } from "react-router-dom";
 import Hero from "./Hero";
 
-const MovieView =()=>{
-    const {id}=useParams();
+const MovieView = () => {
+  const { id } = useParams();
 
-    const [movieDetails,setMovieDetails]=useState({})
-    const [isLoading, setIsLoading]=useState(true)
+  const [movieDetails, setMovieDetails] = useState({});
+  const [isLoading, setIsLoading] = useState(true);
 
-    const getMovieApi=()=>{
-        fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=cfc4a1b05a66247ddb5d7a51cd7c8280&language=en-US`)
-            .then(response=>response.json())
-            .then(data=>{
-                setMovieDetails(data)
-                setIsLoading(false)
-            })
-    }
+  const getMovieApi = () => {
+    fetch(
+      `https://api.themoviedb.org/3/movie/${id}?api_key=cfc4a1b05a66247ddb5d7a51cd7c8280&language=en-US`
+    )
+      .then((response) => response.json())
+      .then((data) => {
+        setMovieDetails(data);
+        setIsLoading(false);
+      });
+  };
 
-    useEffect(()=>{
-        getMovieApi()
-    },[id])
+  useEffect(() => {
+    getMovieApi();
+  }, [id]);
 
-    const imgPath=`https://image.tmdb.org/t/p/w500${movieDetails.poster_path}`
+  const imgPath = `https://image.tmdb.org/t/p/w500${movieDetails.poster_path}`;
 
-
-    const renderDetail=()=>{
-        if()
-    }
-    
-    return<>
-
-        <Hero text={movieDetails.original_title}/>
-        <div className="container my-5">
+  const renderDetail = () => {
+    if (isLoading) {
+      return <Hero text="Loading..." />;
+    } else {
+      return (
+        <>
+          <Hero text={movieDetails.original_title} />
+          <div className="container my-5">
             <div className="row">
-                <div className="col-md-3">
-                    <img src={imgPath} alt="" className="img-fluid rounded" />
-                </div>
-                <div className="col-md-9">
-                    <h2>{movieDetails.original_title}</h2>
-                    <p className="lead">
-                        {movieDetails.overview}
-                    </p>
-                </div>
+              <div className="col-md-3">
+                <img src={imgPath} alt="" className="img-fluid rounded" />
+              </div>
+              <div className="col-md-9">
+                <h2>{movieDetails.original_title}</h2>
+                <p className="lead">{movieDetails.overview}</p>
+              </div>
             </div>
-        </div>
-    </>
-}
+          </div>
+        </>
+      );
+    }
+  };
+  return renderDetail()
+};
 
-export default MovieView
+
+
+export default MovieView;
