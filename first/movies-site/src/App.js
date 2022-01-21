@@ -16,10 +16,12 @@ function App() {
 
   const [searchResults,setSearchResults]=useState([])
   const [searchText,setSearchText]=useState('')
+  const [apiText,setApiText]=useState('')
 
   useEffect(()=>{
-    if(searchText){
-      fetch(`https://api.themoviedb.org/3/search/movie?api_key=cfc4a1b05a66247ddb5d7a51cd7c8280&language=en-US&query=${searchText}&page=1&include_adult=false`)
+      setApiText(searchText)
+    if(apiText){
+      fetch(`https://api.themoviedb.org/3/search/movie?api_key=cfc4a1b05a66247ddb5d7a51cd7c8280&language=en-US&query=${apiText}&page=1&include_adult=false`)
         .then(response=>response.json())
         .then(data=>{
           setSearchResults(data.results)
