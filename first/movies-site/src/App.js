@@ -12,6 +12,10 @@ import { useEffect, useState } from 'react';
 
 function App() {
 
+  const [searchResults,setSearchResults]=useState([])
+  const [searchText,setSearchText]=useState('')
+  const [apiText,setApiText]=useState('')
+
   useEffect(()=>{
       setApiText(searchText)
     if(apiText){
