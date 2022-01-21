@@ -1,5 +1,5 @@
 const MovieView =()=>{
     return<>
     
-    S</>
+    </>
 }
