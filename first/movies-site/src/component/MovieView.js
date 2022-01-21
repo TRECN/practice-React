@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom"
 
 const MovieView =()=>{
@@ -14,6 +14,10 @@ const MovieView =()=>{
                 setMovieDetails(data)
             })
     }
+
+    useEffect(()=>{
+        {getMovieApi}
+    },[id])
 
     
     return<>
