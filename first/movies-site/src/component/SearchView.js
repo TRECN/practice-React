@@ -1,5 +1,9 @@
 import Hero from "./Hero"
 
+const MovieCard=()=>{
+    
+}
+
 const SearchView=({searchText,searchResults})=>{
 
     const ApiResult=searchResults.map((obj,i)=>{
