@@ -1,10 +1,16 @@
+import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 const Navbar = ({searchText, setSearchText}) => {
     const history=useNavigate()
-
+    const [clicked,setClicked]=useState(false)
     const updateSearch=(e)=>{
         history('/search')
         setSearchText(e.target.value)
+        
+    }
+
+    const searchClicked=()=>{
+
     }
 
   return (
@@ -48,7 +54,7 @@ const Navbar = ({searchText, setSearchText}) => {
                 value={searchText}
                 onChange={updateSearch}
               />
-              <button className="btn btn-outline-success" type="submit">
+              <button className="btn btn-outline-success" type="submit" onClick={}>
                 Search
               </button>
             </form>
