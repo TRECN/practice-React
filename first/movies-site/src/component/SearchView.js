@@ -12,7 +12,7 @@ const MovieCard = ({ movie }) => {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </p>
-          <Link href="#" class="btn btn-primary">
+          <Link to='/' class="btn btn-primary">
             Go somewhere
           </Link>
         </div>
