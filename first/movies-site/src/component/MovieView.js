@@ -23,6 +23,13 @@ const MovieView =()=>{
     
     return<>
         <Hero text={movieDetails.original_title}/>
+        <div className="container">
+            <div className="row">
+                <div className="col-md-3">
+                    <img src={} alt="" />
+                </div>
+            </div>
+        </div>
     </>
 }
 
