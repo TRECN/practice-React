@@ -24,6 +24,7 @@ const MovieView = () => {
   }, [id]);
 
   const imgPath = `https://image.tmdb.org/t/p/w500${movieDetails.poster_path}`;
+  const backdropPath = `https://image.tmdb.org/t/p/original${movieDetails.poster_path}`
 
   const renderDetail = () => {
     if (isLoading) {
