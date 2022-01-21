@@ -6,16 +6,16 @@ const MovieCard = ({ movie }) => {
     const path=`https://image.tmdb.org/t/p/w500${movie.poster_path}`
   return (
     <>
-      <div class="card" style={{width:'18em'}}>
-        <img src={path} class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">{movie.original_title}</h5>
-          <p class="card-text">
+      <div className="card" style={{width:'18em'}}>
+        <img src={path} className="card-img-top" alt="..." />
+        <div className="card-body">
+          <h5 className="card-title">{movie.original_title}</h5>
+          <p className="card-text">
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </p>
-          <Link to='/' class="btn btn-primary">
-            Go somewhere
+          <Link to='/' className="btn btn-primary">
+            Details
           </Link>
         </div>
       </div>
