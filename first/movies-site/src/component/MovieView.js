@@ -1,0 +1,5 @@
+const MovieView =()=>{
+    return<>
+    
+    S</>
+}
