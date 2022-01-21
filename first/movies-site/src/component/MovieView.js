@@ -29,7 +29,7 @@ const MovieView = () => {
   const renderDetail = () => {
     if (isLoading) {
       return <Hero text="Loading..." />;
-    } else {
+    } if(movieDetails) {
       return (
         <>
           <Hero text={movieDetails.original_title} backdropPath={backdropPath}/>
