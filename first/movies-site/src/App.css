@@ -1,6 +1,7 @@
 .hero-container{
     position: relative;
     z-index: 100;
+    background-color: black;
 }
 .hero-text{
     position: relative;
@@ -14,4 +15,6 @@
     height: 100%;
     background-size: cover;
     background-position: center;
+    opacity: 0.4;
+    background-color: black;
 }
