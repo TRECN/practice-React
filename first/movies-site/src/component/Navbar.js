@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 const Navbar = ({searchText, setSearchText}) => {
     const history=useNavigate()
@@ -9,11 +9,13 @@ const Navbar = ({searchText, setSearchText}) => {
         setClicked(false)
     }
     const updateSearch=(e)=>{
+      setClicked(true)
       history('/search')
-      if(clicked)
-      setSearchText(e.target.value)
+      if(clicked){
+        setSearchText(e.target.value)
+      }
 
-  }
+    }
 
   return (
     <div>
