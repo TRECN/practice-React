@@ -20,13 +20,14 @@ const MovieView =()=>{
         getMovieApi()
     },[id])
 
+    const imgPath=`https://image.tmdb.org/t/p/w500${movieDetails.poster_path}`
     
     return<>
         <Hero text={movieDetails.original_title}/>
         <div className="container">
             <div className="row">
                 <div className="col-md-3">
-                    <img src={} alt="" />
+                    <img src={imgPath} alt="" className="img-fluid" />
                 </div>
             </div>
         </div>
