@@ -39,7 +39,14 @@ const Navbar = ({ searchText, setSearchText }) => {
                 </Link>
               </li>
               <li className="nav-item">
-                
+                <Link
+                  className="nav-link disabled"
+                  to="/"
+                  tabIndex="-1"
+                  aria-disabled="true"
+                >
+                  Coming soon
+                </Link>
               </li>
             </ul>
             <form className="d-flex">
