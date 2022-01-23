@@ -10,18 +10,6 @@ const MovieView = () => {
 
   const getMovieApi = () => {
     fetch(
-      `https://api.themoviedb.org/3/movie/${id}?api_key=cfc4a1b05a66247ddb5d7a51cd7c8280&language=en-US`
-    )
-      .then((response) => response.json())
-      .then((data) => {
-        setMovieDetails(data);
-        setIsLoading(false);
-      });
-  };
-
-  useEffect(() => {
-    getMovieApi();
-  }, [id]);
 
   const imgPath = `https://image.tmdb.org/t/p/w500${movieDetails.poster_path}`;
   const backdropPath = `https://image.tmdb.org/t/p/original${movieDetails.backdrop_path}`
