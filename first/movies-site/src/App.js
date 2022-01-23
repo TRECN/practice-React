@@ -26,7 +26,18 @@ function App() {
         })
     }
   },[searchText])
-  
+  return (
+    <div className="App">
+      <Navbar searchText={searchText} setSearchText={setSearchText}/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/about' element={<About/>}/>
+        <Route path="/search" element={
+          <SearchView searchText={searchText} searchResults={searchResults}/>
+        }/>
+        <Route path='/movie/:id' element={<MovieView/>}/>
+      </Routes>
+    </div>
   );
 }
 
