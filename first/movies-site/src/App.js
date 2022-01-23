@@ -19,7 +19,26 @@ function App() {
       
     if(searchText){
       fetch(`https://api.themoviedb.org/3/search/movie?api_key=cfc4a1b05a66247ddb5d7a51cd7c8280&language=en-US&query=${searchText}&page=1&include_adult=false`)
-
+        .then(response=>response.json())
+        .then(data=>{
+          setSearchResults(data.results)
+          console.log(searchResults)
+        })
+    }
+  },[searchText])
+  return (
+    <div className="App">
+      <Navbar searchText={searchText} setSearchText={setSearchText}/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/about' element={<About/>}/>
+        <Route path="/search" element={
+          <SearchView searchText={searchText} searchResults={searchResults}/>
+        }/>
+        <Route path='/movie/:id' element={<MovieView/>}/>
+      </Routes>
+    </div>
+  );
 }
 
 export default App;
