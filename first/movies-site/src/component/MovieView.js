@@ -15,20 +15,7 @@ const MovieView = () => {
       .then((response) => response.json())
       .then((data) => {
         setMovieDetails(data);
-        setIsLoading(false);
-      });
-  };
-
-  useEffect(() => {
-    getMovieApi();
-  }, [id]);
-
-  const imgPath = `https://image.tmdb.org/t/p/w500${movieDetails.poster_path}`;
-  const backdropPath = `https://image.tmdb.org/t/p/original${movieDetails.backdrop_path}`
-
-  const renderDetail = () => {
-    if (isLoading) {
-      return <Hero text="Loading..." />;
+   return <Hero text="Loading..." />;
     } if(movieDetails) {
       return (
         <>
