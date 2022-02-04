@@ -33,13 +33,7 @@ const Navbar = ({searchText, setSearchText}) => {
                   Home
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/about">
-                  About
-                </Link>
-              </li>
-            
-            </ul>
+   
             <form className="d-flex">
               <input
                 className="form-control me-2"
