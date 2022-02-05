@@ -19,10 +19,6 @@ const MovieView = () => {
       });
   };
 
-  useEffect(() => {
-    getMovieApi();
-  }, [id]);
-
   const imgPath = `https://image.tmdb.org/t/p/w500${movieDetails.poster_path}`;
   const backdropPath = `https://image.tmdb.org/t/p/original${movieDetails.backdrop_path}`
 
