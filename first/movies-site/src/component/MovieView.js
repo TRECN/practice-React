@@ -26,7 +26,13 @@ const MovieView = () => {
   const imgPath = `https://image.tmdb.org/t/p/w500${movieDetails.poster_path}`;
   const backdropPath = `https://image.tmdb.org/t/p/original${movieDetails.backdrop_path}`
 
-xt={movieDetails.original_title} backdropPath={backdropPath}/>
+  const renderDetail = () => {
+    if (isLoading) {
+      return <Hero text="Loading..." />;
+    } if(movieDetails) {
+      return (
+        <>
+          <Hero text={movieDetails.original_title} backdropPath={backdropPath}/>
           <div className="container my-5">
             <div className="row">
               <div className="col-md-3">
