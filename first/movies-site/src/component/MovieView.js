@@ -1,6 +1,3 @@
-import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import Hero from "./Hero";
 
 const MovieView = () => {
   const { id } = useParams();
