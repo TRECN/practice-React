@@ -4,6 +4,8 @@ const Navbar = ({searchText, setSearchText}) => {
     const updateSearch=(e)=>{
       history('/search')
         setSearchText(e.target.value)
+      
+
     }
 
   return (
