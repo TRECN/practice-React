@@ -59,3 +59,6 @@ const Navbar = ({searchText, setSearchText}) => {
 };
 
 export default Navbar;
+
+
+
