@@ -37,22 +37,7 @@ const Navbar = ({searchText, setSearchText}) => {
                 </Link>
               </li>
             
-            </ul>
-            <form className="d-flex">
-              <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-                value={searchText}
-                onChange={updateSearch}
-              />
-              <button className="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
-          </div>
-        </div>
+
       </nav>
     </div>
   );
