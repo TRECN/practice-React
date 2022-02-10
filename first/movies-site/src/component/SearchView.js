@@ -1,7 +1,3 @@
-import { Link } from "react-router-dom";
-import Hero from "./Hero";
-
-const MovieCard = ({ movie }) => {
 
     const path=`https://image.tmdb.org/t/p/w500${movie.poster_path}`
     const linkMovie=`/movie/${movie.id}`
