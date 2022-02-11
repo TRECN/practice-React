@@ -28,16 +28,6 @@ const SearchView = ({ searchText, searchResults }) => {
 
   const title=`You are searching for ${searchText}`
 
-  return (
-    <>
-      <Hero text={title} />
-      <div className="container">
-          <div className="row">
-              {ApiResult}
-          </div>
-      </div>
-    </>
-  );
-};
+
 
 export default SearchView;
