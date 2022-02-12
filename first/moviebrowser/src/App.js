@@ -7,13 +7,6 @@ import SearchView from './components/SearchView'
 import MovieView from './components/MovieView'
 
 
-import { Routes, Route } from "react-router-dom";
-import { useEffect, useState } from "react";
-
-function App() {
-
-  const [searchResults,setSearchResults]=useState([])
-  const [searchText,setSearchText]=useState('')
 
   useEffect(()=>{
     if(searchText){
