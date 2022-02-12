@@ -1,10 +1,5 @@
 import "./App.css";
 
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import AboutView from "./components/AboutView";
-import SearchView from './components/SearchView'
-import MovieView from './components/MovieView'
 
 
 import { Routes, Route } from "react-router-dom";
