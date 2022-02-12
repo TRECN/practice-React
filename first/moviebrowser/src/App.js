@@ -26,21 +26,6 @@ function App() {
     }
   },[searchText])
 
-  return (
-    <div>
-      <Navbar searchText={searchText}  setSearchText={setSearchText}/>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutView />} />
-        <Route path='/search' 
-          element={
-          <SearchView keyword={searchText} searchResults={searchResults}
-        />}
-        />
-        <Route path="/movies/:id" element={<MovieView/>}/>
-      </Routes>
-    </div>
-  );
 }
 
 export default App;
