@@ -7,8 +7,8 @@ class Solution{
         if(!p1)
             return head->next;
         while(p1->next){
+            p2=p2->next;
             p1=p1->next;
-            p2->next;
         }
         p2->next=p2->next->next;
         return head;
