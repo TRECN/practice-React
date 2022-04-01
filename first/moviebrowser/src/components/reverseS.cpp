@@ -7,7 +7,7 @@ public:
             m.push_back(s[j]);
             j--;
         }
-        s=vec;
+        s=m;
         return s;
     }
 };
