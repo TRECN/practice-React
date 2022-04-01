@@ -1,12 +1,13 @@
 class Solution {
 public:
-    string reverseString(string s) {
+    string reverseString(vector& s) {
         int i = 0, j = s.size() - 1;
-        
-        while(j--){
-            s1=s[j];
+        vector m;
+        while(j>=0){
+            m.push_back(s[j]);
+            j--;
         }
-        
+        s=vec;
         return s;
     }
 };
